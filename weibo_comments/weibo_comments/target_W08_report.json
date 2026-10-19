@@ -1,0 +1,40 @@
+{
+  "target": "W08",
+  "label": "白海豚案例：上海AI生成坠楼谣言报道",
+  "input": "Rd3t41vsY",
+  "started_at": "2026-10-17T23:53:26+08:00",
+  "status": "finished",
+  "rows": 11,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5331115980359288",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3918,
+  "post": {
+    "id": "5331115980359288",
+    "url": "https://weibo.com/1714800385/Rd3t41vsY",
+    "uid": "1714800385",
+    "author": "第一帮帮团",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#上海男子用AI编造坠楼谣言博流量# 【借台风“白海豚”蹭热度，男子用AI编造坠楼谣言，已被行政拘留】#男子用AI生成涉台风虚假视频被拘# 台风“白海豚”来袭，各地紧锣密鼓开展防汛抗台工作。上海一名男子却妄图借助热点博取流量，利用 AI 工具制作虚假台风视频，编造台风期间有人坠楼的不实消息在网络散播。谣言快速传播后，男子很快被警方查获，一起来关注。Via@第一帮帮团 http://t.cn/AXNKRZnu",
+    "created_at_raw": "Wed Aug 12 15:42:40 +0800 2026",
+    "displayed_comments_count": 11,
+    "reposts_count": 31,
+    "likes_count": 68,
+    "verified_type": 3,
+    "snapshot_at": "2026-10-17T23:53:26+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:28+08:00"
+}

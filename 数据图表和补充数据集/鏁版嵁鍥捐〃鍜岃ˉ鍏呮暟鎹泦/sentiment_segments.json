@@ -1,0 +1,36 @@
+{
+ "n_merged": 162,
+ "n_original": 146,
+ "n_supplement": 16,
+ "segments_merged": {
+  "negative_lt0.35": {
+   "count": 67,
+   "pct": 41.4
+  },
+  "neutral_0.35-0.65": {
+   "count": 45,
+   "pct": 27.8
+  },
+  "positive_gt0.65": {
+   "count": 50,
+   "pct": 30.9
+  }
+ },
+ "segments_original146": {
+  "negative_lt0.35": {
+   "count": 62,
+   "pct": 42.5
+  },
+  "neutral_0.35-0.65": {
+   "count": 39,
+   "pct": 26.7
+  },
+  "positive_gt0.65": {
+   "count": 45,
+   "pct": 30.8
+  }
+ },
+ "ferment_point": "2026-08-10 09:00:00+08:00",
+ "debunk_point": "2026-08-11 17:17:19+08:00",
+ "n_core_window": 154
+}

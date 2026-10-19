@@ -1,0 +1,40 @@
+{
+  "target": "W05",
+  "label": "白海豚案例：浦东AI坠楼与宁波白海豚谣言联合辟谣",
+  "input": "RcUFcuglq",
+  "started_at": "2026-10-17T23:53:17+08:00",
+  "status": "finished",
+  "rows": 1,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330777547212672",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3925,
+  "post": {
+    "id": "5330777547212672",
+    "url": "https://weibo.com/6525943125/RcUFcuglq",
+    "uid": "6525943125",
+    "author": "全国网络辟谣",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#近距离长时间玩拼豆伤眼##联合辟谣##微博辟谣#【#今日辟谣#（2026年8月11日）】“上海浦东一女子在台风中坠楼”不实[话筒]浙江省宁波市鄞州区公安部门依法处置五起涉台风“白海豚”谣言案件[围观]详戳↓↓↓@全国网络举报  http://t.cn/AXN6xzSX ​​​",
+    "created_at_raw": "Tue Aug 11 17:17:51 +0800 2026",
+    "displayed_comments_count": 1,
+    "reposts_count": 714,
+    "likes_count": 25,
+    "verified_type": 1,
+    "snapshot_at": "2026-10-17T23:53:17+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:18+08:00"
+}

@@ -1,0 +1,40 @@
+{
+  "target": "W14",
+  "label": "白海豚案例：嘉善AI合成广告牌坠落谣言警方通报",
+  "input": "RcKhikRQy",
+  "started_at": "2026-10-17T23:53:44+08:00",
+  "status": "finished",
+  "rows": 15,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330378324973550",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3886,
+  "post": {
+    "id": "5330378324973550",
+    "url": "https://weibo.com/2311492835/RcKhikRQy",
+    "uid": "2311492835",
+    "author": "嘉善微博",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#嘉善公安依法查处一起涉台风白海豚网络谣言案件#近日，有网民在网络平台发布视频，称嘉善有广告牌被大风刮落，发生砸落险情。经网信、公安部门核查，该视频系网民利用AI工具合成的虚假内容，嘉善未发生相关安全事故，网传信息不实。 经公安机关调查，张某某以在抖音平台发布不实信息的方法故意虚构事实扰乱公共秩序。根据《中华人民共和国治安管理处罚法》第二十九条第（一）项之规定，嘉善县公安局依法对张某某作出行政处罚。 提醒广大市民：遇到来源不明的视频消息不必急于转发，多留意官方通报，不信谣、不传谣、不造谣，共同维护清朗的网络环境。",
+    "created_at_raw": "Mon Aug 10 14:51:29 +0800 2026",
+    "displayed_comments_count": 15,
+    "reposts_count": 30,
+    "likes_count": 33,
+    "verified_type": 3,
+    "snapshot_at": "2026-10-17T23:53:44+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:46+08:00"
+}

@@ -1,0 +1,40 @@
+{
+  "target": "W06",
+  "label": "白海豚案例：上海白海豚涉暴雨谣言每日辟谣",
+  "input": "Rd4CAyRii",
+  "started_at": "2026-10-17T23:53:19+08:00",
+  "status": "finished",
+  "rows": 1,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5331160328308018",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3924,
+  "post": {
+    "id": "5331160328308018",
+    "url": "https://weibo.com/6525943125/Rd4CAyRii",
+    "uid": "6525943125",
+    "author": "全国网络辟谣",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#武汉网约车司机猝死系谣言##联合辟谣##微博辟谣#【#今日辟谣#（2026年8月12日）】关于上海、安徽的这些涉暴雨信息均是谣言[话筒]警惕职业技能证书五大骗局套路[话筒]上海警方查处多名编造传播涉“白海豚”台风谣言的违法人员[围观]详戳↓↓↓@全国网络举报   ​​​  http://t.cn/AXN9tEkM ​​​",
+    "created_at_raw": "Wed Aug 12 18:38:53 +0800 2026",
+    "displayed_comments_count": 1,
+    "reposts_count": 732,
+    "likes_count": 7,
+    "verified_type": 1,
+    "snapshot_at": "2026-10-17T23:53:19+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:20+08:00"
+}

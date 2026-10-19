@@ -1,0 +1,61 @@
+{
+  "target": "W01",
+  "label": "白海豚案例：上海浦东AI生成女子坠楼谣言警方通报",
+  "input": "RcHOGEgML",
+  "started_at": "2026-10-17T23:53:03+08:00",
+  "status": "finished",
+  "rows": 52,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330283709597647",
+      "level": 1,
+      "pages": 2,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    },
+    {
+      "subject_id": "5330292139362102",
+      "level": 2,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    },
+    {
+      "subject_id": "5330291821381792",
+      "level": 2,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    },
+    {
+      "subject_id": "5330291742999325",
+      "level": 2,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 3,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 4000,
+  "post": {
+    "id": "5330283709597647",
+    "url": "https://weibo.com/2556038417/RcHOGEgML",
+    "uid": "2556038417",
+    "author": "警民直通车-浦东",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "一男子发布涉台风不实信息被处以行政拘留。 经警方调查，2026年8月9日，高某某（男，60岁）为博取流量，运用AI软件生成涉台风相关视频，编造“浦东一女子在台风中坠楼”的虚假信息发布上网，造成不良社会影响。目前，高某某已被警方依法处以行政拘留。 警方提示：当前，全市正在有序开展抗台防汛工作，对于此类为博取流量编造不实信息，干扰抗台防汛工作的行为，公安机关将依法严厉查处。请市民群众不随意转发未经证实的信息，共同维护清朗的网络环境和良好社会秩序。",
+    "created_at_raw": "Mon Aug 10 08:35:31 +0800 2026",
+    "displayed_comments_count": 58,
+    "reposts_count": 44,
+    "likes_count": 555,
+    "verified_type": 1,
+    "snapshot_at": "2026-10-17T23:53:03+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:08+08:00"
+}

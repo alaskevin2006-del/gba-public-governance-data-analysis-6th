@@ -1,0 +1,75 @@
+dataset,field,description,unit_or_format,missing_policy
+platform1_official_debunks.csv,record_id,平台一记录主键,P1-两位序号,不得缺失
+platform1_official_debunks.csv,case_id,案例统一标识,baihaitun_2026,不得缺失
+platform1_official_debunks.csv,platform_name,官方辟谣平台名称,文本,不得缺失
+platform1_official_debunks.csv,source_id,官方原页来源编号,D01-D05,不得缺失
+platform1_official_debunks.csv,title,官方页面标题,文本,不得缺失
+platform1_official_debunks.csv,publisher,页面标注的原始发布主体或内容来源,文本,不得缺失
+platform1_official_debunks.csv,location,事件涉及地区,文本,不得缺失
+platform1_official_debunks.csv,platform_published_at,辟谣平台页面发布时间,ISO 8601或YYYY-MM-DD,原页未披露则留空
+platform1_official_debunks.csv,platform_time_precision,平台发布时间精度,second/minute/day/unknown,不得缺失
+platform1_official_debunks.csv,original_release_at,可核验的原始政务微博首发时间,ISO 8601,没有对应原帖则留空
+platform1_official_debunks.csv,original_time_precision,原始首发时间精度,second/minute/day/unknown,不得缺失
+platform1_official_debunks.csv,official_verdict,官方认定结论,文本,不得缺失
+platform1_official_debunks.csv,violation_tags,违法或造谣手法标签,分号分隔,不得缺失
+platform1_official_debunks.csv,penalty_person_count,页面可明确统计的处罚人数,整数,没有统一口径则留空
+platform1_official_debunks.csv,penalty_type,页面披露的处置类型,文本,没有统一口径则留空
+platform1_official_debunks.csv,objective_facts,官方公布的客观事实摘要,文本,不得缺失
+platform1_official_debunks.csv,full_text,官方页面正文全文,文本,不得缺失
+platform1_official_debunks.csv,source_url,官方原页链接,URL,不得缺失
+platform1_official_debunks.csv,collected_at,本次采集时间,ISO 8601,不得缺失
+platform1_official_debunks.csv,source_sha256,官方原页HTML哈希,SHA-256,不得缺失
+platform2_core_posts.csv,target,核心微博清单主键,W01-W18,不得缺失
+platform2_core_posts.csv,post_id,微博原帖数字ID,文本标识符,不得缺失
+platform2_core_posts.csv,post_url,微博原帖链接,URL,不得缺失
+platform2_core_posts.csv,publisher,原帖发布账号,文本,不得缺失
+platform2_core_posts.csv,publisher_class,账号类别,政务微博/官方辟谣账号/主流媒体,不得缺失
+platform2_core_posts.csv,publisher_verified,微博认证状态,布尔值,不得缺失
+platform2_core_posts.csv,publisher_verified_reason,微博认证说明,文本,平台未返回则留空
+platform2_core_posts.csv,post_scope,帖子在白海豚案例中的范围说明,文本,不得缺失
+platform2_core_posts.csv,post_text,核心微博正文,文本,不得缺失
+platform2_core_posts.csv,post_created_at,核心微博发布时间,ISO 8601,不得缺失
+platform2_core_posts.csv,snapshot_at,帖子互动量快照时间,ISO 8601,不得缺失
+platform2_core_posts.csv,reported_reposts,快照时原帖转发量,整数,不得缺失
+platform2_core_posts.csv,reported_comments,快照时原帖显示评论量,整数,不得缺失
+platform2_core_posts.csv,reported_likes,快照时原帖点赞量,整数,不得缺失
+platform2_core_posts.csv,collected_rows,接口返回的原始评论行数,整数,不得缺失
+platform2_core_posts.csv,unique_raw_comments,按平台评论ID去重后的原始评论数,整数,不得缺失
+platform2_core_posts.csv,clean_rows,清洗后保留评论数,整数,不得缺失
+platform2_core_posts.csv,earliest_comment,该帖样本最早评论时间,ISO 8601,无评论则留空
+platform2_core_posts.csv,latest_comment,该帖样本最晚评论时间,ISO 8601,无评论则留空
+platform2_core_posts.csv,collection_status,该帖翻页采集状态,finished/partial/failed/blocked,不得缺失
+platform2_public_comments.csv,comment_id,评论唯一ID的HMAC代称,C_加20位十六进制,不得缺失且唯一
+platform2_public_comments.csv,user_alias,用户ID的HMAC代称,U_加20位十六进制,不得缺失
+platform2_public_comments.csv,root_comment_id,所属一级评论ID的HMAC代称,C_加20位十六进制,不得缺失
+platform2_public_comments.csv,reply_to_comment_id,回复目标评论ID的HMAC代称,C_加20位十六进制,非回复可留空
+platform2_public_comments.csv,level,评论层级,1或2,不得缺失
+platform2_public_comments.csv,text_anonymized,脱敏后的评论原文,文本,不得缺失
+platform2_public_comments.csv,text_clean,移除纯表情和分析无关标记后的文本,文本,不得缺失
+platform2_public_comments.csv,tokens,jieba分词结果,空格分隔文本,分词后为空时写质量标记
+platform2_public_comments.csv,created_at,评论发布时间,ISO 8601,不得缺失
+platform2_public_comments.csv,created_at_raw,平台返回的原始时间串,文本,不得缺失
+platform2_public_comments.csv,like_count,评论点赞数,非负整数,平台未返回则留空
+platform2_public_comments.csv,reply_count,评论被回复数,非负整数,平台未返回则留空
+platform2_public_comments.csv,collected_at,评论采集时间,ISO 8601,不得缺失
+platform2_public_comments.csv,text_is_truncated,平台是否标记文本可能截断,布尔值,不得缺失
+platform2_public_comments.csv,same_text_group,相同清洗文本的哈希组,T_加16位十六进制,不得缺失
+platform2_public_comments.csv,quality_flags,逐条质量标记,分号分隔,无问题为空
+platform3_objective_facts.csv,record_id,平台三记录主键,P3-三位序号,不得缺失
+platform3_objective_facts.csv,requested_field,对应用户要求的字段组,文本,不得缺失
+platform3_objective_facts.csv,category,记录类别,气象预警/排涝调度/市场保供/转移安置/实测降雨等,不得缺失
+platform3_objective_facts.csv,metric,指标名称,文本,不得缺失
+platform3_objective_facts.csv,value,官方披露值,数值或文本,不得缺失
+platform3_objective_facts.csv,unit,计量单位或定性标记,文本,不得缺失
+platform3_objective_facts.csv,value_type,数值语义,exact/greater_than/at_least/approximate/categorical/qualitative,不得缺失
+platform3_objective_facts.csv,location,指标适用地区,文本,不得缺失
+platform3_objective_facts.csv,event_start,事件或统计起始时点,ISO 8601或YYYY-MM-DD,未披露则留空
+platform3_objective_facts.csv,event_end,事件或统计结束时点,ISO 8601或YYYY-MM-DD,未披露则留空
+platform3_objective_facts.csv,event_time_precision,事件时间精度,second/minute/day/unknown,不得缺失
+platform3_objective_facts.csv,evidence_text,含指标的官方原文段落,文本,不得缺失
+platform3_objective_facts.csv,source_id,官方来源编号,O01-O11,不得缺失
+platform3_objective_facts.csv,source_published_at,官方来源页面发布时间,ISO 8601或YYYY-MM-DD,不得缺失
+platform3_objective_facts.csv,source_url,官方原页链接,URL,不得缺失
+platform3_objective_facts.csv,collected_at,本次采集时间,ISO 8601,不得缺失
+platform3_objective_facts.csv,source_sha256,官方原页HTML哈希,SHA-256,不得缺失
+platform3_objective_facts.csv,note,口径限制和不可替代关系,文本,无特别说明可留空

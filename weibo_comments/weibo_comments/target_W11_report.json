@@ -1,0 +1,40 @@
+{
+  "target": "W11",
+  "label": "白海豚案例：白海豚灾情造谣引流评论",
+  "input": "Rd5w1s7Ra",
+  "started_at": "2026-10-17T23:53:35+08:00",
+  "status": "finished",
+  "rows": 8,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5331194696703388",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3900,
+  "post": {
+    "id": "5331194696703388",
+    "url": "https://weibo.com/2810373291/Rd5w1s7Ra",
+    "uid": "2810373291",
+    "author": "新华网",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "【大“申”说辟谣 | 借台风引流“起号”？#灾情不容流量消费#】近日，多地迎战台风“白海豚”，一线人员全力防汛抢险，可有一批营销号紧盯灾情热度，借造谣“起号”—— 有人凭空捏造全城餐饮停业、骑手发放补贴的虚假通知扰乱视听；有人搬运往年、外地积水旧视频，移花接木冒充本地实时险情；还有人借台风剪辑惊悚画面，捆绑兜售应急商品，甚至虚构酒店半价噱头引流...... 借灾“起号”行为罔顾防灾大局，把公众的焦虑当“涨粉”的手段，编造的虚假灾情信息不仅误导民众，扰乱正常的社会秩序，更会挤占抢险救灾的宝贵资源。灾情不是自媒体的流量密码，更不是个人“起号”的跳板。网络内容创作，必须坚守真实与责任，拿灾情当变现工具的投机行为，逃不过法律的追责。网信、公安等部门密集通报、辟谣，及时曝光造谣传谣典型案例，遏制涉灾谣言负面影响。上海、宁波、台州警方已查处多起借台风造谣案件，严肃整治借灾情营销乱象。 探究真相，我们是认真的。 http://t.cn/AXNCVyEN",
+    "created_at_raw": "Wed Aug 12 20:55:27 +0800 2026",
+    "displayed_comments_count": 8,
+    "reposts_count": 7,
+    "likes_count": 14,
+    "verified_type": 3,
+    "snapshot_at": "2026-10-17T23:53:35+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:36+08:00"
+}

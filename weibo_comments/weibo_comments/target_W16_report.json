@@ -1,0 +1,40 @@
+{
+  "target": "W16",
+  "label": "白海豚案例：上海警方白海豚谣言案件报道",
+  "input": "RcVO5h9wK",
+  "started_at": "2026-10-17T23:53:50+08:00",
+  "status": "finished",
+  "rows": 23,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330821494088202",
+      "level": 1,
+      "pages": 2,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3856,
+  "post": {
+    "id": "5330821494088202",
+    "url": "https://weibo.com/3516620660/RcVO5h9wK",
+    "uid": "3516620660",
+    "author": "HRB冰城新闻",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#上海警方查处11起涉白海豚谣言案#【#网传上海多处台风受灾画面系谣言#】#粉碎谣言真相来了#“白海豚”台风影响上海期间，有网民为博取流量、吸引关注，故意发布涉台风虚假信息，干扰抗台防汛工作，造成不良社会影响。近日，上海警方查处11起虚构事实扰乱公共秩序案件，12名违法行为人均被依法予以行政处罚。详戳→http://t.cn/AXN6TEqw（央视）",
+    "created_at_raw": "Tue Aug 11 20:12:29 +0800 2026",
+    "displayed_comments_count": 23,
+    "reposts_count": 1,
+    "likes_count": 9,
+    "verified_type": 3,
+    "snapshot_at": "2026-10-17T23:53:50+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:52+08:00"
+}

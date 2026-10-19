@@ -1,0 +1,40 @@
+{
+  "target": "W15",
+  "label": "白海豚案例：上海杨浦旧视频翻炒谣言普法发布",
+  "input": "RcT6wud06",
+  "started_at": "2026-10-17T23:53:47+08:00",
+  "status": "finished",
+  "rows": 15,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330717607199818",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3871,
+  "post": {
+    "id": "5330717607199818",
+    "url": "https://weibo.com/5481674352/RcT6wud06",
+    "uid": "5481674352",
+    "author": "莱西检察",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#检小莱普法# 【#32岁男子发布台风不实信息被行拘##上海杨浦区又发大水系谣言#】8月9日晚间，记者从上海市公安局获悉，一男子发布涉台风不实信息被行政拘留。 经警方调查，2026年8月9日，刘某某（男，32岁）为博取关注，从网上下载了他人于7月18日发布的暴雨视频，经重新编辑后发布在自己的网络账号上，称“今日杨浦区又发大水”，造成不良社会影响。目前，刘某某因虚构事实扰乱公共秩序已被警方依法处以行政拘留。 警方提示：当前，全市正在有序开展抗台防汛工作，对于此类为博取流量编造不实信息，干扰抗台防汛工作的行为，公安机关将依法严厉查处。请市民群众不随意转发未经证实的信息，共同维护清朗的网络环境和良好社会秩序。#台风白海豚##微博辟谣##今日辟谣# （全媒体记者 张海燕）",
+    "created_at_raw": "Tue Aug 11 13:19:40 +0800 2026",
+    "displayed_comments_count": 15,
+    "reposts_count": 13,
+    "likes_count": 28,
+    "verified_type": 1,
+    "snapshot_at": "2026-10-17T23:53:47+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:49+08:00"
+}

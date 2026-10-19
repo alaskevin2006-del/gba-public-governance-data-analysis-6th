@@ -1,0 +1,47 @@
+{
+  "target": "W07",
+  "label": "白海豚案例：白海豚涉灾谣言风险提示",
+  "input": "RcIComHu2",
+  "started_at": "2026-10-17T23:53:22+08:00",
+  "status": "finished",
+  "rows": 5,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330314525410370",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    },
+    {
+      "subject_id": "5330491702253921",
+      "level": 2,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 1,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3923,
+  "post": {
+    "id": "5330314525410370",
+    "url": "https://weibo.com/5342220662/RcIComHu2",
+    "uid": "5342220662",
+    "author": "应急管理部",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "【#警惕谣言闻汛而来#，#关注汛情记住四要四不要#】#男子编造台风致人坠楼谣言被查处#当前，台风白海豚带来的强降雨仍在影响浙江、上海、江苏、安徽等地，抗台风工作正在紧张进行。每当灾害发生，谣言便紧随热点而来——拼接旧闻、AI合成、夸大伤亡……一条虚假信息，可能引发恐慌、挤占救援资源，甚至干扰一线救援秩序。我们在关注各地灾情的同时，也要警惕网络上的涉灾谣言，“四要四不要”请收好↓ ​​​↓ ​​​",
+    "created_at_raw": "Mon Aug 10 10:37:58 +0800 2026",
+    "displayed_comments_count": 5,
+    "reposts_count": 40,
+    "likes_count": 10,
+    "verified_type": 1,
+    "snapshot_at": "2026-10-17T23:53:22+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:24+08:00"
+}

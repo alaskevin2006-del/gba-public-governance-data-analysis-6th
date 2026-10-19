@@ -1,0 +1,183 @@
+{
+  "status": "PASS_WITH_WARNINGS",
+  "row_counts": {
+    "platform1_official_debunks.csv": 5,
+    "platform2_core_posts.csv": 18,
+    "platform2_public_comments.csv": 146,
+    "platform2_comments_excluded.csv": 24,
+    "platform3_objective_facts.csv": 35
+  },
+  "findings": [
+    {
+      "severity": "info",
+      "check": "platform1_official_debunks.csv行数",
+      "result": "PASS",
+      "detail": "5"
+    },
+    {
+      "severity": "info",
+      "check": "platform2_core_posts.csv行数",
+      "result": "PASS",
+      "detail": "18"
+    },
+    {
+      "severity": "info",
+      "check": "platform2_public_comments.csv行数",
+      "result": "PASS",
+      "detail": "146"
+    },
+    {
+      "severity": "info",
+      "check": "platform2_comments_excluded.csv行数",
+      "result": "PASS",
+      "detail": "24"
+    },
+    {
+      "severity": "info",
+      "check": "platform3_objective_facts.csv行数",
+      "result": "PASS",
+      "detail": "35"
+    },
+    {
+      "severity": "info",
+      "check": "平台一主键唯一性",
+      "result": "PASS",
+      "detail": "重复0条"
+    },
+    {
+      "severity": "info",
+      "check": "平台二帖子主键唯一性",
+      "result": "PASS",
+      "detail": "重复0条"
+    },
+    {
+      "severity": "info",
+      "check": "平台二评论主键唯一性",
+      "result": "PASS",
+      "detail": "重复0条"
+    },
+    {
+      "severity": "info",
+      "check": "平台三主键唯一性",
+      "result": "PASS",
+      "detail": "重复0条"
+    },
+    {
+      "severity": "info",
+      "check": "评论到核心帖外键",
+      "result": "PASS",
+      "detail": "孤立评论0条"
+    },
+    {
+      "severity": "info",
+      "check": "评论时间格式",
+      "result": "PASS",
+      "detail": "无效0条"
+    },
+    {
+      "severity": "info",
+      "check": "评论ID与用户代称脱敏",
+      "result": "PASS",
+      "detail": "异常评论ID 0；异常用户代称 0"
+    },
+    {
+      "severity": "info",
+      "check": "结构化敏感号码扫描",
+      "result": "PASS",
+      "detail": "疑似手机号0条；疑似身份证号0条"
+    },
+    {
+      "severity": "info",
+      "check": "核心帖计数合法性",
+      "result": "PASS",
+      "detail": "异常单元格0个"
+    },
+    {
+      "severity": "warning",
+      "check": "微博公开评论取得率",
+      "result": "WARN",
+      "detail": "帖子快照显示177条；取得唯一原始评论170条；取得率96.0%。删除、折叠或权限限制可造成差额。"
+    },
+    {
+      "severity": "warning",
+      "check": "评论目标样本量",
+      "result": "WARN",
+      "detail": "清洗后146条，距最低目标2000条还差1854条；未补造样本。"
+    },
+    {
+      "severity": "info",
+      "check": "评论清洗守恒",
+      "result": "PASS",
+      "detail": "唯一原始170=保留146+排除24"
+    },
+    {
+      "severity": "info",
+      "check": "小时汇总守恒",
+      "result": "PASS",
+      "detail": "小时汇总146；评论表146"
+    },
+    {
+      "severity": "info",
+      "check": "评论时间范围",
+      "result": "PASS",
+      "detail": "2026-08-10T09:05:48+08:00 至 2026-09-06T20:02:00+08:00"
+    },
+    {
+      "severity": "info",
+      "check": "评论层级分布",
+      "result": "PASS",
+      "detail": "{\"1\": 132, \"2\": 14}"
+    },
+    {
+      "severity": "info",
+      "check": "来源域名白名单",
+      "result": "PASS",
+      "detail": "异常来源0个"
+    },
+    {
+      "severity": "info",
+      "check": "官方来源采集状态",
+      "result": "PASS",
+      "detail": "成功16/16"
+    },
+    {
+      "severity": "info",
+      "check": "官方快照哈希",
+      "result": "PASS",
+      "detail": "异常0个"
+    },
+    {
+      "severity": "info",
+      "check": "平台一发布时间完整性",
+      "result": "PASS",
+      "detail": "缺失0条"
+    },
+    {
+      "severity": "warning",
+      "check": "平台一原始首发时间完整性",
+      "result": "WARN",
+      "detail": "缺失1条；缺失值不以平台转载时间替代"
+    },
+    {
+      "severity": "info",
+      "check": "平台三逐条证据链",
+      "result": "PASS",
+      "detail": "缺失0条"
+    },
+    {
+      "severity": "warning",
+      "check": "储备充足率口径",
+      "result": "WARN",
+      "detail": "官方仅披露备货量较日常提升五成以上及定性库存状态，不能换算为储备充足率。"
+    },
+    {
+      "severity": "warning",
+      "check": "匿名文本再识别风险",
+      "result": "WARN",
+      "detail": "已移除平台用户ID、昵称、@提及、手机号、身份证号和邮箱；公开发布前仍需人工抽检文本中的自由叙述信息。"
+    }
+  ],
+  "blocker_count": 0,
+  "warning_count": 5,
+  "validated_at": "2026-10-18T00:00:55+08:00"
+}

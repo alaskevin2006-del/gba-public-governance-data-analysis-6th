@@ -1,0 +1,40 @@
+{
+  "target": "W03",
+  "label": "白海豚案例：上海警方白海豚谣言案件政法发布",
+  "input": "RcUY3raAc",
+  "started_at": "2026-10-17T23:53:12+08:00",
+  "status": "finished",
+  "rows": 16,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5330789236475540",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3946,
+  "post": {
+    "id": "5330789236475540",
+    "url": "https://weibo.com/1988563285/RcUY3raAc",
+    "uid": "1988563285",
+    "author": "上海长安网",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "【编造传播涉台风谣言，12人被警方查处】 借助AI凭空捏造险情、移花接木虚构受灾场景……近日，“白海豚”台风影响上海，全市积极有序开展抗台防汛工作，却有人为博流量故意发布涉台风虚假信息。近日，上海公安机关查处11起虚构事实扰乱公共秩序案件，12名违法行为人均被依法予以行政处罚。 http://t.cn/AXN69gAo",
+    "created_at_raw": "Tue Aug 11 18:04:18 +0800 2026",
+    "displayed_comments_count": 16,
+    "reposts_count": 44,
+    "likes_count": 28,
+    "verified_type": 1,
+    "snapshot_at": "2026-10-17T23:53:12+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:13+08:00"
+}

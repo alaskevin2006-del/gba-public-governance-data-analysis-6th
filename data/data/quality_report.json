@@ -1,0 +1,114 @@
+{
+  "case_id": "baihaitun_2026",
+  "raw_rows": 170,
+  "unique_comment_ids": 170,
+  "duplicate_id_rows": 0,
+  "clean_rows": 146,
+  "excluded_rows": 24,
+  "exclusion_reasons": {
+    "empty_or_emoji_only": 24
+  },
+  "platform_distribution": {
+    "新浪微博": 146
+  },
+  "level_distribution": {
+    "1": 132,
+    "2": 14
+  },
+  "missing_or_invalid_time": 0,
+  "earliest_comment": "2026-08-10T09:05:48+08:00",
+  "latest_comment": "2026-09-06T20:02:00+08:00",
+  "repeated_text_rows_kept": 33,
+  "sample_target_min": 2000,
+  "sample_target_max": 4000,
+  "shortfall_to_2000": 1854,
+  "case_post_count": 18,
+  "posts_with_clean_comments": 18,
+  "top_level_rows": 132,
+  "reply_rows": 14,
+  "tokenizer": "jieba 0.42.1 HMM=False",
+  "stopwords_sha256": "91edb942bcbd0af2ed573830d3600490ff219b72c866edf5f576490c14784e1c",
+  "domain_words_sha256": "c1584f9287f31a078d506872e1449d68415c909c970d3d3ef6365c62bdf581f6",
+  "raw_files": [
+    {
+      "file": "target_W01_comments.csv",
+      "sha256": "e98f53ce7e15aef8173daa513d113f4067a2398a8782067b338660e8811bb8e5"
+    },
+    {
+      "file": "target_W02_comments.csv",
+      "sha256": "7b35216db77b3db46f3e189596715e0ab10addbcf5df51aeb36828cf928d420b"
+    },
+    {
+      "file": "target_W03_comments.csv",
+      "sha256": "1c386e949641002e7d5a9b6f295d918ec517ed91d38be8b293630a054d9b52df"
+    },
+    {
+      "file": "target_W04_comments.csv",
+      "sha256": "b2f315440464c20ffa8c0c788c7e3e396ce69a250a595e8f34ad586e5727e596"
+    },
+    {
+      "file": "target_W05_comments.csv",
+      "sha256": "a765049a649023cadb8ae0fdaccaeec16f9d2c71683075be3aa2176d625d5e16"
+    },
+    {
+      "file": "target_W06_comments.csv",
+      "sha256": "cd34193c7227fd3fac1022881d493ccd3b0a740c93b49a35248af47e478231b0"
+    },
+    {
+      "file": "target_W07_comments.csv",
+      "sha256": "ca1680a49c7ca0cbf3471e488ec6a15270d8d9bd30b3ea6c15ad5ea4d2a6fdef"
+    },
+    {
+      "file": "target_W08_comments.csv",
+      "sha256": "4119f9599fe9db67dfd4a52372e29523a6aedb342408e5aaed44d89a762b137b"
+    },
+    {
+      "file": "target_W09_comments.csv",
+      "sha256": "d0968164174c9b87f19011f2f8742a5b5cef10900a8000becafb5a38e9377148"
+    },
+    {
+      "file": "target_W10_comments.csv",
+      "sha256": "0bbfc28305b675bc1f34f6227c7c0da9c41b8f0006f753dc72e12546a01b7685"
+    },
+    {
+      "file": "target_W11_comments.csv",
+      "sha256": "2c6a88a0878957fccc2bab01bd0e4fb3dddd8bdf2cb3831bf0cdc88aec51519c"
+    },
+    {
+      "file": "target_W12_comments.csv",
+      "sha256": "aaa45acd236f4bda96deb394be11d52b462382527913d44592d7dbdc55a067d5"
+    },
+    {
+      "file": "target_W13_comments.csv",
+      "sha256": "2c96506a222f37d8bac85e7a003cd319f0ecf3732a67a9045286700b7da47ff7"
+    },
+    {
+      "file": "target_W14_comments.csv",
+      "sha256": "9312764d774bd6412c1c3bb0106a3777ca04ee9c2da32f94302c13e1ed0e7966"
+    },
+    {
+      "file": "target_W15_comments.csv",
+      "sha256": "a218c10a735510d91d204d7396dc456e5d0218db87bfd83f09fdc43f1d515a6b"
+    },
+    {
+      "file": "target_W16_comments.csv",
+      "sha256": "82e12edde7a912366adb1c1f542eca59f18579d23d381e95dfa83a856f64787b"
+    },
+    {
+      "file": "target_W17_comments.csv",
+      "sha256": "5b33df97d7973497439e9a9bb3117dd146b7eccb083eb6e700cc75b9905425d7"
+    },
+    {
+      "file": "target_W18_comments.csv",
+      "sha256": "dc809dd8c7100d187bde336e2787266495d940ae42011161d47e8cb1a3bd6b03"
+    }
+  ],
+  "processed_at": "2026-10-17T23:57:41+08:00",
+  "limitations": [
+    "样本为选定辟谣帖下的便利样本，不代表全部公众",
+    "同文不同ID保留，按ID去重",
+    "小时表只列有观察值的小时，缺失小时不等于零",
+    "未取得谣言原帖/干预前评论，不支持前后因果比较",
+    "HMAC代称和规则脱敏不保证原文无法通过搜索重新识别；公开前须人工复核"
+  ]
+}

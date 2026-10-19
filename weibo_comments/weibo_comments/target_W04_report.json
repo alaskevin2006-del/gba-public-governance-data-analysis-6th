@@ -1,0 +1,40 @@
+{
+  "target": "W04",
+  "label": "白海豚案例：白海豚涉汛涉灾典型案例汇总",
+  "input": "RdmlJpf7b",
+  "started_at": "2026-10-17T23:53:15+08:00",
+  "status": "finished",
+  "rows": 5,
+  "include_replies": true,
+  "sort": "time",
+  "errors": [],
+  "streams": [
+    {
+      "subject_id": "5331841796016305",
+      "level": 1,
+      "pages": 1,
+      "status": "cursor_exhausted",
+      "next_cursor": "0"
+    }
+  ],
+  "duplicates": 0,
+  "max_pages": 150,
+  "max_reply_pages": 30,
+  "max_comments": 3930,
+  "post": {
+    "id": "5331841796016305",
+    "url": "https://weibo.com/1866405545/RdmlJpf7b",
+    "uid": "1866405545",
+    "author": "微博辟谣",
+    "author_verified": true,
+    "author_verified_reason": "",
+    "text": "#微博辟谣#公安机关持续严厉打击编造传播涉汛等涉灾网络谣言，公布15起典型案例！上海警方查处12名编造传播涉“白海豚”台风谣言的违法人员！浙江省宁波市鄞州区公安部门依法处置五起涉台风“白海豚”谣言案件！@微博辟谣@捉谣记 联合发布本周谣言榜单。遏制谣言传播空间，净化网络生态环境。快来戳图查看吧。#捉谣记#",
+    "created_at_raw": "Fri Aug 14 15:46:48 +0800 2026",
+    "displayed_comments_count": 5,
+    "reposts_count": 7,
+    "likes_count": 48,
+    "verified_type": 7,
+    "snapshot_at": "2026-10-17T23:53:15+08:00"
+  },
+  "finished_at": "2026-10-17T23:53:16+08:00"
+}
