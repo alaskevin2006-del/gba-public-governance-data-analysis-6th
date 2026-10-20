@@ -1,0 +1,59 @@
+{
+  "run_name": "E1B_rep1",
+  "group": "E1B",
+  "rep": 1,
+  "exp": 1,
+  "variable": "谣言形式",
+  "group_name": "AIGC 高拟真图文谣言（文本代理刺激）",
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 16,
+  "random_seed": 20261022,
+  "rumor_form": "AIGC",
+  "intervention": null,
+  "intervention_round": null,
+  "n_agents": 8,
+  "interaction_override": {
+    "agents_total": 8,
+    "agents_modified": 8,
+    "agents_per_round": [
+      6,
+      8
+    ],
+    "activity_level": 0.9,
+    "before": {
+      "agents_per_hour_min": 6,
+      "agents_per_hour_max": 8,
+      "off_peak_hours": [],
+      "peak_hours": []
+    }
+  },
+  "initial_posts_removed_llm": 4,
+  "final_status": "completed(file-watch)",
+  "elapsed_sec": 590.0,
+  "intervention_verify": {
+    "checked": false,
+    "reason": "本组为无干预条件"
+  },
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "8.17",
+      "granted": "0.00",
+      "topped_up": "8.17"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "3.91",
+      "granted": "0.00",
+      "topped_up": "3.91"
+    }
+  ],
+  "files": {
+    "simulation_config.json": 11736,
+    "simulation.log": 84201,
+    "reddit_actions.jsonl": 107181
+  },
+  "finished_at": "2026-10-20 23:51:05"
+}

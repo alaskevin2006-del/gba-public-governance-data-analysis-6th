@@ -1,0 +1,95 @@
+{
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 4,
+  "agents": 8,
+  "seed_base": 900001,
+  "runs": [
+    {
+      "run_name": "E2R1_rep1",
+      "group": "E2R1",
+      "rep": 1,
+      "exp": 2,
+      "variable": "辟谣介入时点",
+      "group_name": "第 1 模拟小时介入（传统公文式辟谣）",
+      "simulation_id": "sim_285f7fdfd644",
+      "rounds": 4,
+      "random_seed": 900002,
+      "rumor_form": "TEXT",
+      "intervention": "NOTICE",
+      "intervention_round": 1,
+      "n_agents": 8,
+      "interaction_override": {
+        "agents_total": 8,
+        "agents_modified": 8,
+        "agents_per_round": [
+          6,
+          8
+        ],
+        "activity_level": 0.9,
+        "before": {
+          "agents_per_hour_min": 6,
+          "agents_per_hour_max": 8,
+          "off_peak_hours": [],
+          "peak_hours": []
+        }
+      },
+      "initial_posts_removed_llm": 5,
+      "final_status": "completed(file-watch)",
+      "elapsed_sec": 306.6,
+      "intervention_verify": {
+        "checked": true,
+        "marker_hits": 12,
+        "rounds_found": [
+          1,
+          2,
+          3
+        ],
+        "expected_round": 1,
+        "first_round": 1,
+        "delivered": true,
+        "on_time": true
+      },
+      "balance_before": [
+        {
+          "currency": "CNY",
+          "total": "9.42",
+          "granted": "0.00",
+          "topped_up": "9.42"
+        }
+      ],
+      "balance_after": [
+        {
+          "currency": "CNY",
+          "total": "9.40",
+          "granted": "0.00",
+          "topped_up": "9.40"
+        }
+      ],
+      "files": {
+        "simulation_config.json": 12174,
+        "simulation.log": 53625,
+        "twitter_actions.jsonl": 18398,
+        "reddit_actions.jsonl": 51283
+      },
+      "finished_at": "2026-10-20 23:01:57"
+    }
+  ],
+  "failed": [],
+  "balance_start": [
+    {
+      "currency": "CNY",
+      "total": "9.42",
+      "granted": "0.00",
+      "topped_up": "9.42"
+    }
+  ],
+  "balance_end": [
+    {
+      "currency": "CNY",
+      "total": "9.40",
+      "granted": "0.00",
+      "topped_up": "9.40"
+    }
+  ],
+  "finished_at": "2026-10-20 23:01:58"
+}

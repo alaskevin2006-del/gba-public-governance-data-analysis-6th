@@ -27,6 +27,8 @@ OUT = os.path.join(REPO, "deliverables", "figures")
 DEFAULT_ROOT = os.path.join(REPO, "mirofish", "results", "formal_20261021")
 
 # condition -> (标签, 颜色, 标记)
+INJ_ROUND = {"E2R1": 1, "E2R4": 4, "E2R12": 12, "E3B": 4}
+
 STYLE = {
     "E1A":   ("基线：无官方干预", "#595959", "o"),
     "E1B":   ("AIGC 高拟真图文谣言", "#d95f0e", "s"),
@@ -77,12 +79,19 @@ def series_matrix(data, cond, key, nrounds):
     return np.array(mat)
 
 
-def plot_panels(root, conds, title, fname, nrounds, tag):
+def plot_panels(root, conds, title, fname, nrounds, tag, required=None):
+    """required：构成该图对照关系所**不可缺**的条件；缺任一则拒绝出图。
+    这样可避免"缺了关键组却仍画出一张同名但含义不同的图"。"""
     data = load(root)
+    required = required or []
+    missing_required = [c for c in required if c not in data]
     present = [c for c in conds if c in data]
     missing = [c for c in conds if c not in data]
     if missing:
         print(f"[warn] 缺条件数据: {missing}")
+    if missing_required:
+        print(f"[skip] {fname}: 缺少构成对照关系的关键条件 {missing_required}，拒绝出图")
+        return None
     if len(present) < 2:
         print(f"[skip] {fname}: 有效条件仅 {len(present)} 个（需≥2），拒绝出图")
         return None
@@ -112,9 +121,22 @@ def plot_panels(root, conds, title, fname, nrounds, tag):
         ax.legend(fontsize=9, frameon=False)
         ax.set_xticks(np.arange(1, nrounds + 1, 2))
 
+    # 介入时点参考线（对当前在场的干预组）
+    for c in present:
+        r = INJ_ROUND.get(c)
+        if r:
+            for ax in axes:
+                ax.axvline(r, color=STYLE.get(c, (c, "#999"))[1], ls="--", alpha=0.35, lw=1)
+            axes[0].text(r + 0.15, axes[0].get_ylim()[1] * 0.92,
+                         f"第{r}小时介入", color=STYLE.get(c, (c, "#999"))[1],
+                         fontsize=8, va="top")
+
     n_rep = max(len(data[c]) for c in present)
-    fig.suptitle(f"{title}\n（{len(present)} 个条件，每组 {n_rep} 次独立重复；探索性仿真，非现实因果效应）",
-                 y=1.06, fontsize=11)
+    miss_note = f"；未运行条件：{'、'.join(missing)}" if missing else ""
+    fig.suptitle(
+        f"{title}\n（{len(present)} 个条件，每组 {n_rep} 次独立重复{miss_note}；"
+        f"探索性仿真，非现实因果效应）",
+        y=1.06, fontsize=11)
     fig.tight_layout()
     os.makedirs(OUT, exist_ok=True)
     pdf = os.path.join(OUT, f"{fname}_{tag}.pdf")
@@ -154,8 +176,9 @@ def plot_summary_bars(root, tag):
         ax.set_xticklabels(labels, rotation=35, ha="right", fontsize=8.5)
         ax.set_title(name)
         ax.set_ylabel("条数" if "interactions" not in key else "条数")
-    fig.suptitle(f"各实验条件核心指标对比（误差线为 {rows[0]['n_reps']} 次重复的极差）",
-                 y=1.04, fontsize=11)
+    n_rep = int(rows[0]["n_reps"])
+    sub = "（误差线为各重复的极差）" if n_rep > 1 else "（每组仅 1 次运行，无误差线）"
+    fig.suptitle(f"各实验条件核心指标对比{sub}", y=1.04, fontsize=11)
     fig.tight_layout()
     pdf = os.path.join(OUT, f"图4-5_各条件核心指标对比_{tag}.pdf")
     png = os.path.join(OUT, f"图4-5_各条件核心指标对比_{tag}.png")
@@ -174,13 +197,16 @@ def main():
     made = []
     made.append(plot_panels(root, ["E1A", "E2R1", "E2R4", "E2R12"],
                             "图 4-1 政府辟谣介入时点对谣言传播的影响",
-                            "图4-1_辟谣介入时点对比", nrounds, tag))
+                            "图4-1_辟谣介入时点对比", nrounds, tag,
+                            required=["E2R1", "E2R4"]))
     made.append(plot_panels(root, ["E1A", "E2R4", "E3B"],
                             "图 4-2 政府辟谣回应形态对谣言传播的影响",
-                            "图4-2_辟谣回应形态对比", nrounds, tag))
+                            "图4-2_辟谣回应形态对比", nrounds, tag,
+                            required=["E3B"]))
     made.append(plot_panels(root, ["E1A", "E1B"],
                             "图 4-4 谣言形式对传播的影响（E1B 为文本代理刺激）",
-                            "图4-4_谣言形式对比", nrounds, tag))
+                            "图4-4_谣言形式对比", nrounds, tag,
+                            required=["E1A", "E1B"]))
     made.append(plot_summary_bars(root, tag))
     ok = [m for m in made if m]
     print(f"\n共输出 {len(ok)} 组图表 -> {OUT}")

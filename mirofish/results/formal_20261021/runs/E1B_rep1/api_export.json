@@ -1,0 +1,990 @@
+{
+  "simulation": {
+    "config_generated": true,
+    "config_reasoning": "时间配置: 事件窗口为2026年8月6日至8月27日，但谣言传播与官方处置集中在8月9日至11日，故模拟时长设为120小时（5天），覆盖谣言爆发、官方通报与辟谣扩散的关键周期。目标群体包括普通网民、自媒体、亲历者、社区长辈、青年学生及政务/警方/媒体机构。网民作息遵循东八区规律：凌晨0-5点活跃度极低（系数0.05），早间6-8点渐增（系数0.4），工作时段9-18点中等活跃（系数0.7），但午间12-13点因休息出现小高峰，晚间19-23点因下班后信息浏览与讨论达到高峰（系数1.5），其中23点后活跃度回落但仍有一定讨论（系数0.5）。机构账号（警方、媒体、政务）主要在工作时间9-18点活跃，但突发通报可能延伸至晚间。自媒体与营销号全天活跃，但晚间高峰更明显。青年学生高峰偏晚（21-23点），社区长辈活跃时段更早（6-8点、19-21点）。因此高峰时段设为12-13点及19-23点，低谷为0-5点，早间6-8点，工作时段9-18点（剔除午休高峰）。每轮60分钟，每小时激活Agent数最少2个（深夜），最多7个（高峰），以模拟真实互动强度。 | 事件配置: 基于模拟需求，需要覆盖易信谣网民、求证用户、质疑者、自媒体、亲历者、社区长辈、青年学生及政务/警方/媒体等多元Agent。初始帖子设计围绕谣言传播与辟谣的对抗过程，包含谣言首发（温州网民、自媒体）、求证质疑（普通网民）、官方通报（公安机关、浦东警方、辟谣平台）以及亲历者与长辈的理性发声，从而触发转发、评论、点赞等互动行为，推演舆论从恐慌到理性的演变。 | Agent配置: 成功生成 8 个 | 初始帖子分配: 18 个帖子已分配发布者",
+    "created_at": "2026-10-20T22:09:59.819209",
+    "current_round": 0,
+    "enable_reddit": true,
+    "enable_twitter": true,
+    "entities_count": 8,
+    "entity_types": [
+      "MediaOutlet",
+      "Organization",
+      "Person",
+      "GovernmentAgency",
+      "RumorForwarder"
+    ],
+    "error": null,
+    "graph_id": "mirofish_fbc77875466447bc",
+    "profiles_count": 8,
+    "profiles_generated": true,
+    "project_id": "proj_a3b402e97e08",
+    "reddit_status": "not_started",
+    "simulation_id": "sim_285f7fdfd644",
+    "status": "running",
+    "twitter_status": "not_started",
+    "updated_at": "2026-10-20T23:42:04.807435"
+  },
+  "timeline": {
+    "rounds_count": 17,
+    "timeline": [
+      {
+        "action_types": {
+          "CREATE_POST": 4
+        },
+        "active_agents": [
+          0,
+          1,
+          3
+        ],
+        "active_agents_count": 3,
+        "first_action_time": "2026-10-20T23:42:45.507993",
+        "last_action_time": "2026-10-20T23:42:45.441631",
+        "reddit_actions": 4,
+        "round_num": 0,
+        "total_actions": 4,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 7,
+          "CREATE_POST": 5,
+          "DISLIKE_POST": 1,
+          "LIKE_POST": 3,
+          "SEARCH_POSTS": 8,
+          "TREND": 1
+        },
+        "active_agents": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "active_agents_count": 7,
+        "first_action_time": "2026-10-20T23:42:58.393092",
+        "last_action_time": "2026-10-20T23:42:58.072943",
+        "reddit_actions": 25,
+        "round_num": 1,
+        "total_actions": 25,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 9,
+          "DISLIKE_POST": 7,
+          "LIKE_COMMENT": 1,
+          "LIKE_POST": 5,
+          "SEARCH_USER": 1
+        },
+        "active_agents": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:43:12.640535",
+        "last_action_time": "2026-10-20T23:43:12.286644",
+        "reddit_actions": 23,
+        "round_num": 2,
+        "total_actions": 23,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 3,
+          "CREATE_POST": 2,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 6,
+          "LIKE_POST": 3
+        },
+        "active_agents": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 7,
+        "first_action_time": "2026-10-20T23:43:24.082367",
+        "last_action_time": "2026-10-20T23:43:23.883638",
+        "reddit_actions": 15,
+        "round_num": 3,
+        "total_actions": 15,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_POST": 1,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 4,
+          "LIKE_POST": 6,
+          "SEARCH_USER": 1
+        },
+        "active_agents": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 7,
+        "first_action_time": "2026-10-20T23:43:37.053022",
+        "last_action_time": "2026-10-20T23:43:36.864921",
+        "reddit_actions": 13,
+        "round_num": 4,
+        "total_actions": 13,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 1,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 1,
+          "LIKE_POST": 8
+        },
+        "active_agents": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 7,
+        "first_action_time": "2026-10-20T23:43:47.880649",
+        "last_action_time": "2026-10-20T23:43:47.717880",
+        "reddit_actions": 11,
+        "round_num": 5,
+        "total_actions": 11,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 2,
+          "DISLIKE_POST": 2,
+          "LIKE_COMMENT": 2,
+          "LIKE_POST": 4
+        },
+        "active_agents": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "active_agents_count": 7,
+        "first_action_time": "2026-10-20T23:44:00.066286",
+        "last_action_time": "2026-10-20T23:43:59.942766",
+        "reddit_actions": 10,
+        "round_num": 6,
+        "total_actions": 10,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 1,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 3,
+          "LIKE_POST": 1
+        },
+        "active_agents": [
+          1,
+          4,
+          7
+        ],
+        "active_agents_count": 3,
+        "first_action_time": "2026-10-20T23:44:08.655760",
+        "last_action_time": "2026-10-20T23:44:08.589780",
+        "reddit_actions": 6,
+        "round_num": 7,
+        "total_actions": 6,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 3,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 4,
+          "LIKE_POST": 1,
+          "SEARCH_POSTS": 1
+        },
+        "active_agents": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:44:21.042091",
+        "last_action_time": "2026-10-20T23:44:20.910669",
+        "reddit_actions": 10,
+        "round_num": 8,
+        "total_actions": 10,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "LIKE_COMMENT": 4,
+          "LIKE_POST": 1,
+          "SEARCH_POSTS": 2
+        },
+        "active_agents": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:44:36.857607",
+        "last_action_time": "2026-10-20T23:44:36.785427",
+        "reddit_actions": 7,
+        "round_num": 9,
+        "total_actions": 7,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 3,
+          "LIKE_COMMENT": 4
+        },
+        "active_agents": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:44:54.662805",
+        "last_action_time": "2026-10-20T23:44:54.580119",
+        "reddit_actions": 7,
+        "round_num": 10,
+        "total_actions": 7,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 2,
+          "LIKE_COMMENT": 4,
+          "LIKE_POST": 1
+        },
+        "active_agents": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:45:05.214485",
+        "last_action_time": "2026-10-20T23:45:05.140063",
+        "reddit_actions": 7,
+        "round_num": 11,
+        "total_actions": 7,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 1,
+          "LIKE_COMMENT": 4,
+          "SEARCH_POSTS": 2
+        },
+        "active_agents": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:45:19.192995",
+        "last_action_time": "2026-10-20T23:45:19.120325",
+        "reddit_actions": 7,
+        "round_num": 12,
+        "total_actions": 7,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 1,
+          "LIKE_COMMENT": 2,
+          "LIKE_POST": 1,
+          "TREND": 1
+        },
+        "active_agents": [
+          0,
+          1,
+          5,
+          7
+        ],
+        "active_agents_count": 4,
+        "first_action_time": "2026-10-20T23:45:56.122666",
+        "last_action_time": "2026-10-20T23:45:56.085126",
+        "reddit_actions": 5,
+        "round_num": 13,
+        "total_actions": 5,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 2,
+          "CREATE_POST": 1,
+          "LIKE_COMMENT": 1,
+          "TREND": 1
+        },
+        "active_agents": [
+          0,
+          3,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 5,
+        "first_action_time": "2026-10-20T23:46:19.590371",
+        "last_action_time": "2026-10-20T23:46:19.543742",
+        "reddit_actions": 5,
+        "round_num": 14,
+        "total_actions": 5,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "LIKE_POST": 1,
+          "SEARCH_POSTS": 1,
+          "TREND": 3
+        },
+        "active_agents": [
+          0,
+          3,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 5,
+        "first_action_time": "2026-10-20T23:47:30.051830",
+        "last_action_time": "2026-10-20T23:47:30.013849",
+        "reddit_actions": 5,
+        "round_num": 15,
+        "total_actions": 5,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 1,
+          "SEARCH_POSTS": 2,
+          "TREND": 4
+        },
+        "active_agents": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active_agents_count": 6,
+        "first_action_time": "2026-10-20T23:49:23.030492",
+        "last_action_time": "2026-10-20T23:49:22.927593",
+        "reddit_actions": 8,
+        "round_num": 16,
+        "total_actions": 8,
+        "twitter_actions": 0
+      }
+    ]
+  },
+  "agent_stats": {
+    "agents_count": 8,
+    "stats": [
+      {
+        "action_types": {
+          "CREATE_COMMENT": 3,
+          "CREATE_POST": 5,
+          "DISLIKE_POST": 3,
+          "LIKE_COMMENT": 8,
+          "LIKE_POST": 3,
+          "SEARCH_POSTS": 3,
+          "TREND": 3
+        },
+        "agent_id": 0,
+        "agent_name": "温州网民",
+        "first_action_time": "2026-10-20T23:49:22.998961",
+        "last_action_time": "2026-10-20T23:42:45.441631",
+        "reddit_actions": 28,
+        "total_actions": 28,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 6,
+          "CREATE_POST": 2,
+          "DISLIKE_POST": 2,
+          "LIKE_COMMENT": 3,
+          "LIKE_POST": 6,
+          "SEARCH_POSTS": 2,
+          "TREND": 1
+        },
+        "agent_id": 1,
+        "agent_name": "高某某",
+        "first_action_time": "2026-10-20T23:45:56.089194",
+        "last_action_time": "2026-10-20T23:42:45.457757",
+        "reddit_actions": 22,
+        "total_actions": 22,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 4,
+          "CREATE_POST": 1,
+          "DISLIKE_POST": 2,
+          "LIKE_COMMENT": 6,
+          "LIKE_POST": 4,
+          "SEARCH_POSTS": 2,
+          "TREND": 2
+        },
+        "agent_id": 5,
+        "agent_name": "温州公安机关",
+        "first_action_time": "2026-10-20T23:49:22.982965",
+        "last_action_time": "2026-10-20T23:42:58.153906",
+        "reddit_actions": 21,
+        "total_actions": 21,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 8,
+          "CREATE_POST": 1,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 5,
+          "LIKE_POST": 4,
+          "SEARCH_POSTS": 1,
+          "TREND": 1
+        },
+        "agent_id": 7,
+        "agent_name": "中国互联网联合辟谣平台",
+        "first_action_time": "2026-10-20T23:49:22.931274",
+        "last_action_time": "2026-10-20T23:42:58.285323",
+        "reddit_actions": 21,
+        "total_actions": 21,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 4,
+          "CREATE_POST": 2,
+          "DISLIKE_POST": 2,
+          "LIKE_COMMENT": 4,
+          "LIKE_POST": 4,
+          "SEARCH_POSTS": 2,
+          "TREND": 2
+        },
+        "agent_id": 3,
+        "agent_name": "自媒体",
+        "first_action_time": "2026-10-20T23:49:22.927593",
+        "last_action_time": "2026-10-20T23:42:45.491448",
+        "reddit_actions": 20,
+        "total_actions": 20,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 5,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 6,
+          "LIKE_POST": 6,
+          "SEARCH_USER": 1
+        },
+        "agent_id": 6,
+        "agent_name": "浦东警方",
+        "first_action_time": "2026-10-20T23:49:23.030492",
+        "last_action_time": "2026-10-20T23:43:12.393666",
+        "reddit_actions": 19,
+        "total_actions": 19,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 2,
+          "CREATE_POST": 1,
+          "DISLIKE_POST": 1,
+          "LIKE_COMMENT": 6,
+          "LIKE_POST": 4,
+          "SEARCH_POSTS": 3,
+          "SEARCH_USER": 1,
+          "TREND": 1
+        },
+        "agent_id": 4,
+        "agent_name": "浙江宁波公安机关",
+        "first_action_time": "2026-10-20T23:49:22.964960",
+        "last_action_time": "2026-10-20T23:42:58.236977",
+        "reddit_actions": 19,
+        "total_actions": 19,
+        "twitter_actions": 0
+      },
+      {
+        "action_types": {
+          "CREATE_COMMENT": 3,
+          "CREATE_POST": 1,
+          "DISLIKE_POST": 4,
+          "LIKE_COMMENT": 3,
+          "LIKE_POST": 4,
+          "SEARCH_POSTS": 3
+        },
+        "agent_id": 2,
+        "agent_name": "上海公安机关",
+        "first_action_time": "2026-10-20T23:45:19.192995",
+        "last_action_time": "2026-10-20T23:42:58.274882",
+        "reddit_actions": 18,
+        "total_actions": 18,
+        "twitter_actions": 0
+      }
+    ]
+  },
+  "posts": [
+    {
+      "content": "【辟谣通报·汇总】\"浦东一女子在台风'白海豚'中坠楼\"系谣言。\n\n经核实：网传\"台风将人吹下楼\"\"地下车库整层被淹\"等视频，系60岁男性网民高某某于8月10日使用AI软件生成坠楼画面，并配以往年旧素材剪辑拼接而成。浦东未发生所称坠楼事件，高某某已被依法行政拘留。上海市及浙江宁波、温州等地公安机关先后查处虚构事实扰乱公共秩序案件11起以上。\n\n【辨识提示】\n1. 画面越\"清晰\"\"现场感强\"越要提高警惕，AI合成仅需数秒；\n2. 转发前先查气象部门与官方通报，看是否已有权威辟谣；\n3. 旧素材拼接常出现时间、地点、天气与本地情况不符；\n4. 已转发的请主动删除，勿扩散至家人群、老乡群。\n\n台风期间请以气象部门及官方发布的权威信息为准。发现涉谣线索，可拨打110或向属地派出所举报。请广大网民不信谣、不传谣。",
+      "created_at": "2026-10-21 03:14:08.129212",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 9,
+      "quote_content": null,
+      "user_id": 7
+    },
+    {
+      "content": "【温州公安·涉台风\"白海豚\"谣言查处情况通报】近日网络流传\"台风将人吹下楼\"\"地下车库整层被淹\"等视频，经公安机关核实，其中\"坠楼\"画面系AI软件生成，另有旧素材剪辑拼接的虚假内容，与本地实际情况不符，浦东未发生所称坠楼事件。\n\n浦东警方已于8月10日8时35分发布通报，利用AI软件生成并发布虚假视频的高某某（60岁男性网民）已被依法处以行政拘留。本市及浙江宁波、温州等地公安机关先后查处相关案件11起以上。\n\n台风影响期间，请广大网民以气象部门和官方发布的权威信息为准，不造谣、不信谣、不传谣。对编造、传播虚假灾情信息扰乱公共秩序的，公安机关将依法查处。发现涉谣线索，可通过110或属地派出所举报。",
+      "created_at": "2026-10-21 00:38:55.784752",
+      "num_dislikes": 0,
+      "num_likes": 8,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 8,
+      "quote_content": null,
+      "user_id": 5
+    },
+    {
+      "content": "【警方提醒·涉台风\"白海豚\"谣言查处情况】近日网络流传\"台风将人吹下楼\"\"地下车库整层被淹\"等视频，经公安机关核实，其中\"坠楼\"画面系AI软件生成，另有旧素材剪辑拼接的虚假内容，与本地实际情况不符。\n\n目前浦东警方已于8月10日8时35分发布通报，利用AI软件生成并发布虚假视频的高某某已被依法行政拘留。本市及浙江宁波、温州等地公安机关先后查处相关案件11起以上。\n\n台风影响期间，请广大网民以气象部门和官方发布的权威信息为准，不造谣、不信谣、不传谣。对编造、传播虚假灾情信息扰乱公共秩序的，公安机关将依法查处。发现涉谣线索，可通过110或属地派出所举报。",
+      "created_at": "2026-10-21 00:23:58.044532",
+      "num_dislikes": 0,
+      "num_likes": 8,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 7,
+      "quote_content": null,
+      "user_id": 4
+    },
+    {
+      "content": "【辟谣提醒·温州本地】台风天刷到\"台风把人卷下楼\"\"车库整层被淹\"的视频，先别急着转！这次浦东警方已经通报：坠楼画面是AI软件生成的，车库被淹是拿往年旧素材拼的，造谣的高某某8月10日就被行政拘留，沪浙甬温等地已查处相关案件11起以上。\n\n说句自己的教训：8月我回泽雅帮爸妈加固棚子，路过一个歪了的文旅造型，随手拍\"白海豚还没来，楼已塌\"，本意是调侃，结果十万播放、被网信公安找上门，删视频、公开道歉、限流三十天。那条视频我至今置顶澄清——\"这就是那栋'塌了的楼'\"。\n\n现在我每条末尾都加一句：具体情况以官方通报为准。台风季真正该做的——收阳台、囤点水、别靠着窗站，不信谣不传谣。#温州 #台风 #不造谣不传谣",
+      "created_at": "2026-10-21 00:23:03.537472",
+      "num_dislikes": 0,
+      "num_likes": 6,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 6,
+      "quote_content": null,
+      "user_id": 0
+    },
+    {
+      "content": "【警情通报·辟谣】近日，网络流传所谓\"浦东一女子在台风中坠楼\"视频及\"车库整层被淹\"等内容。经查，上述视频系不法人员使用AI软件生成、并配以往年旧素材剪辑合成的虚假视频，与本市实际情况不符。\n\n公安机关已依法查处虚构事实扰乱公共秩序案件：浦东警方于8月10日8时35分发布通报，利用AI软件生成并发布虚假视频的高某某已被依法处以行政拘留。本市及浙江宁波、温州等地公安机关先后查处相关案件11起以上。\n\n警方提示：编造、传播虚假灾情信息，扰乱公共秩序的，公安机关将依法查处。台风期间请以气象部门及官方发布的权威信息为准，不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-20 23:57:12.308692",
+      "num_dislikes": 0,
+      "num_likes": 8,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 5,
+      "quote_content": null,
+      "user_id": 2
+    },
+    {
+      "content": "这段视频传疯了：台风把人吹下楼，还拍到地下车库整层被淹，画面很清晰，大家赶紧转发提醒家人！",
+      "created_at": "2026-10-20 23:50:00.927772",
+      "num_dislikes": 8,
+      "num_likes": 1,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 4,
+      "quote_content": null,
+      "user_id": 3
+    },
+    {
+      "content": "刚收到一段现场视频，画面里大风把人从阳台卷出去，楼下全是人和车，附近有知情的人出来证实一下吗？",
+      "created_at": "2026-10-20 23:49:21.634192",
+      "num_dislikes": 2,
+      "num_likes": 1,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 3,
+      "quote_content": null,
+      "user_id": 1
+    },
+    {
+      "content": "视频都能看见人躺在那里，为什么到现在还没有官方通报？把视频顶上去，让更多人看到。",
+      "created_at": "2026-10-20 23:48:46.770892",
+      "num_dislikes": 5,
+      "num_likes": 1,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 2,
+      "quote_content": null,
+      "user_id": 0
+    },
+    {
+      "content": "【现场视频】浦东一女子在台风「白海豚」中坠楼，视频拍得很清楚，雨里能看清人影和楼下围观的人，太吓人了！",
+      "created_at": "2026-10-20 23:48:33.823612",
+      "num_dislikes": 1,
+      "num_likes": 1,
+      "num_reports": 0,
+      "num_shares": 0,
+      "original_post_id": null,
+      "post_id": 1,
+      "quote_content": null,
+      "user_id": 0
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": 35,
+      "content": "【警民直通车-浦东】警方提示：台风影响期间，涉灾信息请以气象部门及官方发布的权威信息为准。对编造、传播虚假灾情信息扰乱公共秩序的行为，公安机关将依法查处。转发前请先核实，已转发的请主动删除，不造谣、不信谣、不传谣；发现涉谣线索可拨打110或向属地派出所举报，携手共建清朗网络空间。",
+      "created_at": "2026-10-21 03:13:42.506212",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 2,
+      "user_id": 6
+    },
+    {
+      "comment_id": 34,
+      "content": "【补充提醒】警方通报对上了：AI生成画面+往年旧素材拼接，造谣者高某某已被行政拘留，沪浙甬温累计查处11起以上。再给同行说个实操：①AI素材成片必须在画面左上角打\"AI生成\"水印，别只在简介里写；②灾情数字只引用官方通报原文；③往年素材一律不碰。咱们小团队没专职审核，就靠这三条兜底。不造谣不信谣不传谣！",
+      "created_at": "2026-10-21 03:13:29.973772",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 8,
+      "user_id": 3
+    },
+    {
+      "comment_id": 33,
+      "content": "【辟谣提示·防谣指南】感谢陈航先生现身说法，也感谢温州、宁波、上海等地公安机关的联动查处。经核实，涉台风\"白海豚\"的\"浦东女子坠楼\"\"车库整层被淹\"等视频，系AI软件生成或往年旧素材拼接的虚假内容，浦东未发生所称坠楼事件，造谣者高某某已被依法行政拘留，沪浙甬温等地累计查处相关案件11起以上。\n\n辨识要点：①画面越\"清晰\"\"现场感强\"越要提高警惕，AI合成此类画面仅需数秒；②转发前先查气象部门与官方通报，看是否已有权威辟谣；③旧素材拼接常出现时间、地点、天气与本地实际不符；④发现AI合成或旧素材拼接的涉灾内容，请勿转发，可拨打110或向属地派出所举报。请广大网民不信谣、不传谣。",
+      "created_at": "2026-10-21 02:42:17.591692",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 6,
+      "user_id": 7
+    },
+    {
+      "comment_id": 32,
+      "content": "【温州公安提示】经查，\"台风将人吹下楼\"\"地下车库整层被淹\"等视频系AI软件生成或往年旧素材剪辑拼接的虚假内容，与本地实际情况不符，浦东并未发生所称坠楼事件。请已转发的网民主动删除，切勿继续扩散至家族群、老乡群。台风期间具体情况以气象部门和官方发布的权威信息为准，不造谣、不信谣、不传谣。发现涉谣线索，可拨打110或向属地派出所举报。",
+      "created_at": "2026-10-21 02:16:35.907892",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 4,
+      "user_id": 5
+    },
+    {
+      "comment_id": 31,
+      "content": "【警民直通车-浦东】经查，所谓\"大风把人从阳台卷出\"的画面系AI软件生成的虚假视频，并非真实现场，浦东未发生相关坠楼事件。浦东警方已于8月10日8时35分发布通报，造谣者高某某已被依法行政拘留。台风期间请以气象部门及官方发布的权威信息为准，警惕AI合成内容，不造谣、不信谣、不传谣；发现涉谣线索可拨打110或向属地派出所举报。",
+      "created_at": "2026-10-21 02:05:56.810692",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 3,
+      "user_id": 6
+    },
+    {
+      "comment_id": 30,
+      "content": "速看！温州、宁波、上海三地通报已经对上了：坠楼画面是AI软件生成的，车库被淹是往年旧素材剪的拼接货，造谣者高某某8月10日就被行政拘留，沪浙甬温累计查处11起以上！咱们做热点的真得长记性——\"画面越清晰越要警惕\"，AI几秒钟就能合成。转给家里人之前先去官方通报核一遍。收阳台、囤点水、别靠窗站，不造谣不信谣不传谣！",
+      "created_at": "2026-10-21 02:03:23.172532",
+      "num_dislikes": 0,
+      "num_likes": 2,
+      "post_id": 8,
+      "user_id": 3
+    },
+    {
+      "comment_id": 29,
+      "content": "【警民直通车-浦东】经查，所谓\"台风将人吹下楼\"\"地下车库整层被淹\"视频，系AI软件生成并配以往年旧素材剪辑的虚假内容。浦东未发生所称坠楼事件，浦东警方已于8月10日8时35分发布通报，造谣者高某某已被依法行政拘留。警方提醒：台风影响期间请以气象部门及官方发布的权威信息为准，对已转发的请主动删除，编造、传播虚假灾情信息扰乱公共秩序的，公安机关将依法查处。发现涉谣线索可拨打110或向属地派出所举报。",
+      "created_at": "2026-10-21 01:55:18.608812",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 4,
+      "user_id": 6
+    },
+    {
+      "comment_id": 28,
+      "content": "【温州公安提示】感谢陈先生现身说法。经查，台风\"白海豚\"影响期间网络流传的\"台风将人吹下楼\"\"地下车库整层被淹\"等视频，系AI软件生成或旧素材拼接的虚假信息，与本地实际情况不符。编造、传播虚假灾情信息扰乱公共秩序的，公安机关将依法查处。请广大网民以气象部门和官方发布的权威信息为准，转发前先看官方通报，不造谣、不信谣、不传谣。发现涉谣线索，可通过110或属地派出所举报。",
+      "created_at": "2026-10-21 01:55:05.960392",
+      "num_dislikes": 0,
+      "num_likes": 2,
+      "post_id": 6,
+      "user_id": 5
+    },
+    {
+      "comment_id": 27,
+      "content": "【警方提示】经查，该视频并非现场画面，系AI软件生成。浦东未发生所称坠楼事件，造谣者高某某已于8月10日被依法行政拘留。已转发的请主动删除，勿扩散至家庭群、老乡群。台风期间请以气象部门及官方发布为准，不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-21 01:48:45.924412",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 1,
+      "user_id": 2
+    },
+    {
+      "comment_id": 26,
+      "content": "老铁们听我一句：这种\"画面很清楚\"的台风视频，十个有九个是假的！我上次就是瞎转了一条，现在账号都清空了，家里人还埋怨我。以后先看官方通报，不造谣不信谣不传谣！",
+      "created_at": "2026-10-21 01:21:02.799112",
+      "num_dislikes": 0,
+      "num_likes": 4,
+      "post_id": 8,
+      "user_id": 1
+    },
+    {
+      "comment_id": 25,
+      "content": "同行看了都想说两句！陈航老哥这个经历太真实了——一个随手调侃，十万播放，删视频道歉限流三十天，教训够深。咱们做灾情内容的，抢首发之前先问一句\"有没有官方通报\"，AI生成的画面越清晰越要标清楚。这条转给团队当反面教材存着，不造谣不信谣不传谣！",
+      "created_at": "2026-10-21 01:20:30.247552",
+      "num_dislikes": 0,
+      "num_likes": 2,
+      "post_id": 6,
+      "user_id": 3
+    },
+    {
+      "comment_id": 24,
+      "content": "这条必须顶！我就是被这种\"看着很清楚的现场\"坑过的温州本地博主。8月台风前随口一句\"白海豚还没来，楼已塌\"，十万播放，被网信公安找上门，删视频、道歉、限流三十天。现在我每条末尾都加一句\"具体情况以官方通报为准\"。所以大家刷到\"台风卷人下车库\"这类，先别急，等官宣，转了家人的赶紧删。#温州 #台风 #不造谣不传谣",
+      "created_at": "2026-10-21 01:19:01.727272",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 5,
+      "user_id": 0
+    },
+    {
+      "comment_id": 23,
+      "content": "【辟谣联动】经核实，温州、宁波、上海等地公安机关就涉台风\"白海豚\"的AI合成谣言已联动查处，累计查处虚构事实扰乱公共秩序案件11起以上。本平台提醒：台风期间，请以气象部门和官方发布的权威信息为准，对\"画面很清晰\"\"赶紧转发提醒家人\"类涉灾视频先核实再转发。发现AI合成或旧素材拼接的涉灾内容，可通过110或属地派出所举报。不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-21 01:08:25.384252",
+      "num_dislikes": 0,
+      "num_likes": 4,
+      "post_id": 8,
+      "user_id": 7
+    },
+    {
+      "comment_id": 22,
+      "content": "看完通报心里才明白，这种\"现场很清晰\"的视频最容易骗人。老铁们以后先看官方通报再转，别再把我这样的老实人也带沟里去了。",
+      "created_at": "2026-10-21 01:01:52.457272",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 5,
+      "user_id": 1
+    },
+    {
+      "comment_id": 21,
+      "content": "【宁波公安提醒】该视频经核实系AI软件生成的虚假画面，浦东并未发生所称坠楼事件，相关造谣者已被依法查处。请已转发的网友主动删除，不要继续扩散至家庭群、老乡群。台风期间的具体情况请以气象部门和官方发布为准，不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-21 00:57:50.117812",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 1,
+      "user_id": 4
+    },
+    {
+      "comment_id": 20,
+      "content": "【联动提示】本平台注意到，上海、浙江宁波、温州等地公安机关已就涉台风\"白海豚\"的AI合成谣言联动查处，累计查处虚构事实扰乱公共秩序案件11起以上。其中\"浦东一女子在台风中坠楼\"视频经核实为AI软件生成，浦东未发生所称坠楼事件，60岁男性网民高某某于8月10日使用AI生成虚假视频博取流量，已被依法行政拘留。请广大网民以气象部门和官方发布的权威信息为准，不信谣、不传谣；发现AI合成、旧素材拼接的涉灾视频，可通过110或属地派出所举报。",
+      "created_at": "2026-10-21 00:46:38.476912",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 7,
+      "user_id": 7
+    },
+    {
+      "comment_id": 19,
+      "content": "【提醒】该视频系AI生成虚假内容，并非现场画面。请勿继续转发扩散（含家人群、老乡群），已转发的建议主动删除。涉灾信息请以气象部门及官方发布为准，不造谣、不信谣、不传谣。发现相关谣言线索，可向平台或属地警方举报。",
+      "created_at": "2026-10-21 00:25:29.051572",
+      "num_dislikes": 0,
+      "num_likes": 3,
+      "post_id": 1,
+      "user_id": 7
+    },
+    {
+      "comment_id": 18,
+      "content": "【警方提醒】经核实，所谓\"大风把人从阳台卷出\"的画面系AI生成的虚假视频，并非真实现场，相关造谣者已被依法查处。台风期间请以官方通报为准，警惕AI合成内容，不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-21 00:25:13.754092",
+      "num_dislikes": 0,
+      "num_likes": 4,
+      "post_id": 3,
+      "user_id": 5
+    },
+    {
+      "comment_id": 17,
+      "content": "【温州公安提示】台风\"白海豚\"影响期间，网络流传的\"浦东女子台风中坠楼\"\"车库整层被淹\"等视频，经查系AI软件生成或旧素材拼接的虚假信息，与实际情况不符。请广大网民不轻信、不转发。涉灾信息请以气象部门及官方发布的权威通报为准；编造、传播虚假灾情信息扰乱公共秩序的，公安机关将依法查处。",
+      "created_at": "2026-10-21 00:24:41.871892",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 5,
+      "user_id": 5
+    },
+    {
+      "comment_id": 16,
+      "content": "先别急，等官宣！这条已经被辟谣了——坠楼画面是AI软件生成的，车库被淹是拿往年旧素材剪的，浦东警方8月10日就通报过，造谣者高某某已被行政拘留。我叫陈航，温州本地做街景自媒体的，8月就因为在台风前随口调侃\"楼已塌\"被查过，吃过大亏才明白：AI现在合成这种\"大风卷人\"的画面几秒钟的事，看着越清晰越要警惕。转给家人之前，先看一眼官方通报。#温州 #台风",
+      "created_at": "2026-10-21 00:14:52.632292",
+      "num_dislikes": 0,
+      "num_likes": 2,
+      "post_id": 4,
+      "user_id": 0
+    },
+    {
+      "comment_id": 15,
+      "content": "【权威回应】浦东警方已于8月10日8时35分发布通报：所谓\"女子在台风中坠楼\"视频系AI生成虚假视频，浦东未发生该事件。请以官方通报为准，勿再顶帖传播未经核实内容。",
+      "created_at": "2026-10-21 00:14:39.269032",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 2,
+      "user_id": 2
+    },
+    {
+      "comment_id": 14,
+      "content": "转发这条！我就在温州，这个台风季类似\"AI坠楼视频\"的假灾情已经出了好几起，浦东警方8月10日就通报过，造谣的高某某被行政拘留。说句掏心窝的话：我自己8月就栽在这上头——路过泽雅觉得一个艺术造型歪了，随手发\"白海豚还没来，楼已塌\"，十万播放，结果被网信和公安找上门，删视频、公开道歉、账号限流三十天。从那以后我每条视频末尾都加一句\"具体情况以官方通报为准\"。所以各位，看到\"现场画面很清晰\"\"赶紧转发提醒家人\"这种，先别急，等官宣！台风季真正该做的是收阳台、囤点水、别靠着窗户站。#温州 #台风 #不造谣不传谣",
+      "created_at": "2026-10-21 00:14:26.604232",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 5,
+      "user_id": 0
+    },
+    {
+      "comment_id": 13,
+      "content": "【警方提示】经查，网传\"台风将人吹下楼\"\"地下车库整层被淹\"视频系AI软件生成并配以往年旧素材剪辑的虚假内容，本市未发生所述事件，高某某已因虚构事实扰乱公共秩序被依法行政拘留。请网民停止转发扩散，以官方通报为准，不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-21 00:14:11.178352",
+      "num_dislikes": 0,
+      "num_likes": 4,
+      "post_id": 4,
+      "user_id": 2
+    },
+    {
+      "comment_id": 12,
+      "content": "【辟谣】经查，网传\"浦东一女子在台风'白海豚'中坠楼\"视频系AI软件生成的虚假视频，浦东未发生所称坠楼事件，相关内容已由浦东警方于8月10日8时35分发布通报，造谣者高某某已被依法行政拘留。请勿继续转发扩散，不造谣、不信谣、不传谣。",
+      "created_at": "2026-10-21 00:13:58.812292",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 2,
+      "user_id": 6
+    },
+    {
+      "comment_id": 11,
+      "content": "【警民直通车-浦东】警方提示：台风影响期间，请广大网民以气象部门及官方发布的权威信息为准。编造、传播虚假灾情信息扰乱公共秩序的，公安机关将依法查处。请大家不造谣、不信谣、不传谣，发现相关线索可及时向警方举报。",
+      "created_at": "2026-10-21 00:12:59.981152",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 5,
+      "user_id": 6
+    },
+    {
+      "comment_id": 10,
+      "content": "【宁波公安提示】台风\"白海豚\"期间，网络流传的\"浦东女子坠楼\"\"车库整层被淹\"等视频经核实系AI生成或旧素材拼接的虚假信息，请广大网民不轻信、不转发。涉灾信息请以气象部门及官方发布的权威通报为准；编造、传播虚假灾情扰乱公共秩序的，公安机关将依法查处。",
+      "created_at": "2026-10-21 00:06:54.707092",
+      "num_dislikes": 0,
+      "num_likes": 3,
+      "post_id": 5,
+      "user_id": 4
+    },
+    {
+      "comment_id": 9,
+      "content": "速看！警方正式通报来了：浦东\"女子台风中坠楼\"视频系AI生成+\"车库被淹\"旧素材拼接，造谣的高某某已被行政拘留，沪浙甬温等地已查处11起以上！本账号此前也在这类素材上吃过亏、被限流约谈，这里再次提醒同行和网友：AI内容务必标注，灾情信息以官方通报为准，不造谣不信谣不传谣！台风天注意安全，别被带节奏！",
+      "created_at": "2026-10-21 00:06:40.530712",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 5,
+      "user_id": 3
+    },
+    {
+      "comment_id": 8,
+      "content": "哎哟，原来真是AI生成的假视频啊？我也转发了，现在赶紧删掉！以后不敢瞎转了，老铁们以官方通报为准。",
+      "created_at": "2026-10-21 00:04:17.607532",
+      "num_dislikes": 0,
+      "num_likes": 3,
+      "post_id": 5,
+      "user_id": 1
+    },
+    {
+      "comment_id": 7,
+      "content": "【提醒】“台风将人吹下楼”“车库整层被淹”等内容经核实为虚假信息，其中坠楼视频系AI生成。请勿转发扩散，关注官方权威通报，不信谣、不传谣。",
+      "created_at": "2026-10-20 23:59:37.274332",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 4,
+      "user_id": 7
+    },
+    {
+      "comment_id": 6,
+      "content": "已经转发到老乡群和家族群了，提醒大家小心，宁可多囤点货也别出事！",
+      "created_at": "2026-10-20 23:59:24.786172",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 4,
+      "user_id": 1
+    },
+    {
+      "comment_id": 5,
+      "content": "经核实，所谓“台风把人从阳台卷出”的画面为AI生成视频，并非真实现场。浦东未发生相关坠楼事件，造谣者已被依法行政拘留。台风期间请以官方通报为准，警惕AI合成内容。",
+      "created_at": "2026-10-20 23:59:12.090472",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 3,
+      "user_id": 7
+    },
+    {
+      "comment_id": 4,
+      "content": "顶上去！这种事儿官方早点说清楚，我们老百姓心里才有底啊。",
+      "created_at": "2026-10-20 23:58:59.759032",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 2,
+      "user_id": 1
+    },
+    {
+      "comment_id": 3,
+      "content": "【辟谣】该视频并非真实现场画面，系AI软件生成。警方已通报：浦东未发生女子台风中坠楼事件，造谣者高某某已被依法行政拘留。请勿再传播该虚假视频，不信谣、不传谣。",
+      "created_at": "2026-10-20 23:58:48.791872",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 2,
+      "user_id": 7
+    },
+    {
+      "comment_id": 2,
+      "content": "老铁们注意了！台风天大家千万别靠窗站，我转给我家群里了，看着太吓人了！",
+      "created_at": "2026-10-20 23:58:19.169872",
+      "num_dislikes": 0,
+      "num_likes": 0,
+      "post_id": 1,
+      "user_id": 1
+    },
+    {
+      "comment_id": 1,
+      "content": "【辟谣】经核实，网传“浦东一女子在台风‘白海豚’中坠楼”视频系谣言。经上海警方查明，该视频为60岁男性网民高某某于8月10日使用AI软件生成，并编造虚假信息以博取流量。浦东未发生所称坠楼事件，高某某已被依法行政拘留。请广大网民不信谣、不传谣，警惕利用AI生成内容编造涉灾谣言。",
+      "created_at": "2026-10-20 23:57:24.525352",
+      "num_dislikes": 0,
+      "num_likes": 1,
+      "post_id": 1,
+      "user_id": 7
+    }
+  ]
+}

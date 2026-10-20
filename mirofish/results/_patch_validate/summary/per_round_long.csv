@@ -1,0 +1,6 @@
+﻿condition,round,simulated_hour,posts,comments,reposts,likes,interactions,cumulative_interactions,content_rumor,content_debunk,content_neutral,engage_rumor,engage_debunk,engage_other,cumulative_content_rumor,cumulative_content_debunk,phase
+E2R1_rep1,0,0,8,0,0,0,8,8,6,0,2,0,0,0,6,0,pre
+E2R1_rep1,1,0,13,11,0,10,34,42,5,17,2,3,5,2,11,17,post
+E2R1_rep1,2,1,9,4,0,28,41,83,0,11,2,9,16,3,11,28,post
+E2R1_rep1,3,2,6,3,0,15,24,107,0,6,3,0,15,0,11,34,post
+E2R1_rep1,4,3,5,2,0,8,15,122,0,5,2,0,8,0,11,39,post

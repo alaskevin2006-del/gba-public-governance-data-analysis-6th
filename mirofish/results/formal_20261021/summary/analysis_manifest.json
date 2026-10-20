@@ -1,0 +1,12 @@
+{
+  "n_runs": 4,
+  "conditions": [
+    "E1A",
+    "E1B",
+    "E2R1",
+    "E2R4"
+  ],
+  "tidy_csv": "mirofish/results/formal_20261021\\summary\\per_round_long.csv",
+  "metrics_csv": "mirofish/results/formal_20261021\\summary\\all_runs_metrics.csv",
+  "condition_csv": "mirofish/results/formal_20261021\\summary\\by_condition_metrics.csv"
+}

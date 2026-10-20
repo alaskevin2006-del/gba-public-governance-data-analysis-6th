@@ -1,0 +1,54 @@
+{
+  "run": "E1A_rep1",
+  "group": "E1A",
+  "rep": 1,
+  "exp": 1,
+  "group_name": "传统文字谣言（兼作实验二、三的共同基线）",
+  "rounds": 17,
+  "n_agents": 8,
+  "intervention": "NONE",
+  "intervention_round": null,
+  "interaction_verify": {
+    "checked": false,
+    "reason": "本组为无干预条件"
+  },
+  "random_seed": 20261022,
+  "elapsed_sec": 363.4,
+  "total_interactions": 159,
+  "total_posts": 19,
+  "total_comments": 39,
+  "total_reposts": 0,
+  "total_likes": 101,
+  "content_rumor": 13,
+  "content_debunk": 36,
+  "content_neutral": 9,
+  "engage_rumor": 24,
+  "engage_debunk": 69,
+  "agents_active": 8,
+  "agents_rumor_content": 3,
+  "agents_debunk_content": 8,
+  "peak_round": 1,
+  "peak_interactions": 24,
+  "post_window_interactions": 0,
+  "post_window_rumor_content": 0,
+  "post_window_debunk_content": 0,
+  "pre_window_interactions": 0,
+  "pre_window_rumor_content": 0,
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "9.11",
+      "granted": "0.00",
+      "topped_up": "9.11"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "8.17",
+      "granted": "0.00",
+      "topped_up": "8.17"
+    }
+  ],
+  "rumor_related_actions": 37
+}

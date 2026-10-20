@@ -1,0 +1,63 @@
+{
+  "run": "E2R4_rep1",
+  "group": "E2R4",
+  "rep": 1,
+  "exp": 2,
+  "group_name": "第 4 模拟小时介入（传统公文式辟谣）",
+  "rounds": 17,
+  "n_agents": 8,
+  "intervention": "NOTICE",
+  "intervention_round": 4,
+  "interaction_verify": {
+    "checked": true,
+    "marker_hits": 9,
+    "rounds_found": [
+      4,
+      5,
+      6
+    ],
+    "expected_round": 4,
+    "first_round": 4,
+    "delivered": true,
+    "on_time": true
+  },
+  "random_seed": 20261022,
+  "elapsed_sec": 206.5,
+  "total_interactions": 136,
+  "total_posts": 14,
+  "total_comments": 21,
+  "total_reposts": 0,
+  "total_likes": 101,
+  "content_rumor": 7,
+  "content_debunk": 25,
+  "content_neutral": 3,
+  "engage_rumor": 15,
+  "engage_debunk": 79,
+  "agents_active": 8,
+  "agents_rumor_content": 3,
+  "agents_debunk_content": 7,
+  "peak_round": 2,
+  "peak_interactions": 29,
+  "post_window_interactions": 64,
+  "post_window_rumor_content": 0,
+  "post_window_debunk_content": 12,
+  "pre_window_interactions": 72,
+  "pre_window_rumor_content": 7,
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "2.03",
+      "granted": "0.00",
+      "topped_up": "2.03"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "0.56",
+      "granted": "0.00",
+      "topped_up": "0.56"
+    }
+  ],
+  "rumor_related_actions": 22
+}

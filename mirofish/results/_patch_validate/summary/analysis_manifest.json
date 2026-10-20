@@ -1,0 +1,9 @@
+{
+  "n_runs": 1,
+  "conditions": [
+    "E2R1"
+  ],
+  "tidy_csv": "mirofish/results/_patch_validate\\summary\\per_round_long.csv",
+  "metrics_csv": "mirofish/results/_patch_validate\\summary\\all_runs_metrics.csv",
+  "condition_csv": "mirofish/results/_patch_validate\\summary\\by_condition_metrics.csv"
+}

@@ -1,0 +1,54 @@
+{
+  "run": "E1B_rep1",
+  "group": "E1B",
+  "rep": 1,
+  "exp": 1,
+  "group_name": "AIGC 高拟真图文谣言（文本代理刺激）",
+  "rounds": 17,
+  "n_agents": 8,
+  "intervention": "NONE",
+  "intervention_round": null,
+  "interaction_verify": {
+    "checked": false,
+    "reason": "本组为无干预条件"
+  },
+  "random_seed": 20261022,
+  "elapsed_sec": 590.0,
+  "total_interactions": 140,
+  "total_posts": 13,
+  "total_comments": 35,
+  "total_reposts": 0,
+  "total_likes": 92,
+  "content_rumor": 8,
+  "content_debunk": 36,
+  "content_neutral": 4,
+  "engage_rumor": 17,
+  "engage_debunk": 71,
+  "agents_active": 8,
+  "agents_rumor_content": 3,
+  "agents_debunk_content": 8,
+  "peak_round": 2,
+  "peak_interactions": 22,
+  "post_window_interactions": 0,
+  "post_window_rumor_content": 0,
+  "post_window_debunk_content": 0,
+  "pre_window_interactions": 0,
+  "pre_window_rumor_content": 0,
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "8.17",
+      "granted": "0.00",
+      "topped_up": "8.17"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "3.91",
+      "granted": "0.00",
+      "topped_up": "3.91"
+    }
+  ],
+  "rumor_related_actions": 25
+}

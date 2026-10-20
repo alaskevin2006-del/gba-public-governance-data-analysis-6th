@@ -287,7 +287,8 @@ def main():
         if not os.path.exists(meta_path):
             continue
         meta = json.load(open(meta_path, encoding="utf-8"))
-        if meta.get("final_status") != "completed(file-watch)":
+        # 两种编排脚本写出的完成标记不同（API 编排用 file-watch，直连子进程用退出码）
+        if meta.get("final_status") not in ("completed(file-watch)", "completed"):
             print(f"[skip] {name} 未完成 ({meta.get('final_status')})")
             continue
         series, m = analyze_run(d, meta)

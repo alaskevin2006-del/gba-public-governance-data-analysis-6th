@@ -1,0 +1,68 @@
+{
+  "run_name": "E2R1_rep1",
+  "group": "E2R1",
+  "rep": 1,
+  "exp": 2,
+  "variable": "辟谣介入时点",
+  "group_name": "第 1 模拟小时介入（传统公文式辟谣）",
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 16,
+  "random_seed": 20261022,
+  "rumor_form": "TEXT",
+  "intervention": "NOTICE",
+  "intervention_round": 1,
+  "n_agents": 8,
+  "interaction_override": {
+    "agents_total": 8,
+    "agents_modified": 8,
+    "agents_per_round": [
+      6,
+      8
+    ],
+    "activity_level": 0.9,
+    "before": {
+      "agents_per_hour_min": 6,
+      "agents_per_hour_max": 8,
+      "off_peak_hours": [],
+      "peak_hours": []
+    }
+  },
+  "initial_posts_removed_llm": 4,
+  "exit_code": 0,
+  "elapsed_sec": 296.9,
+  "final_status": "completed",
+  "intervention_verify": {
+    "checked": true,
+    "marker_hits": 9,
+    "rounds_found": [
+      1,
+      2
+    ],
+    "expected_round": 1,
+    "first_round": 1,
+    "delivered": true,
+    "on_time": true
+  },
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "3.55",
+      "granted": "0.00",
+      "topped_up": "3.55"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "2.03",
+      "granted": "0.00",
+      "topped_up": "2.03"
+    }
+  ],
+  "files": {
+    "simulation_config.json": 12176,
+    "simulation.log": 2630,
+    "reddit_actions.jsonl": 110341
+  },
+  "finished_at": "2026-10-21 00:18:09"
+}

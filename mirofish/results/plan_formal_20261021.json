@@ -10,5 +10,11 @@
   {"group": "E2R1",  "rep": 2},
   {"group": "E2R4",  "rep": 2},
   {"group": "E2R12", "rep": 2},
-  {"group": "E3B",   "rep": 2}
+  {"group": "E3B",   "rep": 2},
+  {"group": "E1A",   "rep": 3},
+  {"group": "E1B",   "rep": 3},
+  {"group": "E2R1",  "rep": 3},
+  {"group": "E2R4",  "rep": 3},
+  {"group": "E2R12", "rep": 3},
+  {"group": "E3B",   "rep": 3}
 ]
