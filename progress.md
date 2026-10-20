@@ -16,7 +16,7 @@
 | 3 前置图表（图1-1 / 表2-2） | ✅ 完成 | `deliverables/figures/` + `deliverables/tables/` |
 | 4 最小仿真测试与基线 | ✅ 完成（含真实互动） | 链路跑通 + **真实 A/B 对照已跑**：8 Agent × 8 轮，发帖/评论/点赞真实产生；详见 `deliverables/组会汇报_谣言治理对照实验.md` |
 | 5 现实-模拟趋势验证 | ⚠️ 部分完成 | 真实侧序列已备；待正式三组实验后做趋势对照 |
-| 6 三组治理反事实实验 | ✅ A/B 完成（早期干预）；⏸ 时点/形态细分待扩 | 已实现"有无早期辟谣"对照；**更正：上游 `scheduled_events` 是死字段（源码恒为 []），注入改走 `initial_posts` 编辑**；早期/晚期时点细分需评估轮中注入可行性 |
+| 6 三组治理反事实实验 | 🔄 正式批次运行中 | 每晚出一轮进展；详见 `deliverables/正式仿真实验方案.md` 与 `deliverables/正式实验结果与分析.md` |
 | 7 剩余图表与交付 | ✅ 完成 | 图4-3、图5-1、技术附录、验收报告 |
 
 **API 阻塞已解除（2026-10-20 20:00）**：用户已提供 DeepSeek LLM Key 与 Zep Cloud Key，
@@ -103,6 +103,43 @@ B 一度产出 A+B 合并数据）。已加 `reset_run_state` 在每组前清空
 - **关键机制发现**：`simulation_config.json` 的 `event_config.initial_posts` / `scheduled_events` 是原生内容注入通道，
   实验二/三不必再用"提前终止 + 二段运行"近似方案。
 - **未达标**：Agent 数 3（目标 5），且无公众角色、无转赞评互动 —— 根因是微种子实体过少，Agent 数 = 实体数 × 0.9 不可直接指定。
+
+---
+
+### 2026-10-20 深夜 → 2026-10-21 凌晨（正式三组反事实实验）
+
+**目标**：在 07:00 前产出可直接进论文的正式仿真成果（真实数据 + 图 4-1/4-2 + 第四章初稿）。
+预算上限由用户解除（仍需记录实际费用，出现异常及时止损）。
+
+**已完成的技术突破（正式实验的前提）**
+
+1. **定时干预可真正执行**：上游 `scheduled_events` 是死字段，无法做任何时点实验。
+   本周期用 `mirofish/scripts/apply_runner_patch.py` 在 `run_parallel_simulation.py` 中**补齐该字段**：
+   在指定轮次进入 Agent 自主动作前注入一条 `CREATE_POST`，并支持 `random_seed`。
+   补丁前后文件均已入库 `mirofish/patches/`。4 轮小测验证：干预精确落在第 1 轮，
+   且被其他 Agent 在后续轮次引用扩散（标记串命中 12 次）。
+2. **Agent 真实互动问题根因已定位并修复**（延续上一阶段）：`active_hours` 与仿真起始小时不匹配 →
+   0 自主动作。现已统一覆写为全时段可活动、每轮激活 6–8 个 Agent。
+3. **正式实验配置固化**（`formal_experiment_config.py`）：E1A/E1B/E2R1/E2R4/E2R12/E3B 六个条件，
+   共用同一批 Agent/网络/Seed；E3A ≡ E2R4 复用同一运行，不重复付费。
+   全部刺激与干预文本溯源到 `official_debunks.csv P1-01` 与 `objective_facts.csv P3-0xx`。
+4. **分析链路**（`analyze_formal_results.py`）：除逐轮互动与内容立场外，
+   新发现 `LIKE_POST/DISLIKE_POST` 的 `action_args` 带有被互动对象的文本
+   （`post_content`/`post_author_name`），因此可把"互动"拆成**指向谣言**与**指向官方辟谣**两类，
+   避免把总互动量上升误读为谣言扩散。
+
+**踩坑与决策（记录以备复现）**
+
+- Twitter 通道依赖 HuggingFace 在线模型 `Twitter/twhin-bert-base`；本机对该域名直连不稳定
+  （SSL EOF → 5 次重试 → Tokenizer 抛 TypeError → 整个并行进程崩溃）。
+- 预实验实测：Twitter 侧**只产生发帖**，评论/点赞/点踩全部发生在 Reddit 侧，且 `REPOST` 恒为 0。
+- 另发现：API 传 `platform="reddit"` 会走另一个未打补丁的 `run_reddit_simulation.py`，
+  且本次调用后进程 32 秒即退出（未完成任何轮次）。
+- **决策**：给并行脚本加 `MF_DISABLE_TWITTER=1` 开关（仍走已打补丁的并行脚本），
+  正式实验统一以 **Reddit 单平台** 运行：既规避 HF 依赖，又把每组费用与时间减半，
+  用于在预算内做更多次重复。已在实验方案第 4 节写明理由与局限。
+
+**执行中**：6 个条件 × 3 次重复 = 18 次真实运行，结果写入 `mirofish/results/formal_20261021/`。
 
 ---
 

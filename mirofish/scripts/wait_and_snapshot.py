@@ -34,7 +34,10 @@ FILES = [
 
 def wait_complete(sim_dir: str, timeout: int, stable_checks: int = 3) -> bool:
     log = os.path.join(sim_dir, "simulation.log")
+    # 监视的动作文件：优先 Twitter，若未启用 Twitter（单平台 reddit 运行）则用 Reddit
     act = os.path.join(sim_dir, "twitter", "actions.jsonl")
+    if not os.path.exists(act):
+        act = os.path.join(sim_dir, "reddit", "actions.jsonl")
     start = time.time()
     last_size, stable = -1, 0
     while time.time() - start < timeout:

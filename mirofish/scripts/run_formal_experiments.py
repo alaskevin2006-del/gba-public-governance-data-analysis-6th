@@ -124,7 +124,7 @@ def snapshot_run(sid, out_dir):
     return copied
 
 
-def run_one(sid, group_key, rep, rounds, pristine, out_root, seed_base):
+def run_one(sid, group_key, rep, rounds, pristine, out_root, seed_base, platform):
     g = fc.GROUPS[group_key]
     run_name = f"{group_key}_rep{rep}"
     print(f"\n{'='*66}")
@@ -175,7 +175,7 @@ def run_one(sid, group_key, rep, rounds, pristine, out_root, seed_base):
     t0 = time.time()
     stop_and_close(sid)
     reset_run_state(sid)
-    mc.start_simulation(sid, max_rounds=rounds)
+    mc.start_simulation(sid, max_rounds=rounds, platform=platform)
     ok = wait_and_snapshot.wait_complete(sim_dir(sid), timeout=3600)
     elapsed = round(time.time() - t0, 1)
     print(f"    完成判定={'完成' if ok else '超时'}  耗时 {elapsed}s")
@@ -233,6 +233,8 @@ def main():
     ap.add_argument("--groups", default=None, help="逗号分隔，重复次数用 × 表示，如 E1A*2,E1B*2")
     ap.add_argument("--plan", default=None, help="JSON 文件：[{group, rep}, ...]")
     ap.add_argument("--seed-base", type=int, default=20261021)
+    ap.add_argument("--platform", default="reddit",
+                    help="运行平台：reddit / twitter / parallel（默认 reddit，见文档理由）")
     args = ap.parse_args()
 
     print("[0] 健康检查...", end=" ")
@@ -283,7 +285,7 @@ def main():
     for j in jobs:
         try:
             metas.append(run_one(sid, j["group"], j["rep"], args.rounds,
-                                 pristine, out_root, args.seed_base))
+                                 pristine, out_root, args.seed_base, args.platform))
         except Exception as e:
             print(f"    [FAIL] {j} -> {str(e)[:200]}")
             failed.append({**j, "error": str(e)[:300]})
@@ -295,6 +297,7 @@ def main():
         "rounds": args.rounds,
         "agents": n_agents,
         "seed_base": args.seed_base,
+        "platform": args.platform,
         "runs": metas,
         "failed": failed,
         "balance_start": bal_start.get("available"),
