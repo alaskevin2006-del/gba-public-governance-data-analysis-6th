@@ -1,0 +1,503 @@
+{
+  "analysis_summary": "文本围绕2026年台风'白海豚'期间AI造假灾情信息的传播与治理，涉及造谣者、转发营销号、辟谣意见领袖、政务发布账号、媒体、一线亲历者、社区长辈、青年学生等多类社媒主体。实体类型设计覆盖了造谣、传谣、辟谣、求证、亲历等关键角色，并包含个人与组织兜底类型。关系类型反映了发布、转发、评论、辟谣、支持、反对、报道、回应、隶属等社媒互动行为，可用于模拟舆论传播路径与各方反应。",
+  "files": [
+    {
+      "filename": "seed_main_baihaitun.md",
+      "size": 23665
+    }
+  ],
+  "ontology": {
+    "edge_types": [
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity publishes content (e.g., rumor, debunk, announcement) on social media.",
+        "name": "PUBLISHES",
+        "source_targets": [
+          {
+            "source": "RumorMonger",
+            "target": "RumorForwarder"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "Person"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Person"
+          },
+          {
+            "source": "DebunkingInfluencer",
+            "target": "Person"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity forwards or shares content originally posted by another entity.",
+        "name": "FORWARDS",
+        "source_targets": [
+          {
+            "source": "RumorForwarder",
+            "target": "RumorMonger"
+          },
+          {
+            "source": "CommunityElder",
+            "target": "RumorForwarder"
+          },
+          {
+            "source": "Person",
+            "target": "RumorForwarder"
+          },
+          {
+            "source": "YoungStudent",
+            "target": "DebunkingInfluencer"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity comments on a post or content by another entity.",
+        "name": "COMMENTS_ON",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Person",
+            "target": "MediaOutlet"
+          },
+          {
+            "source": "YoungStudent",
+            "target": "RumorForwarder"
+          },
+          {
+            "source": "CommunityElder",
+            "target": "GovernmentAgency"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity refutes or corrects false information spread by another entity.",
+        "name": "DEBUNKS",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "RumorMonger"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "RumorMonger"
+          },
+          {
+            "source": "DebunkingInfluencer",
+            "target": "RumorForwarder"
+          },
+          {
+            "source": "YoungStudent",
+            "target": "RumorMonger"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity expresses support for another entity's stance or action.",
+        "name": "SUPPORTS",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "CommunityElder",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "Eyewitness",
+            "target": "DebunkingInfluencer"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity expresses opposition or criticism toward another entity's statement or action.",
+        "name": "OPPOSES",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "RumorMonger"
+          },
+          {
+            "source": "YoungStudent",
+            "target": "RumorForwarder"
+          },
+          {
+            "source": "DebunkingInfluencer",
+            "target": "RumorMonger"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Media or government entity reports on events or other entities.",
+        "name": "REPORTS_ON",
+        "source_targets": [
+          {
+            "source": "MediaOutlet",
+            "target": "GovernmentAgency"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Eyewitness"
+          },
+          {
+            "source": "GovernmentAgency",
+            "target": "RumorMonger"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity responds to a query, comment, or action by another entity.",
+        "name": "RESPONDS_TO",
+        "source_targets": [
+          {
+            "source": "GovernmentAgency",
+            "target": "Person"
+          },
+          {
+            "source": "MediaOutlet",
+            "target": "Person"
+          },
+          {
+            "source": "DebunkingInfluencer",
+            "target": "Person"
+          }
+        ]
+      },
+      {
+        "attributes": [
+          {
+            "description": "Additional details about this ontology type.",
+            "name": "details",
+            "type": "text"
+          }
+        ],
+        "description": "Entity is affiliated with an organization or group.",
+        "name": "AFFILIATED_WITH",
+        "source_targets": [
+          {
+            "source": "Person",
+            "target": "Organization"
+          },
+          {
+            "source": "Eyewitness",
+            "target": "Organization"
+          },
+          {
+            "source": "YoungStudent",
+            "target": "Organization"
+          }
+        ]
+      }
+    ],
+    "entity_types": [
+      {
+        "attributes": [
+          {
+            "description": "Name or alias of the individual",
+            "name": "full_name",
+            "type": "text"
+          },
+          {
+            "description": "Age of the individual",
+            "name": "age",
+            "type": "text"
+          },
+          {
+            "description": "Primary method used (e.g., AI generation, old video reuse)",
+            "name": "method",
+            "type": "text"
+          }
+        ],
+        "description": "Individual who creates or spreads false disaster information for traffic, including AI fabricator...",
+        "examples": [
+          "高某某",
+          "叶某某",
+          "刘某某"
+        ],
+        "name": "RumorMonger"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name of the account",
+            "name": "account_name",
+            "type": "text"
+          },
+          {
+            "description": "Main platform (e.g., Weibo, Douyin)",
+            "name": "platform",
+            "type": "text"
+          },
+          {
+            "description": "Approximate number of followers",
+            "name": "follower_count",
+            "type": "text"
+          }
+        ],
+        "description": "Social media account (often marketing or self-media) that forwards unverified disaster content to...",
+        "examples": [
+          "某营销号",
+          "自媒体账号A"
+        ],
+        "name": "RumorForwarder"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name or alias",
+            "name": "full_name",
+            "type": "text"
+          },
+          {
+            "description": "Main platform",
+            "name": "platform",
+            "type": "text"
+          },
+          {
+            "description": "Perceived credibility (e.g., high, medium)",
+            "name": "credibility_score",
+            "type": "text"
+          }
+        ],
+        "description": "Opinion leader or active user who proactively verifies and refutes rumors using official data and...",
+        "examples": [
+          "网民O",
+          "辟谣大V"
+        ],
+        "name": "DebunkingInfluencer"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Official name of the agency",
+            "name": "org_name",
+            "type": "text"
+          },
+          {
+            "description": "Specific department or unit",
+            "name": "department",
+            "type": "text"
+          },
+          {
+            "description": "Social media handle",
+            "name": "official_account",
+            "type": "text"
+          }
+        ],
+        "description": "Official government or police account that issues authoritative announcements and debunks rumors.",
+        "examples": [
+          "警民直通车-浦东",
+          "上海网络辟谣",
+          "全国网络辟谣"
+        ],
+        "name": "GovernmentAgency"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name of the media outlet",
+            "name": "org_name",
+            "type": "text"
+          },
+          {
+            "description": "Type (e.g., newspaper, TV, online)",
+            "name": "media_type",
+            "type": "text"
+          },
+          {
+            "description": "Approximate audience size",
+            "name": "reach",
+            "type": "text"
+          }
+        ],
+        "description": "News media organization that reports on the disaster and verifies information.",
+        "examples": [
+          "中国互联网联合辟谣平台",
+          "上海网络辟谣",
+          "西藏自治区互联网违法和不良信息举报中心"
+        ],
+        "name": "MediaOutlet"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name or alias",
+            "name": "full_name",
+            "type": "text"
+          },
+          {
+            "description": "Specific area affected",
+            "name": "location",
+            "type": "text"
+          },
+          {
+            "description": "Brief description of experience",
+            "name": "experience",
+            "type": "text"
+          }
+        ],
+        "description": "Individual who personally experiences the disaster and shares first-hand accounts, potentially co...",
+        "examples": [
+          "网民G",
+          "网民T",
+          "网民U"
+        ],
+        "name": "Eyewitness"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name or alias",
+            "name": "full_name",
+            "type": "text"
+          },
+          {
+            "description": "Age range (e.g., 50-60)",
+            "name": "age_group",
+            "type": "text"
+          },
+          {
+            "description": "Main platform",
+            "name": "platform",
+            "type": "text"
+          }
+        ],
+        "description": "Older social media user who tends to forward information with low verification threshold, often t...",
+        "examples": [
+          "网民A",
+          "网民B"
+        ],
+        "name": "CommunityElder"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name or alias",
+            "name": "full_name",
+            "type": "text"
+          },
+          {
+            "description": "School or university",
+            "name": "school",
+            "type": "text"
+          },
+          {
+            "description": "Main platform",
+            "name": "platform",
+            "type": "text"
+          }
+        ],
+        "description": "Young user, typically a student, who actively seeks verification and tends to question rumors.",
+        "examples": [
+          "网民I",
+          "网民J"
+        ],
+        "name": "YoungStudent"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name or alias",
+            "name": "full_name",
+            "type": "text"
+          },
+          {
+            "description": "General role in the event",
+            "name": "role",
+            "type": "text"
+          }
+        ],
+        "description": "Fallback type for any natural person not covered by more specific types.",
+        "examples": [
+          "网民C",
+          "网民D"
+        ],
+        "name": "Person"
+      },
+      {
+        "attributes": [
+          {
+            "description": "Name of the organization",
+            "name": "org_name",
+            "type": "text"
+          },
+          {
+            "description": "Type of organization",
+            "name": "org_type",
+            "type": "text"
+          }
+        ],
+        "description": "Fallback type for any organization not covered by more specific types.",
+        "examples": [
+          "某社区组织",
+          "临时救援团体"
+        ],
+        "name": "Organization"
+      }
+    ]
+  },
+  "project_id": "proj_a3b402e97e08",
+  "project_name": "exp_ab_governance",
+  "total_text_length": 11213
+}

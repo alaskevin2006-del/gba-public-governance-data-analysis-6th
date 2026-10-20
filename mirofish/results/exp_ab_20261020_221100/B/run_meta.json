@@ -1,0 +1,68 @@
+{
+  "group": "B",
+  "group_name": "早期官方辟谣",
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 8,
+  "official_debunk_included": true,
+  "final_status": "completed(file-watch)",
+  "interaction_override": {
+    "agents_total": 8,
+    "agents_modified": 8,
+    "agents_per_round": [
+      6,
+      8
+    ],
+    "activity_level": 0.9,
+    "before": {
+      "agents_per_hour_min": 6,
+      "agents_per_hour_max": 8,
+      "off_peak_hours": [],
+      "peak_hours": []
+    }
+  },
+  "initial_posts": {
+    "initial_posts_set": 5,
+    "rumor_posts": 4,
+    "official_debunk_included": true,
+    "official_agent_id": 2,
+    "removed_llm_generated_posts": 5,
+    "agent_ids": {
+      "public": [
+        0,
+        1,
+        3
+      ],
+      "official": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "10.04",
+      "granted": "0.00",
+      "topped_up": "10.04"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "9.76",
+      "granted": "0.00",
+      "topped_up": "9.76"
+    }
+  ],
+  "files": {
+    "simulation_config.json": 11975,
+    "simulation.log": 74589,
+    "twitter_actions.jsonl": 31479,
+    "reddit_actions.jsonl": 81812,
+    "api_export.json": 35858
+  },
+  "finished_at": "2026-10-20 22:33:44"
+}

@@ -1,0 +1,10 @@
+﻿round,simulated_hour,posts,comments,reposts,likes,other_actions,interactions,total_actions,active_agents,cumulative_interactions
+0,0,8,0,0,0,0,8,8,3,8
+1,0,11,13,0,11,0,35,35,6,43
+2,1,8,5,0,23,0,36,36,8,79
+3,2,5,2,0,5,0,12,12,7,91
+4,3,7,3,0,11,0,21,21,7,112
+5,4,2,4,0,7,0,13,13,7,125
+6,5,6,0,0,4,0,10,10,6,135
+7,6,5,3,0,7,0,15,15,8,150
+8,7,4,2,0,4,0,10,10,8,160
