@@ -11,17 +11,19 @@
 | 阶段 | 状态 | 说明 |
 |---|---|---|
 | 0 仓库审计与执行计划 | ✅ 完成 | 见 `deliverables/仓库审计报告.md`、`deliverables/执行计划.md` |
-| 1 环境搭建与 MiroFish 部署 | ✅ 完成（受外部条件限制） | 无 LLM/Zep Key → 服务可部署启动但无法跑仿真；已记录阻塞 |
-| 2 数据准备与 Seed 构建 | ✅ 完成 | Seed 已有 v1.0；补齐画像配置、时间序列 CSV、转换脚本 |
+| 1 环境搭建与 MiroFish 部署 | ✅ 完成（服务启动待 Key） | 后端依赖装好（Py3.12 venv，camel-oasis/oasis/zep 导入全过）；无 Key 实测后端按预期拒启；详见 `deliverables/环境检查报告.md` |
+| 2 数据准备与 Seed 构建 | ✅ 完成 | Seed v1.0 校验入库；画像 JSON、真实时间序列、转换脚本齐备 |
 | 3 前置图表（图1-1 / 表2-2） | ✅ 完成 | `deliverables/figures/` + `deliverables/tables/` |
-| 4 最小仿真测试与基线 | ⛔ 外部阻塞 | 缺 LLM_API_KEY，无法产生真实运行记录；运行框架已备好 |
-| 5 现实-模拟趋势验证 | ⛔ 部分完成 | 真实侧时间序列与验证方案已备好；模拟侧待 Key |
+| 4 最小仿真测试与基线 | ⛔ 外部阻塞 | 缺 LLM_API_KEY+ZEP_API_KEY；运行框架已备好 |
+| 5 现实-模拟趋势验证 | ⚠️ 部分完成 | 真实侧序列+验证方案已备好；模拟侧待 Key |
 | 6 三组治理反事实实验 | ⛔ 外部阻塞 | 实验配置、指标脚本、图表模板已备好，待 Key 即可跑 |
-| 7 剩余图表与交付 | ✅ 完成 | 图4-3、图5-1、技术附录、参数字典、验收报告 |
+| 7 剩余图表与交付 | ✅ 完成 | 图4-3、图5-1、技术附录、验收报告 |
 
-**核心阻塞（需用户提供）**：MiroFish `.env` 中的 `LLM_API_KEY`（推荐阿里云百炼 Qwen-Plus 或 DeepSeek）。
-`ZEP_API_KEY` 可选（可用 `GRAPH_BACKEND=local` 规避，但需 Neo4j+Qdrant）。
+**核心阻塞（需用户提供）**：MiroFish `.env` 需 **同时** 配置 `LLM_API_KEY`（推荐阿里云百炼 Qwen-Plus 或 DeepSeek）与 `ZEP_API_KEY`（https://app.getzep.com/ 免费注册）——上游 `Config.validate()` 强制双 Key，缺一拒启（已实测验证）。
+**更正**：早前 README 假设的 `GRAPH_BACKEND=local`（Neo4j+Qdrant）在上游 @7657031 源码中**不存在**，已核实并修正。
 预算约束：累计新增调用费用 ≤ 30 元等值。
+
+**重大发现**：旧 `.gitignore` 的 `MiroFish/` 规则在 Windows 大小写不敏感匹配下连坐忽略项目 `mirofish/` 目录，导致 `62cde97` 声称入库的 Seed/实验配置**实际零入库**（`git ls-tree origin/main -- mirofish/` = 0 文件）。本周期已修复 gitignore 并全量补入库。
 
 ---
 
@@ -73,12 +75,13 @@
 
 ## Git 记录
 
-| 时间 | 分支 | 提交 | 内容 |
-|---|---|---|---|
-| 2026-10-20 | workbuddy/lkx-simulation | （见下方"最近提交"） | 阶段 0 交付物 |
-| 2026-10-20 | workbuddy/lkx-simulation | 同上追加 | 阶段 1-7 全部可离线完成的交付物 |
+| 提交 SHA | 内容 |
+|---|---|
+| `5bc494a` | 阶段 0：审计报告、执行计划、progress.md |
+| `dcdd1ab` | 修复 .gitignore 大小写误杀（mirofish/ 零入库问题）+ 阶段 1-2 成果 |
+| `0c9fb4e` | 阶段 3/7：四张图表 + 实验说明 + 技术附录 + 验收报告 |
 
-**最近提交 SHA**：见 `git log -1`（本文件每次提交后更新）。
+**远端同步**：`workbuddy/lkx-simulation` 已推送，本地 HEAD = 远端（`git ls-remote` 核对一致）。
 
 ## 下一步（解除阻塞后）
 
