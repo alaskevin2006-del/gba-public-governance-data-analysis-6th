@@ -10,3 +10,18 @@ desktop.ini
 
 # 本地工具缓存与笔记（不上传）
 .workbuddy/
+
+# 归档区：冗余副本与损坏源包，内容已在 data/ 展开
+.archive/
+
+# MiroFish 仿真产物（体积大、含临时日志）
+mirofish/outputs/*
+!mirofish/outputs/.gitkeep
+
+# MiroFish 本地部署（按需 clone，不入库）
+MiroFish/
+
+# 密钥
+.env
+.env.*
+!.env.example
