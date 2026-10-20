@@ -14,14 +14,19 @@
 | 1 环境搭建与 MiroFish 部署 | ✅ 完成（服务启动待 Key） | 后端依赖装好（Py3.12 venv，camel-oasis/oasis/zep 导入全过）；无 Key 实测后端按预期拒启；详见 `deliverables/环境检查报告.md` |
 | 2 数据准备与 Seed 构建 | ✅ 完成 | Seed v1.0 校验入库；画像 JSON、真实时间序列、转换脚本齐备 |
 | 3 前置图表（图1-1 / 表2-2） | ✅ 完成 | `deliverables/figures/` + `deliverables/tables/` |
-| 4 最小仿真测试与基线 | ⛔ 外部阻塞 | 缺 LLM_API_KEY+ZEP_API_KEY；运行框架已备好 |
-| 5 现实-模拟趋势验证 | ⚠️ 部分完成 | 真实侧序列+验证方案已备好；模拟侧待 Key |
-| 6 三组治理反事实实验 | ⛔ 外部阻塞 | 实验配置、指标脚本、图表模板已备好，待 Key 即可跑 |
+| 4 最小仿真测试与基线 | ✅ 链路已跑通（规模未达标） | 真实运行 `sim_5379ef9a11b5`：3 Agent × 2 轮、12 动作、双平台 completed；详见 `deliverables/首次真实仿真测试报告.md` |
+| 5 现实-模拟趋势验证 | ⚠️ 部分完成 | 真实侧序列已备；模拟侧需放大 Agent 规模后再做对照 |
+| 6 三组治理反事实实验 | ⏸ 未启动（按指令待批） | 注入机制已定位（`scheduled_events`）；预算需先核算 |
 | 7 剩余图表与交付 | ✅ 完成 | 图4-3、图5-1、技术附录、验收报告 |
 
-**核心阻塞（需用户提供）**：MiroFish `.env` 需 **同时** 配置 `LLM_API_KEY`（推荐阿里云百炼 Qwen-Plus 或 DeepSeek）与 `ZEP_API_KEY`（https://app.getzep.com/ 免费注册）——上游 `Config.validate()` 强制双 Key，缺一拒启（已实测验证）。
-**更正**：早前 README 假设的 `GRAPH_BACKEND=local`（Neo4j+Qdrant）在上游 @7657031 源码中**不存在**，已核实并修正。
-预算约束：累计新增调用费用 ≤ 30 元等值。
+**API 阻塞已解除（2026-10-20 20:00）**：用户已提供 DeepSeek LLM Key 与 Zep Cloud Key，
+写入 `C:\Users\Kevin\Desktop\MiroFish\.env`（仓库外，且被上游 `.gitignore` 第 6 行忽略，**不会入库**）。
+DeepSeek 实测可用（余额 ¥11.01）、Zep 认证通过。
+预算约束：本次追加的上限为 **新增付费调用 ≤ 5 元**，实际消耗 **≈ ¥0.03**。
+
+**⚠️ 完成本次测试用例后的核心结论**：技术链路（种子→图谱→Agent→轮次→导出→解析→指标）**已全部跑通**，
+但 Agent 数量由 Zep 图谱实体数决定（不能手写指定），微种子导致仅 3 个 Agent 且无公众角色、无转赞评互动。
+**正式实验必须先解决 Agent 规模问题**（改完整种子 + 显式角色约束），否则数据无法支撑传播分析。
 
 **重大发现**：旧 `.gitignore` 的 `MiroFish/` 规则在 Windows 大小写不敏感匹配下连坐忽略项目 `mirofish/` 目录，导致 `62cde97` 声称入库的 Seed/实验配置**实际零入库**（`git ls-tree origin/main -- mirofish/` = 0 文件）。本周期已修复 gitignore 并全量补入库。
 
@@ -70,6 +75,26 @@
 - 图 5-1 数智治理协同机制图（事前沙盒打标 → 事中实证对冲 → 事后跨域联动，基于实施方案任务四的三段机制）：`deliverables/figures/图5-1_数智治理协同机制图.pdf` + `.png`。
 - 技术附录：`deliverables/技术附录_仿真脚本与数据字典.md`；参数字典：`mirofish/参数字典.md`。
 - 最终验收报告：`deliverables/最终验收报告.md`（含验收清单逐项核对）。
+
+---
+
+### 2026-10-20 晚（阶段 4 · 首次真实仿真测试）
+
+- **API 验证通过**：DeepSeek `/models` + `/chat/completions` 实测 200（回复 OK）；Zep `graph.list_all()` 认证通过。
+  脚本 `mirofish/scripts/verify_apis.py`（读 .env、不打印任何密钥明文）。
+- **后端真实启动**：`uv run python run.py` → `/health` 返回 ok，常驻 :5001。
+  注意：后台服务需用后台常驻方式启动，普通 Bash 调用结束后进程会被回收。
+- **真实仿真完成**：`sim_5379ef9a11b5`（project `proj_ae948587a2ec`，graph `mirofish_3192bc26e4b24625`）
+  → 3 Agent × 2 轮，双平台 completed，12 个动作，导出 22.8 KB → `per_round.csv` → 指标计算全部跑通。
+- **实测费用 ≈ ¥0.03**（DeepSeek 余额 11.01 → 10.98，含一次性开销与前置连通性测试）。
+- 修复 4 个脚本缺陷 + 记录 3 个上游问题（全部见 `deliverables/首次真实仿真测试报告.md`）：
+  1. multipart 字段名必须是 `files`（否则 400）；
+  2. `runner_status` 滞后，需按双平台 completed + progress=100 判定完成；
+  3. **1 轮 = 60 分钟**（原写死 2 小时，已改为按 `time_config.minutes_per_round` 配置）；
+  4. 绘图脚本缺组时会产出空图 → 已加守卫（<2 组拒绝出图），本次空图已删除。
+- **关键机制发现**：`simulation_config.json` 的 `event_config.initial_posts` / `scheduled_events` 是原生内容注入通道，
+  实验二/三不必再用"提前终止 + 二段运行"近似方案。
+- **未达标**：Agent 数 3（目标 5），且无公众角色、无转赞评互动 —— 根因是微种子实体过少，Agent 数 = 实体数 × 0.9 不可直接指定。
 
 ---
 

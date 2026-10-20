@@ -40,17 +40,29 @@ def plot_fig_4_1():
         ("exp2_t12h", "辟谣 @12h（第6轮）", "#1f77b4"),
     ]
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
+    loaded = []
     for name, label, color in groups:
         try:
             per, cum = load_series(name)
         except SystemExit:
             print(f"跳过缺失组: {name}")
             continue
+        loaded.append((label, color, per, cum))
+
+    # 守卫：单组或零组数据不得出图，避免产出空白/无对照的"假成果"
+    if len(loaded) < 2:
+        raise SystemExit(
+            f"有效实验组仅 {len(loaded)} 组（需 ≥2 组才有对照意义），拒绝导出空图。"
+            "请先完成对照组的真实仿真。"
+        )
+
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
+    for label, color, per, cum in loaded:
         rounds = range(1, len(per) + 1)
         axes[0].plot(rounds, per, "o-", color=color, label=label, lw=1.8, ms=4)
         axes[1].plot(rounds, cum, "o-", color=color, label=label, lw=1.8, ms=4)
     for ax, title in zip(axes, ["(a) 每轮新增传播量", "(b) 累计传播规模"]):
-        ax.set_xlabel("模拟轮次（1 轮 ≈ 2 小时）")
+        ax.set_xlabel("模拟轮次（时间尺度见各实验 time_config.minutes_per_round）")
         ax.set_ylabel("帖子 + 评论数")
         ax.set_title(title)
         ax.legend(fontsize=9)
@@ -71,17 +83,28 @@ def plot_fig_4_2():
         ("exp3_form_B", "数智实证辟谣（情景B）", "#2ca02c"),
     ]
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
+    loaded = []
     for name, label, color in groups:
         try:
             per, cum = load_series(name)
         except SystemExit:
             print(f"跳过缺失组: {name}")
             continue
+        loaded.append((label, color, per, cum))
+
+    if len(loaded) < 2:
+        raise SystemExit(
+            f"有效实验组仅 {len(loaded)} 组（需 ≥2 组才有对照意义），拒绝导出空图。"
+            "请先完成对照组的真实仿真。"
+        )
+
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
+    for label, color, per, cum in loaded:
         rounds = range(1, len(per) + 1)
         axes[0].plot(rounds, per, "o-", color=color, label=label, lw=1.8, ms=4)
         axes[1].plot(rounds, cum, "o-", color=color, label=label, lw=1.8, ms=4)
     for ax, title in zip(axes, ["(a) 每轮新增传播量", "(b) 累计传播规模"]):
-        ax.set_xlabel("模拟轮次（1 轮 ≈ 2 小时）")
+        ax.set_xlabel("模拟轮次（时间尺度见各实验 time_config.minutes_per_round）")
         ax.set_ylabel("帖子 + 评论数")
         ax.set_title(title)
         ax.legend(fontsize=9)
