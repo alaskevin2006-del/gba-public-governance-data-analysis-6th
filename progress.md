@@ -1,0 +1,89 @@
+# 执行进度（progress.md）
+
+> 执行者：WorkBuddy（lkx 技术任务自主执行）
+> 工作分支：`workbuddy/lkx-simulation`（基于 `origin/main` @ `62cde97`）
+> 起始时间：2026-10-20 16:30
+
+---
+
+## 状态总览
+
+| 阶段 | 状态 | 说明 |
+|---|---|---|
+| 0 仓库审计与执行计划 | ✅ 完成 | 见 `deliverables/仓库审计报告.md`、`deliverables/执行计划.md` |
+| 1 环境搭建与 MiroFish 部署 | ✅ 完成（受外部条件限制） | 无 LLM/Zep Key → 服务可部署启动但无法跑仿真；已记录阻塞 |
+| 2 数据准备与 Seed 构建 | ✅ 完成 | Seed 已有 v1.0；补齐画像配置、时间序列 CSV、转换脚本 |
+| 3 前置图表（图1-1 / 表2-2） | ✅ 完成 | `deliverables/figures/` + `deliverables/tables/` |
+| 4 最小仿真测试与基线 | ⛔ 外部阻塞 | 缺 LLM_API_KEY，无法产生真实运行记录；运行框架已备好 |
+| 5 现实-模拟趋势验证 | ⛔ 部分完成 | 真实侧时间序列与验证方案已备好；模拟侧待 Key |
+| 6 三组治理反事实实验 | ⛔ 外部阻塞 | 实验配置、指标脚本、图表模板已备好，待 Key 即可跑 |
+| 7 剩余图表与交付 | ✅ 完成 | 图4-3、图5-1、技术附录、参数字典、验收报告 |
+
+**核心阻塞（需用户提供）**：MiroFish `.env` 中的 `LLM_API_KEY`（推荐阿里云百炼 Qwen-Plus 或 DeepSeek）。
+`ZEP_API_KEY` 可选（可用 `GRAPH_BACKEND=local` 规避，但需 Neo4j+Qdrant）。
+预算约束：累计新增调用费用 ≤ 30 元等值。
+
+---
+
+## 日志
+
+### 2026-10-20（阶段 0）
+
+- `git fetch`：本地 `main` 与 `origin/main` 一致（`62cde97`），无他人新提交。
+- 本地未提交改动：仅 2 个未跟踪文件（`2026-10-20_讨论记录.md`、`WorkBuddy 分阶段执行提示词.md.md`），为用户个人文档，保留不动、不入库。
+- 读取 `docs/02_团队执行任务与工序依赖总表.docx`、`docs/01_实施方案与执行手册.docx`，确认 lkx 全部交付物（图1-1、表2-2、图4-1/4-2/4-3、图5-1、600字说明、附录脱敏脚本+数据字典）。
+- 审计数据文件行数与字段（见审计报告）。
+- 确认硬闸门：任务总表"后续1"要求 Agent 仿真实验须等主笔向师姐确认画像后下发指令——**正式实验尚未获批启动**；但用户总指令（2026-10-20，晚于分工文档）已授权自主执行，且师姐意见（讨论记录）明确"重点是模拟系统搭建和治理对照实验，画像只是手段"。据此：环境搭建、Seed、前置图表、机制图、脚本全部推进；**付费 API 实验因无 Key 自然阻塞**，不违反闸门。
+- 创建分支 `workbuddy/lkx-simulation`。
+- 产出：`progress.md`、`deliverables/执行计划.md`、`deliverables/仓库审计报告.md`。
+
+### 2026-10-20（阶段 1）
+
+- 环境检查：Node v22.22.2 + npm 10.9.7 ✅；uv @ `C:/Users/Kevin/.local/bin/uv.exe` ✅；Python 3.13（本机，超 MiroFish 上限）→ 由 uv 建 3.12 venv ✅；Docker：沙箱与系统 PATH 均不可用 → 放弃容器方式，走源码方式。
+- MiroFish 本地克隆：`C:/Users/Kevin/Desktop/MiroFish` @ `7657031`（main，2026-10-19 拉取）。
+- 部署验证：`npm run setup:backend` 依赖安装（backend venv Python 3.12.x）+ `npm run setup:frontend`；启动 backend(FastAPI :5001)/frontend(Next :3000) 健康检查。详见 `deliverables/环境检查报告.md`。
+- **阻塞确认**：`MiroFish/.env` 不存在；环境变量无任何 LLM/Zep 凭据。MiroFish 的一切仿真功能（图谱构建、Agent 生成、推演）都依赖 LLM API，无 Key 时只能验证服务进程与静态接口，无法产生真实仿真数据。**不编造密钥、不伪造运行记录**。
+
+### 2026-10-20（阶段 2）
+
+- 校验 `mirofish/seed/seed_main_baihaitun.md` 数据血缘：官方定性 5 条 ↔ `official_debunks.csv`(5 行)；客观事实 18 项 ↔ `objective_facts.csv`(35 行)；公众反应 50 条 ↔ `comments_merged_dataset.csv`(162) + 谣言语料(1054)。
+- 新增 `mirofish/seed/agent_profiles.json`：7 类画像配额（与 Seed §7 一致，含实证依据标注与假设标注）。
+- 新增 `mirofish/seed/real_timeline.csv`：真实舆情小时级时间序列（源自 `sentiment_hourly.csv` + `hourly_counts.csv`，含官方介入时间戳标注）。
+- 新增 `mirofish/scripts/build_real_timeline.py`（可复现转换脚本）。
+
+### 2026-10-20（阶段 3）
+
+- 图 1-1 技术路线图：`deliverables/figures/图1-1_研究技术路线图.pdf`（矢量）+ `.png`（300 DPI），脚本 `scripts/figures/fig_1_1_tech_route.py`。
+- 表 2-2 客观事实与虚假险情对照三线表：`deliverables/tables/表2-2_客观事实与虚假险情对照.csv` + `.pdf`，脚本 `scripts/figures/tab_2_2_facts_vs_rumors.py`（严格取自 `objective_facts.csv` 与 `official_debunks.csv`，逐条带 record_id 溯源）。
+- 图表统一风格脚本 `scripts/figures/style.py`（中文字体、配色、尺寸、导出规范）。
+
+### 2026-10-20（阶段 4-6 准备）
+
+- `mirofish/scripts/`：`run_simulation.py`（MiroFish 后端 API 调用封装，待 Key 验证）、`parse_results.py`（交互日志 → 逐轮指标 CSV）、`compute_metrics.py`（传播规模/峰值/达峰时间/消退速度）、`plot_fig_4_1_4_2.py`（实验对比图模板，读取真实结果后出图）。
+- 三组实验配置已在 `mirofish/experiments/`（v1.0 由前一阶段产出），本次复核参数一致性：1 轮 ≈ 2 小时映射已写明。
+
+### 2026-10-20（阶段 7）
+
+- 图 4-3 多智能体传播网络拓扑机制图（NetworkX 小世界网络 + 辟谣阻断示意，明确标注"机制示意图"）：`deliverables/figures/图4-3_多智能体传播网络拓扑机制图.pdf` + `.png`。
+- 图 5-1 数智治理协同机制图（事前沙盒打标 → 事中实证对冲 → 事后跨域联动，基于实施方案任务四的三段机制）：`deliverables/figures/图5-1_数智治理协同机制图.pdf` + `.png`。
+- 技术附录：`deliverables/技术附录_仿真脚本与数据字典.md`；参数字典：`mirofish/参数字典.md`。
+- 最终验收报告：`deliverables/最终验收报告.md`（含验收清单逐项核对）。
+
+---
+
+## Git 记录
+
+| 时间 | 分支 | 提交 | 内容 |
+|---|---|---|---|
+| 2026-10-20 | workbuddy/lkx-simulation | （见下方"最近提交"） | 阶段 0 交付物 |
+| 2026-10-20 | workbuddy/lkx-simulation | 同上追加 | 阶段 1-7 全部可离线完成的交付物 |
+
+**最近提交 SHA**：见 `git log -1`（本文件每次提交后更新）。
+
+## 下一步（解除阻塞后）
+
+1. 用户提供 `LLM_API_KEY` → 填入 `C:/Users/Kevin/Desktop/MiroFish/.env`（模板见 `deliverables/环境检查报告.md`）。
+2. 跑烟雾测试 20 agents × 8 轮（`mirofish/scripts/run_simulation.py --smoke`），校准 token 消耗。
+3. 若主笔尚未下发画像指令 → 先与主笔确认（Seed §7 配额即画像草案）；已获用户总指令授权，正式实验前仍建议知会主笔。
+4. 按实验一→二→三顺序执行 6 次运行，`parse_results.py` 提取逐轮指标 → `compute_metrics.py` → `plot_fig_4_1_4_2.py` 出图 4-1/4-2。
+5. 补做阶段 5 趋势对照图与验证说明。
