@@ -15,11 +15,8 @@ desktop.ini
 .archive/
 
 # MiroFish 仿真产物（体积大、含临时日志）
-mirofish/outputs/*
-!mirofish/outputs/.gitkeep
-
-# MiroFish 本地部署（按需 clone，不入库）
-MiroFish/
+/mirofish/outputs/*
+!/mirofish/outputs/.gitkeep
 
 # 密钥
 .env

@@ -1,0 +1,119 @@
+{
+  "version": "v1.0",
+  "date": "2026-10-20",
+  "basis": "mirofish/seed/seed_main_baihaitun.md §7 + 讨论记录（jrlin 2026-10-20）：画像只是提升现实合理性的手段，重点是模拟系统与治理对照实验",
+  "total_agents_recommended": "80-120（MiroFish 实际由图谱实体数决定，此处为引导配额）",
+  "profiles": [
+    {
+      "type": "community_elder",
+      "label": "社区长辈",
+      "share": 0.20,
+      "initial_stance": "半信半疑",
+      "behaviors": {
+        "forward_threshold": "低（2-3条同向信息即转发）",
+        "style": "提醒家人式二次传播",
+        "trust_official": "高但不细读"
+      },
+      "evidence": {
+        "status": "assumption",
+        "note": "依据常见涉灾谣言易感人群画像假设，非实证"
+      }
+    },
+    {
+      "type": "youth_student",
+      "label": "青年学生",
+      "share": 0.25,
+      "initial_stance": "求证型",
+      "behaviors": {
+        "verify_action": "主动检索辟谣信息",
+        "style": "评论区质疑、纠错意愿强",
+        "spread_speed": "慢"
+      },
+      "evidence": {
+        "status": "partial_empirical",
+        "note": "comments_clean.csv 中 B 层（求证犹豫）8 条为实证支撑"
+      }
+    },
+    {
+      "type": "rumor_maker",
+      "label": "自媒体造谣者",
+      "share": 0.05,
+      "initial_stance": "恶意",
+      "behaviors": {
+        "action": "生成/搬运虚假素材（AI 合成/旧闻翻炒/跨地拼接）",
+        "objective": "互动量最大化"
+      },
+      "evidence": {
+        "status": "empirical",
+        "note": "official_debunks.csv 5 条通报的造谣手法明细（R1-R10）"
+      }
+    },
+    {
+      "type": "marketing_account",
+      "label": "转发型营销号",
+      "share": 0.08,
+      "initial_stance": "机会主义",
+      "behaviors": {
+        "criterion": "是否带流量（不判断真伪）",
+        "role": "跨圈层传播主要载体"
+      },
+      "evidence": {
+        "status": "assumption",
+        "note": "由案例库 33 起'借灾引流'类推断"
+      }
+    },
+    {
+      "type": "debunker_kol",
+      "label": "辟谣意见领袖",
+      "share": 0.10,
+      "initial_stance": "纠偏",
+      "behaviors": {
+        "cite": "官方通报与客观数据",
+        "credibility_rule": "随证据具体程度上升"
+      },
+      "evidence": {
+        "status": "partial_empirical",
+        "note": "C 层（谴责造谣）15 条、媒体账号存在"
+      }
+    },
+    {
+      "type": "gov_account",
+      "label": "政务发布账号",
+      "share": 0.07,
+      "initial_stance": "权威",
+      "behaviors": {
+        "timing": "按实验设定注入通报（1h/4h/12h）",
+        "form": "可切换情景 A（公文）/B（数智实证）"
+      },
+      "evidence": {
+        "status": "empirical",
+        "note": "official_debunks.csv 5 条通报的发布主体与时间"
+      }
+    },
+    {
+      "type": "eyewitness",
+      "label": "一线亲历者",
+      "share": 0.25,
+      "initial_stance": "实证",
+      "behaviors": {
+        "content": "身边事实（停电、积水、安置点伙食）",
+        "effect": "既可能证实也可能证伪谣言"
+      },
+      "evidence": {
+        "status": "partial_empirical",
+        "note": "E 层（亲历叙事）9 条为实证支撑"
+      }
+    }
+  ],
+  "key_params": {
+    "panic_threshold": {"value": "3-5", "status": "assumption", "note": "恐慌累积转囤货的阈值，需调参校准"},
+    "verify_cost": {"value": "低（青年）/高（长辈）", "status": "assumption"},
+    "trust_decay": {"value": "待校准", "status": "assumption", "note": "通报措辞与体感差异导致信任衰减"},
+    "reach_multiplier": {"value": "营销号放大倍数，待校准", "status": "assumption"}
+  },
+  "calibration_note": "情绪三段占比（<0.35 / 0.35-0.65 / >0.65）由小徐产出供主笔与师姐确认画像颗粒度；本配置不依赖该确认即可启动系统搭建（师姐意见），正式实验前建议知会主笔",
+  "compliance": {
+    "anonymization": "网民一律网民A-U 代称；个人姓名为'姓+某某'；机构号保留公开名称",
+    "bias_correction": "评论采集自辟谣帖下方导致'谴责造谣'占 88.9%，仿真初始立场已按建议上调恐慌/求证类至 3:4:3"
+  }
+}
