@@ -1,0 +1,85 @@
+{
+  "run_name": "E1B_rep2",
+  "group": "E1B",
+  "rep": 2,
+  "exp": 1,
+  "variable": "谣言形式",
+  "group_name": "AIGC 高拟真图文谣言（文本代理刺激）",
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 16,
+  "random_seed": 20261023,
+  "rumor_form": "AIGC",
+  "intervention": "NONE",
+  "intervention_round": null,
+  "n_agents": 8,
+  "interaction_override": {
+    "agents_total": 8,
+    "agents_modified": 8,
+    "agents_per_round": [
+      6,
+      8
+    ],
+    "activity_level": 0.9,
+    "before": {
+      "agents_per_hour_min": 6,
+      "agents_per_hour_max": 8,
+      "off_peak_hours": [],
+      "peak_hours": []
+    }
+  },
+  "initial_posts_removed_llm": 4,
+  "exit_code": 0,
+  "elapsed_sec": 63.9,
+  "final_status": "INVALID(402x99)",
+  "api_error_402": 99,
+  "completion_audit": {
+    "rounds_with_actions": 2,
+    "last_round_with_actions": 1,
+    "missing_rounds_1..N": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "actions_per_round": {
+      "0": 4,
+      "1": 4
+    }
+  },
+  "intervention_verify": {
+    "checked": false
+  },
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "2.75",
+      "granted": "0.00",
+      "topped_up": "2.75"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "-0.17",
+      "granted": "0.00",
+      "topped_up": "-0.17"
+    }
+  ],
+  "files": {
+    "simulation_config.json": 11736,
+    "simulation.log": 2540,
+    "reddit_actions.jsonl": 6605
+  },
+  "finished_at": "2026-10-21 10:24:51"
+}

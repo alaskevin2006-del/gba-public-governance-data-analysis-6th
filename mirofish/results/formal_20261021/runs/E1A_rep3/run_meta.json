@@ -1,0 +1,84 @@
+{
+  "run_name": "E1A_rep3",
+  "group": "E1A",
+  "rep": 3,
+  "exp": 1,
+  "variable": "谣言形式",
+  "group_name": "传统文字谣言（兼作实验二、三的共同基线）",
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 16,
+  "random_seed": 20261024,
+  "rumor_form": "TEXT",
+  "intervention": "NONE",
+  "intervention_round": null,
+  "n_agents": 8,
+  "interaction_override": {
+    "agents_total": 8,
+    "agents_modified": 8,
+    "agents_per_round": [
+      6,
+      8
+    ],
+    "activity_level": 0.9,
+    "before": {
+      "agents_per_hour_min": 6,
+      "agents_per_hour_max": 8,
+      "off_peak_hours": [],
+      "peak_hours": []
+    }
+  },
+  "initial_posts_removed_llm": 4,
+  "exit_code": 0,
+  "elapsed_sec": 317.5,
+  "final_status": "completed",
+  "api_error_402": 0,
+  "completion_audit": {
+    "rounds_with_actions": 17,
+    "last_round_with_actions": 16,
+    "missing_rounds_1..N": [],
+    "actions_per_round": {
+      "0": 4,
+      "1": 36,
+      "2": 24,
+      "3": 11,
+      "4": 14,
+      "5": 8,
+      "6": 7,
+      "7": 7,
+      "8": 7,
+      "9": 8,
+      "10": 5,
+      "11": 7,
+      "12": 6,
+      "13": 6,
+      "14": 8,
+      "15": 4,
+      "16": 4
+    }
+  },
+  "intervention_verify": {
+    "checked": false
+  },
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "9.86",
+      "granted": "0.00",
+      "topped_up": "9.86"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "5.16",
+      "granted": "0.00",
+      "topped_up": "5.16"
+    }
+  ],
+  "files": {
+    "simulation_config.json": 11628,
+    "simulation.log": 2544,
+    "reddit_actions.jsonl": 105052
+  },
+  "finished_at": "2026-10-21 10:19:46"
+}

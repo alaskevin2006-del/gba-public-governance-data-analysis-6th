@@ -1,0 +1,44 @@
+{"timestamp": "2026-10-21T10:24:17.053839", "event_type": "simulation_start", "platform": "reddit", "total_rounds": 240, "agents_count": 8}
+{"round": 0, "timestamp": "2026-10-21T10:24:17.053839", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-10-21T10:24:17.066022", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "【现场视频】浦东一女子在台风「白海豚」中坠楼，视频拍得很清楚，雨里能看清人影和楼下围观的人，太吓人了！"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T10:24:17.078787", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_POST", "action_args": {"content": "刚收到一段现场视频，画面里大风把人从阳台卷出去，楼下全是人和车，附近有知情的人出来证实一下吗？"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T10:24:17.090861", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_POST", "action_args": {"content": "这段视频传疯了：台风把人吹下楼，还拍到地下车库整层被淹，画面很清晰，大家赶紧转发提醒家人！"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T10:24:17.102331", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "视频都能看见人躺在那里，为什么到现在还没有官方通报？把视频顶上去，让更多人看到。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T10:24:17.882554", "event_type": "round_end", "actions_count": 4}
+{"round": 1, "timestamp": "2026-10-21T10:24:17.896224", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-10-21T10:24:20.744991", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "【现场视频】浦东一女子在台风「白海豚」中坠楼，视频拍得很清楚，雨里能看清人影和楼下围观的人，太吓人了！", "post_id": 1}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T10:24:20.757752", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "视频都能看见人躺在那里，为什么到现在还没有官方通报？把视频顶上去，让更多人看到。", "post_id": 2}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T10:24:20.767369", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_POST", "action_args": {"content": "刚收到一段现场视频，画面里大风把人从阳台卷出去，楼下全是人和车，附近有知情的人出来证实一下吗？", "post_id": 3}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T10:24:20.778296", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_POST", "action_args": {"content": "这段视频传疯了：台风把人吹下楼，还拍到地下车库整层被淹，画面很清晰，大家赶紧转发提醒家人！", "post_id": 4}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T10:24:20.790882", "event_type": "round_end", "actions_count": 4}
+{"round": 2, "timestamp": "2026-10-21T10:24:20.803286", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-10-21T10:24:22.253238", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-10-21T10:24:22.263158", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-10-21T10:24:24.049513", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-10-21T10:24:24.062739", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-10-21T10:24:25.962726", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-10-21T10:24:25.971070", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-10-21T10:24:27.780582", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-10-21T10:24:27.795234", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-10-21T10:24:30.301362", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-10-21T10:24:30.312738", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-10-21T10:24:32.312139", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-10-21T10:24:32.325092", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-10-21T10:24:34.191355", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-10-21T10:24:34.203127", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-10-21T10:24:36.207604", "event_type": "round_end", "actions_count": 0}
+{"round": 10, "timestamp": "2026-10-21T10:24:36.221719", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-10-21T10:24:37.570796", "event_type": "round_end", "actions_count": 0}
+{"round": 11, "timestamp": "2026-10-21T10:24:37.583155", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-10-21T10:24:39.367075", "event_type": "round_end", "actions_count": 0}
+{"round": 12, "timestamp": "2026-10-21T10:24:39.375246", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-10-21T10:24:41.199625", "event_type": "round_end", "actions_count": 0}
+{"round": 13, "timestamp": "2026-10-21T10:24:41.212171", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-10-21T10:24:43.350583", "event_type": "round_end", "actions_count": 0}
+{"round": 14, "timestamp": "2026-10-21T10:24:43.360978", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-10-21T10:24:45.711987", "event_type": "round_end", "actions_count": 0}
+{"round": 15, "timestamp": "2026-10-21T10:24:45.724646", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-10-21T10:24:47.932936", "event_type": "round_end", "actions_count": 0}
+{"round": 16, "timestamp": "2026-10-21T10:24:47.947278", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-10-21T10:24:50.152425", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-10-21T10:24:50.164803", "event_type": "simulation_end", "platform": "reddit", "total_rounds": 16, "total_actions": 8}

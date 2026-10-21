@@ -1,0 +1,465 @@
+C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\evaluation\SentenceEvaluator.py:81: SyntaxWarning: invalid escape sequence '\g'
+  return re.sub(r"([a-z])([A-Z])", "\g<1> \g<2>", class_name)
+C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\model_card.py:515: SyntaxWarning: invalid escape sequence '\d'
+  if dataset_name and re.match("_dataset_\d+", dataset_name):
+C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\losses\DenoisingAutoEncoderLoss.py:45: SyntaxWarning: invalid escape sequence '\_'
+  | (damaged\_sentence, original\_sentence) pairs        | none   |
+[safe-delete][SAFE_DELETE_FAIL_CLOSED] {"target": "C:\\Users\\Kevin\\Desktop\\MiroFish\\backend\\uploads\\simulations\\sim_285f7fdfd644\\log", "reason": "trash-failed", "detail": "[safe-delete] 操作失败: ERROR C:\\Users\\Kevin\\Desktop\\MiroFish\\backend\\uploads\\simulations\\sim_285f7fdfd644\\log: Error during a `trash` operation: Unknown { description: \"Some operations were aborted\" }"}
+[10:14:58] ============================================================
+[10:14:58] OASIS 双平台并行模拟
+[10:14:58] 配置文件: C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation_config.json
+[10:14:58] 模拟ID: sim_285f7fdfd644
+[10:14:58] 等待命令模式: 禁用
+[10:14:58] ============================================================
+[10:14:58] 模拟参数:
+[10:14:58]   - 总模拟时长: 120小时
+[10:14:58]   - 每轮时间: 60分钟
+[10:14:58]   - 配置总轮数: 120
+[10:14:58]   - 最大轮数限制: 16
+[10:14:58]   - 实际执行轮数: 16 (已截断)
+[10:14:58]   - Agent数量: 8
+[10:14:58] 日志结构:
+[10:14:58]   - 主日志: simulation.log
+[10:14:58]   - Twitter动作: twitter/actions.jsonl
+[10:14:58]   - Reddit动作: reddit/actions.jsonl
+[10:14:58] ============================================================
+[10:14:58] [LKX] MF_DISABLE_TWITTER=1 —— 本次只运行 Reddit 平台
+[10:14:58] [Reddit] 初始化...
+已加载环境配置: C:\Users\Kevin\Desktop\MiroFish\.env
+[LKX] random_seed=20261024 已生效
+[Reddit] 初始化...
+[通用LLM] model=deepseek-chat, base_url=https://api.deepseek.com...
+{'user_profile': '陈航，34岁，温州鹿城区人，本地生活资讯类自媒体账号“瓯江潮声”的运营者，粉丝约两万，日常接本地餐饮和文旅推广维持收入。大专学历，学的是电子商务，毕业后在鞋厂做过电商运营，2020年辞职单干，靠拍街景、菜场、台风天路况攒起第一批本地粉丝。家住瓯海区，父母在泽雅镇老家开农家乐，这层关系让他常往泽雅跑，也让他对当地文旅地标很熟悉。8月6日下午，台风“白海豚”逼近浙江沿海，他回泽雅帮父母加固棚子，路过镇上一处文旅艺术造型，觉得造型歪斜像塌了一半，随手拍视频发到抖音和微信视频号，配文“白海豚还没来，楼已塌”，本意是调侃台风前的紧张气氛，想蹭一波台风流量。视频当晚播放量破十万，评论区有人当真，有人追问地点，他也没及时澄清。次日温州网信和公安找到他，指出该内容被当作灾情信息传播、扰乱公共秩序，他配合调查、删除视频并公开道歉，账号被限流三十天。这件事让他第一次真切体会到“随手一发”的后果，也让他对“流量”二字有了戒心。性格上他是典型的ESFP，外向、爱热闹、表达欲强，情绪来得快去得也快，遇到质疑容易先辩解后反思。发帖频率高，台风季一天能发五六条，内容以本地突发、路况、菜价、市井趣闻为主，语言短平快，爱用温州方言词和感叹号，习惯加“#温州”“#台风”等标签。互动风格是“有问必答”，但被骂时容易上头回怼。立场上他自认是“普通老百姓视角”，对官方通报基本信任，但觉得通报有时太慢、太干，不如现场画面解渴；最反感被扣“造谣牟利”的帽子，也最怕粉丝说“你变了”。口头禅是“我就在现场”“先别急，等官宣”。个人爱好是拍老街、吃海鲜、研究台风路径图。个人记忆里，8月6日那条视频是他账号的转折点：此前他靠“快”涨粉，此后他开始在每条视频末尾加一句“具体情况以官方通报为准”，并把泽雅那处艺术造型拍成系列澄清视频置顶，标题写着“这就是那栋‘塌了的楼’”。', 'mbti': 'ESFP', 'gender': 'male', 'age': 34, 'country': '中国'}
+{'user_profile': '高某某，男，60岁，上海浦东新区本地人，退休前是某机械厂工人，初中文化。妻子早年病退，儿子在张江做程序员，平时独居时间多，靠刷手机打发日子。他性格外向但缺乏判断力，爱在家族群、老乡群里转发‘突发消息’，觉得这样有面子。2026年8月9日上午，台风‘白海豚’逼近上海，他在微信群看到一段模糊的‘女子坠楼’文字描述，为博取流量和关注，用手机上的AI视频生成软件拼凑了一段‘浦东一女子在台风中坠楼’的短视频，发在个人社交账号和多个群里，配文‘太惨了，台风天大家小心’。视频迅速扩散，引发周边居民恐慌和囤货。8月10日8时35分，浦东警方@警民直通车-浦东发布通报，认定该视频为AI生成的虚假信息，浦东未发生坠楼事件，高某某因虚构事实扰乱公共秩序被行政拘留。中国互联网联合辟谣平台随后也通报此事。高某某在审讯中表示‘没想到会这么严重，只是想赚点流量’。他平时爱看社会新闻和养生内容，发帖频率高，语言口语化，常用‘老铁们’‘注意了’等词。性格上属于ESFP型，冲动、爱表现、容易轻信。这次事件后，他账号被清空，家人埋怨，他自己也懊悔不已，但嘴上仍说‘别人也发，怎么只抓我’。他的个人记忆里，8月9日上午那个‘灵机一动’的念头成了人生转折点：他第一次用AI软件，觉得‘高科技真方便’，结果把自己送进了拘留所。', 'mbti': 'ESFP', 'gender': 'male', 'age': 60, 'country': '中国'}
+{'user_profile': '上海公安机关是上海市人民政府主管全市公安工作的职能部门，承担维护社会治安秩序、预防和打击违法犯罪、管理户籍与出入境事务、维护道路交通安全、处置突发事件等法定职责。本账号为上海公安机关官方社交媒体账号，定位为权威信息发布平台与警民沟通桥梁，目标受众为上海市民、在沪人员及关注上海公共安全的社会公众。账号核心功能包括：第一时间发布警情通报与案件查处信息；发布台风、暴雨等灾害天气的安全提示与辟谣信息；开展法治宣传与反诈防骗教育；回应网民咨询与关切。发言风格严谨规范、权威克制，语言简洁准确，常用“经查”“现通报如下”“警方提示”等公文式表达，避免情绪化与网络流行语；禁忌话题包括未经核实的事件细节、涉及个人隐私的信息、与案件无关的猜测性评论。发布内容以警情通报、辟谣信息、安全提示、便民服务为主，重大事件期间提高发布频率，日常保持每日更新，活跃时间段为上午8时至晚间22时。立场态度上，对编造传播谣言行为坚持零容忍、依法查处，及时公布处理结果以正视听；面对争议时以事实和法律为依据，通过官方通报澄清，不参与网络骂战。特殊说明：本账号代表上海公安机关整体形象，运营由宣传部门统筹，发布内容须经审核，注重权威性与时效性平衡。机构记忆：2026年8月第13号台风“白海豚”袭击浙江、上海期间，多名自媒体使用AI生成视频和往年旧素材编造虚假灾情引流牟利，上海公安机关迅速查处虚构事实扰乱公共秩序案件，浦东警方于8月10日8时35分首发通报，称利用AI软件生成并发布“浦东一女子在台风中坠楼”虚假视频的高某某已被行政拘留；上海、浙江宁波、温州等地公安机关先后查处11起以上相关案件。本账号在此次事件中承担权威辟谣与案件通报职责，强调以客观数据对冲虚假灾情，提醒公众以官方发布为准。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
+{'user_profile': '本机构正式名称为‘迅闻自媒体工作室’，属民营文化传媒类企业，成立于2023年，由三名返乡青年在杭州创办，初期以本地生活短视频起家，后转型为热点资讯聚合与二次创作账号。主要职能是围绕社会突发事件、天气灾害、民生政策等制作短视频与图文内容，通过多平台分发获取流量收益。账号定位为‘热点快讯类自媒体’，目标受众为18至45岁、习惯碎片化获取信息的移动端用户，核心功能是快速呈现事件现场感与情绪共鸣。发言风格口语化、节奏快，常用‘突发’‘刚刚’‘速看’等引导词，偏好短句与感叹号，避免严肃官腔；禁忌话题包括未经核实的伤亡数字、政府救援负面评价及地域攻击。发布内容以短视频为主，辅以图文快讯，频率每日5至8条，活跃时间段为早7至9点、午12至14点、晚18至23点。立场上声称‘传递真实声音’，但在流量压力下曾对AI生成视频与往年旧素材未加标注即发布，面对争议时惯用‘已删除’‘系网友投稿’等话术推责，缺乏主动澄清机制。特殊说明：该账号代表部分中小自媒体从业者画像——团队3至5人，无专职审核岗，依赖平台推荐算法与情绪化标题获取曝光，运营习惯为追热点、抢首发、多平台同步分发。机构记忆：2026年8月第13号台风‘白海豚’正面袭击浙江、上海期间，本账号于8月9日发布一段AI生成的‘浦东女子台风中坠楼’视频及‘地下车库被淹’旧素材拼接内容，未标注虚构，短时间内获得超50万播放，引流至私域销售应急物资；随后上海浦东警方于8月10日通报高某某被行政拘留，宁波鄞州同日集中出现5起涉灾谣言，温州一网民8月6日发布的‘楼已塌’实为泽雅镇文旅地标。浙江、上海、温州等地公安机关先后查处11起以上虚构事实扰乱公共秩序案件，本账号被平台限流并约谈，相关视频下架。此后账号简介增加‘AI内容标识’说明，但未公开致歉，仅在评论区置顶‘不信谣不传谣’提示，机构记忆深刻影响其后续选题趋于谨慎，但仍保留追逐灾情热点的运营惯性。', 'mbti': 'ESTP', 'gender': 'other', 'age': 30, 'country': '中国'}
+{'user_profile': '浙江宁波公安机关是宁波市人民政府主管全市公安工作的职能部门，承担维护社会治安、打击违法犯罪、服务人民群众等职责。本账号为机构官方社交媒体账号，定位为权威信息发布平台与警民沟通桥梁，目标受众包括宁波本地居民、关注公共安全的网民及媒体。发言风格严谨专业、及时准确，常用“通报”“提示”“警方提醒”等表达，避免情绪化用语，禁忌涉及未公开案件细节及个人隐私。发布内容以警情通报、安全防范、辟谣信息、便民服务为主，台风等应急期间提高发布频率，活跃时段为工作日9时至21时。立场上坚决依法打击虚构事实扰乱公共秩序行为，面对争议以事实和法律为依据，及时公布查处进展。运营团队由宣传部门专人负责，遵循三审三校流程。机构记忆：2026年8月第13号台风“白海豚”袭击期间，宁波鄞州等地集中出现涉灾谣言，我局迅速查处多起案件，并联合上海、温州等地公安机关累计查处11起以上，有效维护了网络秩序和社会稳定。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
+{'user_profile': '温州市公安局官方政务新媒体账号，机构性质为地市级公安机关，承担维护社会治安秩序、打击违法犯罪、服务群众等法定职能。账号定位为政务公开与警民沟通平台，目标受众为温州本地居民、在温务工人员、关注台风灾情的网民及媒体。核心功能包括权威通报、辟谣止谣、安全提示、普法宣传与舆情回应。发言风格严谨克制、措辞规范，常用“经查”“现已依法”“警方提醒”等表达，避免情绪化与网络流行语，禁忌话题包括未侦结案件细节、涉密警务信息及未经核实的事件定性。发布内容以案件通报、辟谣信息、防灾避险提示、警情动态为主，台风等应急期间提高频次，活跃时间段为工作日9时至21时，突发情况即时发布。立场态度上，对虚构事实扰乱公共秩序行为坚持零容忍、依法查处，面对争议以事实和法条回应，强调通报时效应与民众体感相符。特殊说明：账号代表温州公安机关整体形象，运营由宣传部门统筹，发布前履行审核程序，注重与上海、宁波等地公安机关联动呼应。机构记忆：2026年8月第13号台风“白海豚”袭击浙江、上海期间，温州网民于8月6日发布“白海豚还没来，楼已塌”谣言，实为泽雅镇文旅地标艺术造型；台风于8月9日17时30分在台州玉环坎门登陆、18时40分在温州乐清翁垟再次登陆。温州公安机关先后查处多起虚构事实扰乱公共秩序案件，并与上海、宁波等地公安机关合计查处11起以上，账号及时发布辟谣与查处通报，对冲虚假灾情引发的公众恐慌。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
+{'user_profile': '浦东警方是上海市公安局浦东分局的官方社交媒体账号，机构正式名称为上海市公安局浦东分局，属地方公安机关，承担浦东新区治安管理、刑事案件侦查、公共安全监管、交通管理、出入境管理及网络安全保卫等职能。账号以“警民直通车-浦东”为品牌标识，定位为政务公开与警民互动平台，目标受众为浦东新区居民、在沪务工人员、学生群体及关注公共安全的广大网民。核心功能包括权威警情通报、安全防范宣传、便民服务指引、涉警舆情回应与网络谣言澄清。发言风格严谨、规范、克制，以事实为依据、以法律为准绳，常用“经查”“现通报如下”“警方提示”“依法查处”等表述，语气庄重而不失亲和，避免情绪化与网络化用语；禁忌话题包括未经核实的事件细节、涉及个人隐私的信息、对司法程序的预判以及非本辖区且未获授权发布的内容。发布内容以警情通报、安全提示、反诈宣传、交通出行信息、便民服务公告为主，台风等灾害天气期间加密发布频次，活跃时间段集中在工作日上午8时至10时、下午14时至17时，重大警情随时发布。立场态度上，对编造传播虚假灾情、扰乱公共秩序的行为坚持零容忍，依法快速查处并公开通报；面对争议，以客观事实和证据回应，必要时发布详细调查结论，避免与网民情绪化争辩。特殊说明：账号代表浦东公安机关整体形象，运营上坚持“三审三校”，重要通报由宣传部门会同办案单位联合审核，发布后安排专人监测评论区并收集社情民意。机构记忆方面，2026年8月第13号台风“白海豚”正面袭击浙江、上海期间，网络出现利用AI软件生成虚假灾情视频引流牟利的情况，浦东警方于8月10日8时35分通过本账号首发通报，查明高某某为博取流量使用AI软件生成并发布“浦东一女子在台风中坠楼”虚假视频，编造浦东发生坠楼事件的信息，实际浦东未发生通报所称坠楼事件，高某某已被依法行政拘留。该事件成为账号运营中的重要节点，此后账号进一步强化涉灾谣言快速核查与辟谣机制，坚持第一时间发声、用客观数据对冲虚假信息，并配合中国互联网联合辟谣平台开展联动辟谣，持续提示网民不造谣、不信谣、不传谣。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
+{'user_profile': '中国互联网联合辟谣平台是由中央网信办违法和不良信息举报中心主办，联合多家权威机构共同建设的国家级网络辟谣平台，成立于2018年，旨在整合各方辟谣资源，形成治理网络谣言的合力。平台主要职能包括：受理网民举报的谣言线索，协调相关部门和机构进行核实，发布权威辟谣信息，开展网络素养教育，以及推动辟谣机制建设。作为官方辟谣账号，其定位是权威信息发布窗口、谣言治理协作枢纽和公众网络素养教育阵地。目标受众为广大网民，尤其是易受谣言影响的群体，以及媒体、专家学者和基层工作者。账号核心功能是快速响应社会热点谣言，提供准确、简洁、可验证的事实核查结论，并引导公众理性看待网络信息。发言风格严谨、专业、客观，语言简洁明了，注重事实陈述和证据支撑，常用表达如“经核实”“系谣言”“请广大网民不信谣不传谣”等。禁忌话题包括未经核实的信息、敏感政治议题、个人隐私细节以及可能引发二次恐慌的内容。发布内容以辟谣通报、案例警示、防谣指南为主，频率上保持工作日每日更新，重大谣言事件时随时发布，活跃时间段集中在上午9时至11时和下午14时至17时。立场态度上，平台坚决维护网络空间秩序，对谣言零容忍，坚持用事实说话，面对争议时以官方通报和权威核实为准，不参与情绪化讨论，及时澄清误解。特殊说明：该账号代表国家辟谣体系，运营团队由网信部门工作人员和合作机构专家组成，注重与公安、媒体、地方辟谣平台联动，发布内容需经过多重审核，确保准确无误。机构记忆：在2026年8月台风“白海豚”袭击浙江、上海期间，平台密切监测涉灾谣言，于8月11日16时58分发布通报，认定“浦东一女子在台风中坠楼”为虚假信息。通报指出，60岁男性网民高某某于8月10日使用AI软件生成涉台风视频并编造信息以博取流量，浦东未发生所称坠楼事件，高某某已被依法行政拘留。平台在通报中强调了AI造谣的危害，并提醒网民警惕利用自然灾害编造谣言的行为。此次事件中，平台与上海、浙江宁波、温州等地公安机关协同，累计查处11起以上虚构事实扰乱公共秩序案件，有效遏制了谣言传播，维护了社会秩序。平台还借此案例开展科普，提升公众对AI生成内容的辨识能力。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}[10:15:03] [Reddit] 环境已启动
+[10:15:04] [Reddit] 已发布 3 条初始帖子
+[10:15:04] [Reddit] 轮数已截断: 120 -> 16 (max_rounds=16)
+
+db_path C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\reddit_simulation.db
+[Reddit] 环境已启动
+[Reddit] 已发布 3 条初始帖子
+[Reddit] 轮数已截断: 120 -> 16 (max_rounds=16)
+2026-10-21 10:15:55,235 - camel.camel.agents.chat_agent - WARNING - Message with 10935 tokens exceeds remaining budget of 1852. Slicing into smaller chunks.
+2026-10-21 10:15:55,301 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74228, after=63438, limit=64000
+2026-10-21 10:15:55,501 - camel.camel.agents.chat_agent - WARNING - Message with 8684 tokens exceeds remaining budget of 4687. Slicing into smaller chunks.
+2026-10-21 10:15:55,557 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68350, after=61165, limit=64000
+2026-10-21 10:15:57,472 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74228, after=63438, limit=64000
+2026-10-21 10:15:57,547 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74235, after=63445, limit=64000
+2026-10-21 10:15:57,614 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74276, after=63486, limit=64000
+2026-10-21 10:15:58,230 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68350, after=61165, limit=64000
+2026-10-21 10:15:58,280 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68357, after=61172, limit=64000
+2026-10-21 10:15:58,339 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68395, after=61210, limit=64000
+2026-10-21 10:16:00,540 - camel.camel.agents.chat_agent - WARNING - Message with 12169 tokens exceeds remaining budget of 278. Slicing into smaller chunks.
+2026-10-21 10:16:00,677 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90481, after=62690, limit=64000
+2026-10-21 10:16:01,105 - camel.camel.agents.chat_agent - WARNING - Message with 9795 tokens exceeds remaining budget of 7025. Slicing into smaller chunks.
+2026-10-21 10:16:01,176 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67033, after=59848, limit=64000
+2026-10-21 10:16:01,274 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68402, after=61217, limit=64000
+2026-10-21 10:16:01,276 - camel.camel.agents.chat_agent - WARNING - Message with 13399 tokens exceeds remaining budget of 2783. Slicing into smaller chunks.
+2026-10-21 10:16:01,367 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82712, after=64000, limit=64000
+2026-10-21 10:16:04,101 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90481, after=62690, limit=64000
+2026-10-21 10:16:04,193 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90488, after=62697, limit=64000
+2026-10-21 10:16:04,910 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67033, after=59848, limit=64000
+2026-10-21 10:16:04,969 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67040, after=59855, limit=64000
+2026-10-21 10:16:05,018 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67078, after=59893, limit=64000
+2026-10-21 10:16:05,315 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90527, after=62736, limit=64000
+2026-10-21 10:16:05,446 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90534, after=62743, limit=64000
+2026-10-21 10:16:05,572 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90571, after=62780, limit=64000
+2026-10-21 10:16:05,655 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82712, after=64000, limit=64000
+2026-10-21 10:16:05,655 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:16:05,729 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82719, after=63988, limit=64000
+2026-10-21 10:16:05,729 - camel.camel.agents.chat_agent - WARNING - Message with 39 tokens exceeds remaining budget of 12. Slicing into smaller chunks.
+2026-10-21 10:16:05,822 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82758, after=63999, limit=64000
+2026-10-21 10:16:05,822 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:16:07,127 - camel.camel.agents.chat_agent - WARNING - Message with 10700 tokens exceeds remaining budget of 8302. Slicing into smaller chunks.
+2026-10-21 10:16:07,193 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66643, after=56023, limit=64000
+2026-10-21 10:16:07,280 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67085, after=59900, limit=64000
+2026-10-21 10:16:07,280 - camel.camel.agents.chat_agent - WARNING - Message with 10610 tokens exceeds remaining budget of 4100. Slicing into smaller chunks.
+2026-10-21 10:16:07,351 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=78173, after=59914, limit=64000
+2026-10-21 10:16:07,580 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82765, after=63989, limit=64000
+2026-10-21 10:16:07,580 - camel.camel.agents.chat_agent - WARNING - Message with 9758 tokens exceeds remaining budget of 11. Slicing into smaller chunks.
+2026-10-21 10:16:08,626 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=286521, after=63996, limit=64000
+2026-10-21 10:16:09,235 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90578, after=62787, limit=64000
+2026-10-21 10:16:09,239 - camel.camel.agents.chat_agent - WARNING - Message with 9843 tokens exceeds remaining budget of 1213. Slicing into smaller chunks.
+2026-10-21 10:16:09,343 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102052, after=62150, limit=64000
+2026-10-21 10:16:09,576 - camel.camel.agents.chat_agent - WARNING - Message with 9555 tokens exceeds remaining budget of 814. Slicing into smaller chunks.
+2026-10-21 10:16:09,647 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75235, after=63325, limit=64000
+2026-10-21 10:16:09,747 - camel.camel.agents.chat_agent - WARNING - Message with 10659 tokens exceeds remaining budget of 4454. Slicing into smaller chunks.
+2026-10-21 10:16:09,814 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70648, after=62396, limit=64000
+2026-10-21 10:16:11,605 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102052, after=62150, limit=64000
+2026-10-21 10:16:11,717 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102059, after=62157, limit=64000
+2026-10-21 10:16:12,572 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102098, after=62196, limit=64000
+2026-10-21 10:16:12,902 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102105, after=62203, limit=64000
+2026-10-21 10:16:13,121 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70648, after=62396, limit=64000
+2026-10-21 10:16:13,176 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70655, after=62403, limit=64000
+2026-10-21 10:16:13,230 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70692, after=62440, limit=64000
+2026-10-21 10:16:13,280 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66643, after=56023, limit=64000
+2026-10-21 10:16:13,334 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66650, after=56030, limit=64000
+2026-10-21 10:16:13,384 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66691, after=56071, limit=64000
+2026-10-21 10:16:14,131 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=286521, after=63996, limit=64000
+2026-10-21 10:16:14,149 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:16:14,679 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=286528, after=63996, limit=64000
+2026-10-21 10:16:14,703 - camel.camel.agents.chat_agent - WARNING - Message with 2686 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:16:15,467 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=289214, after=63994, limit=64000
+2026-10-21 10:16:15,501 - camel.camel.agents.chat_agent - WARNING - Message with 22 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:16:15,576 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=78173, after=59914, limit=64000
+2026-10-21 10:16:15,649 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=78180, after=59921, limit=64000
+2026-10-21 10:16:15,721 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=78220, after=59961, limit=64000
+2026-10-21 10:16:15,992 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102146, after=62244, limit=64000
+2026-10-21 10:16:16,130 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102153, after=62251, limit=64000
+2026-10-21 10:16:16,205 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75235, after=63325, limit=64000
+2026-10-21 10:16:16,263 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75242, after=63332, limit=64000
+2026-10-21 10:16:16,326 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75279, after=63369, limit=64000
+2026-10-21 10:16:16,438 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102193, after=62291, limit=64000
+2026-10-21 10:16:16,763 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102200, after=62298, limit=64000
+2026-10-21 10:16:16,863 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102245, after=62343, limit=64000
+2026-10-21 10:16:17,742 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70699, after=62447, limit=64000
+2026-10-21 10:16:17,742 - camel.camel.agents.chat_agent - WARNING - Message with 9993 tokens exceeds remaining budget of 1553. Slicing into smaller chunks.
+2026-10-21 10:16:17,826 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=81945, after=63318, limit=64000
+2026-10-21 10:16:17,938 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66698, after=56078, limit=64000
+2026-10-21 10:16:17,938 - camel.camel.agents.chat_agent - WARNING - Message with 9699 tokens exceeds remaining budget of 7922. Slicing into smaller chunks.
+2026-10-21 10:16:18,009 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76624, after=54958, limit=64000
+2026-10-21 10:16:18,159 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102252, after=62350, limit=64000
+2026-10-21 10:16:18,159 - camel.camel.agents.chat_agent - WARNING - Message with 7799 tokens exceeds remaining budget of 1650. Slicing into smaller chunks.
+2026-10-21 10:16:18,285 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110962, after=60965, limit=64000
+2026-10-21 10:16:18,574 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=78227, after=59968, limit=64000
+2026-10-21 10:16:18,574 - camel.camel.agents.chat_agent - WARNING - Message with 12236 tokens exceeds remaining budget of 4032. Slicing into smaller chunks.
+2026-10-21 10:16:18,655 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=91032, after=63983, limit=64000
+2026-10-21 10:16:18,755 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75286, after=63376, limit=64000
+2026-10-21 10:16:18,755 - camel.camel.agents.chat_agent - WARNING - Message with 10848 tokens exceeds remaining budget of 624. Slicing into smaller chunks.
+2026-10-21 10:16:18,846 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90033, after=61674, limit=64000
+2026-10-21 10:16:19,007 - camel.camel.agents.chat_agent - WARNING - Message with 10436 tokens exceeds remaining budget of 1659. Slicing into smaller chunks.
+2026-10-21 10:16:19,084 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74012, after=63666, limit=64000
+2026-10-21 10:16:21,060 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110962, after=60965, limit=64000
+2026-10-21 10:16:21,180 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110969, after=60972, limit=64000
+2026-10-21 10:16:21,292 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=111008, after=61011, limit=64000
+2026-10-21 10:16:21,587 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76624, after=54958, limit=64000
+2026-10-21 10:16:21,657 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76631, after=54965, limit=64000
+2026-10-21 10:16:21,723 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76668, after=55002, limit=64000
+2026-10-21 10:16:22,456 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=81945, after=63318, limit=64000
+2026-10-21 10:16:22,530 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=81952, after=63325, limit=64000
+2026-10-21 10:16:22,621 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90033, after=61674, limit=64000
+2026-10-21 10:16:22,710 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90040, after=61681, limit=64000
+2026-10-21 10:16:22,800 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90078, after=61719, limit=64000
+2026-10-21 10:16:23,356 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=81993, after=63366, limit=64000
+2026-10-21 10:16:23,433 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82000, after=63373, limit=64000
+2026-10-21 10:16:23,502 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82038, after=63411, limit=64000
+2026-10-21 10:16:23,959 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=91032, after=63983, limit=64000
+2026-10-21 10:16:24,038 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=91039, after=63990, limit=64000
+2026-10-21 10:16:24,038 - camel.camel.agents.chat_agent - WARNING - Message with 39 tokens exceeds remaining budget of 10. Slicing into smaller chunks.
+2026-10-21 10:16:24,117 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=91078, after=63987, limit=64000
+2026-10-21 10:16:24,177 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74012, after=63666, limit=64000
+2026-10-21 10:16:24,234 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74019, after=63673, limit=64000
+2026-10-21 10:16:24,302 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74056, after=63710, limit=64000
+2026-10-21 10:16:25,887 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76675, after=55009, limit=64000
+2026-10-21 10:16:25,887 - camel.camel.agents.chat_agent - WARNING - Message with 9572 tokens exceeds remaining budget of 8991. Slicing into smaller chunks.
+2026-10-21 10:16:25,963 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=86438, after=63786, limit=64000
+2026-10-21 10:16:26,089 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=82045, after=63418, limit=64000
+2026-10-21 10:16:26,089 - camel.camel.agents.chat_agent - WARNING - Message with 11901 tokens exceeds remaining budget of 582. Slicing into smaller chunks.
+2026-10-21 10:16:26,214 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98600, after=59561, limit=64000
+2026-10-21 10:16:26,467 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=111015, after=61018, limit=64000
+2026-10-21 10:16:26,467 - camel.camel.agents.chat_agent - WARNING - Message with 10606 tokens exceeds remaining budget of 2982. Slicing into smaller chunks.
+2026-10-21 10:16:26,604 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=122298, after=61264, limit=64000
+2026-10-21 10:16:26,909 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90085, after=61726, limit=64000
+2026-10-21 10:16:26,909 - camel.camel.agents.chat_agent - WARNING - Message with 13494 tokens exceeds remaining budget of 2274. Slicing into smaller chunks.
+2026-10-21 10:16:27,049 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104705, after=63291, limit=64000
+2026-10-21 10:16:27,219 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74063, after=63717, limit=64000
+2026-10-21 10:16:27,219 - camel.camel.agents.chat_agent - WARNING - Message with 9447 tokens exceeds remaining budget of 283. Slicing into smaller chunks.
+2026-10-21 10:16:27,342 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94117, after=63998, limit=64000
+2026-10-21 10:16:27,560 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74283, after=63493, limit=64000
+2026-10-21 10:16:27,562 - camel.camel.agents.chat_agent - WARNING - Message with 9752 tokens exceeds remaining budget of 507. Slicing into smaller chunks.
+2026-10-21 10:16:27,668 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88654, after=59487, limit=64000
+2026-10-21 10:16:27,838 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=91085, after=63994, limit=64000
+2026-10-21 10:16:27,838 - camel.camel.agents.chat_agent - WARNING - Message with 13427 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:16:29,440 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=371883, after=63995, limit=64000
+2026-10-21 10:16:31,646 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104705, after=63291, limit=64000
+2026-10-21 10:16:31,743 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104712, after=63298, limit=64000
+2026-10-21 10:16:31,834 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104752, after=63338, limit=64000
+2026-10-21 10:16:33,200 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=371883, after=63995, limit=64000
+2026-10-21 10:16:33,225 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:16:34,324 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=371890, after=64000, limit=64000
+2026-10-21 10:16:34,376 - camel.camel.agents.chat_agent - WARNING - Message with 2485 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:16:35,381 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=374375, after=63995, limit=64000
+2026-10-21 10:16:35,400 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:16:35,541 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=122298, after=61264, limit=64000
+2026-10-21 10:16:35,684 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=122305, after=61271, limit=64000
+2026-10-21 10:16:35,813 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=122348, after=61314, limit=64000
+2026-10-21 10:16:35,884 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=86438, after=63786, limit=64000
+2026-10-21 10:16:35,953 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=86445, after=63793, limit=64000
+2026-10-21 10:16:36,017 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=86482, after=63830, limit=64000
+2026-10-21 10:16:36,591 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94117, after=63998, limit=64000
+2026-10-21 10:16:36,592 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:16:36,680 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94124, after=63982, limit=64000
+2026-10-21 10:16:36,680 - camel.camel.agents.chat_agent - WARNING - Message with 41 tokens exceeds remaining budget of 18. Slicing into smaller chunks.
+2026-10-21 10:16:36,905 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88654, after=59487, limit=64000
+2026-10-21 10:16:36,992 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88661, after=59494, limit=64000
+2026-10-21 10:16:37,088 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88699, after=59532, limit=64000
+2026-10-21 10:16:37,192 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98600, after=59561, limit=64000
+2026-10-21 10:16:37,279 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98607, after=59568, limit=64000
+2026-10-21 10:16:37,373 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98646, after=59607, limit=64000
+2026-10-21 10:16:37,462 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94165, after=63978, limit=64000
+2026-10-21 10:16:37,555 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94172, after=63985, limit=64000
+2026-10-21 10:16:37,558 - camel.camel.agents.chat_agent - WARNING - Message with 38 tokens exceeds remaining budget of 15. Slicing into smaller chunks.
+2026-10-21 10:16:37,858 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94210, after=63995, limit=64000
+2026-10-21 10:16:37,863 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:16:39,451 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98653, after=59614, limit=64000
+2026-10-21 10:16:39,451 - camel.camel.agents.chat_agent - WARNING - Message with 11725 tokens exceeds remaining budget of 4386. Slicing into smaller chunks.
+2026-10-21 10:16:39,558 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110875, after=61277, limit=64000
+2026-10-21 10:16:39,723 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=86489, after=63837, limit=64000
+2026-10-21 10:16:39,723 - camel.camel.agents.chat_agent - WARNING - Message with 10857 tokens exceeds remaining budget of 163. Slicing into smaller chunks.
+2026-10-21 10:16:40,025 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=150592, after=63999, limit=64000
+2026-10-21 10:16:40,650 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=122355, after=61321, limit=64000
+2026-10-21 10:16:40,655 - camel.camel.agents.chat_agent - WARNING - Message with 12318 tokens exceeds remaining budget of 2679. Slicing into smaller chunks.
+2026-10-21 10:16:40,826 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=135548, after=63996, limit=64000
+2026-10-21 10:16:41,942 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=374382, after=63995, limit=64000
+2026-10-21 10:16:41,963 - camel.camel.agents.chat_agent - WARNING - Message with 11497 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:16:43,918 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=614652, after=63996, limit=64000
+2026-10-21 10:16:44,500 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104759, after=63345, limit=64000
+2026-10-21 10:16:44,500 - camel.camel.agents.chat_agent - WARNING - Message with 12268 tokens exceeds remaining budget of 655. Slicing into smaller chunks.
+2026-10-21 10:16:44,617 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=121196, after=60239, limit=64000
+2026-10-21 10:16:44,826 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=94217, after=63984, limit=64000
+2026-10-21 10:16:44,826 - camel.camel.agents.chat_agent - WARNING - Message with 10368 tokens exceeds remaining budget of 16. Slicing into smaller chunks.
+2026-10-21 10:16:46,079 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=310783, after=63999, limit=64000
+2026-10-21 10:16:47,025 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=289499, after=63999, limit=64000
+2026-10-21 10:16:47,039 - camel.camel.agents.chat_agent - WARNING - Message with 15295 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:16:49,092 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=609523, after=63994, limit=64000
+2026-10-21 10:16:53,054 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=609523, after=63994, limit=64000
+2026-10-21 10:16:53,092 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:16:54,748 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=609530, after=63994, limit=64000
+2026-10-21 10:16:54,783 - camel.camel.agents.chat_agent - WARNING - Message with 3789 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:16:56,341 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=613319, after=63996, limit=64000
+2026-10-21 10:16:56,377 - camel.camel.agents.chat_agent - WARNING - Message with 20 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:16:58,025 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=310783, after=63999, limit=64000
+2026-10-21 10:16:58,045 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:16:58,800 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=310790, after=63999, limit=64000
+2026-10-21 10:16:58,816 - camel.camel.agents.chat_agent - WARNING - Message with 673 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:16:59,566 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=311463, after=64000, limit=64000
+2026-10-21 10:16:59,594 - camel.camel.agents.chat_agent - WARNING - Message with 22 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:16:59,712 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=121196, after=60239, limit=64000
+2026-10-21 10:16:59,820 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=121203, after=60246, limit=64000
+2026-10-21 10:16:59,941 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=121239, after=60282, limit=64000
+2026-10-21 10:17:00,046 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110875, after=61277, limit=64000
+2026-10-21 10:17:00,153 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110882, after=61284, limit=64000
+2026-10-21 10:17:00,270 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110922, after=61324, limit=64000
+2026-10-21 10:17:00,749 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=150592, after=63999, limit=64000
+2026-10-21 10:17:00,758 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:17:00,970 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=150599, after=63997, limit=64000
+2026-10-21 10:17:00,978 - camel.camel.agents.chat_agent - WARNING - Message with 42 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:01,166 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=150641, after=64000, limit=64000
+2026-10-21 10:17:01,170 - camel.camel.agents.chat_agent - WARNING - Message with 27 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:17:01,308 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=135548, after=63996, limit=64000
+2026-10-21 10:17:01,312 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:01,445 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=135555, after=63996, limit=64000
+2026-10-21 10:17:01,445 - camel.camel.agents.chat_agent - WARNING - Message with 37 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:01,574 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=135592, after=64000, limit=64000
+2026-10-21 10:17:01,578 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:17:03,324 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=614652, after=63996, limit=64000
+2026-10-21 10:17:03,370 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:05,083 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=614659, after=63996, limit=64000
+2026-10-21 10:17:05,120 - camel.camel.agents.chat_agent - WARNING - Message with 673 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:06,741 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=615332, after=63997, limit=64000
+2026-10-21 10:17:06,774 - camel.camel.agents.chat_agent - WARNING - Message with 27 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:07,816 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=135599, after=64000, limit=64000
+2026-10-21 10:17:07,820 - camel.camel.agents.chat_agent - WARNING - Message with 8922 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:17:08,851 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=321801, after=63994, limit=64000
+2026-10-21 10:17:10,300 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=311748, after=63998, limit=64000
+2026-10-21 10:17:10,324 - camel.camel.agents.chat_agent - WARNING - Message with 12110 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:17:12,382 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=564894, after=63997, limit=64000
+2026-10-21 10:17:13,092 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=121246, after=60289, limit=64000
+2026-10-21 10:17:13,092 - camel.camel.agents.chat_agent - WARNING - Message with 14816 tokens exceeds remaining budget of 3711. Slicing into smaller chunks.
+2026-10-21 10:17:13,220 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=136811, after=63995, limit=64000
+2026-10-21 10:17:14,978 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=615712, after=63999, limit=64000
+2026-10-21 10:17:15,024 - camel.camel.agents.chat_agent - WARNING - Message with 13600 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:17:18,061 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=900141, after=63994, limit=64000
+2026-10-21 10:17:18,807 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110929, after=61331, limit=64000
+2026-10-21 10:17:18,811 - camel.camel.agents.chat_agent - WARNING - Message with 12257 tokens exceeds remaining budget of 2669. Slicing into smaller chunks.
+2026-10-21 10:17:18,944 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124061, after=63986, limit=64000
+2026-10-21 10:17:19,266 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=151021, after=63998, limit=64000
+2026-10-21 10:17:19,274 - camel.camel.agents.chat_agent - WARNING - Message with 10582 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:17:20,545 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372079, after=63996, limit=64000
+2026-10-21 10:17:24,286 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=564894, after=63997, limit=64000
+2026-10-21 10:17:24,328 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:25,910 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=564901, after=63997, limit=64000
+2026-10-21 10:17:25,948 - camel.camel.agents.chat_agent - WARNING - Message with 673 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:27,269 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=565574, after=63998, limit=64000
+2026-10-21 10:17:27,303 - camel.camel.agents.chat_agent - WARNING - Message with 17 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:17:28,628 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=321801, after=63994, limit=64000
+2026-10-21 10:17:28,641 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:17:29,180 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=321808, after=63994, limit=64000
+2026-10-21 10:17:29,199 - camel.camel.agents.chat_agent - WARNING - Message with 676 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:17:30,112 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372079, after=63996, limit=64000
+2026-10-21 10:17:30,132 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:31,353 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372086, after=63996, limit=64000
+2026-10-21 10:17:31,377 - camel.camel.agents.chat_agent - WARNING - Message with 43 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:31,665 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124061, after=63986, limit=64000
+2026-10-21 10:17:31,782 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124068, after=63993, limit=64000
+2026-10-21 10:17:31,782 - camel.camel.agents.chat_agent - WARNING - Message with 44 tokens exceeds remaining budget of 7. Slicing into smaller chunks.
+2026-10-21 10:17:31,897 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124112, after=63997, limit=64000
+2026-10-21 10:17:31,897 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:32,027 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=136811, after=63995, limit=64000
+2026-10-21 10:17:32,027 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:17:32,161 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=136818, after=63995, limit=64000
+2026-10-21 10:17:32,161 - camel.camel.agents.chat_agent - WARNING - Message with 38 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:17:32,298 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=136856, after=63994, limit=64000
+2026-10-21 10:17:32,303 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:17:34,926 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=900141, after=63994, limit=64000
+2026-10-21 10:17:34,986 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:17:37,852 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=900148, after=64000, limit=64000
+2026-10-21 10:17:37,936 - camel.camel.agents.chat_agent - WARNING - Message with 44 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:17:38,749 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=322484, after=63998, limit=64000
+2026-10-21 10:17:38,770 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:17:39,586 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=322491, after=63998, limit=64000
+2026-10-21 10:17:39,607 - camel.camel.agents.chat_agent - WARNING - Message with 3124 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:17:40,115 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=325615, after=64000, limit=64000
+2026-10-21 10:17:40,136 - camel.camel.agents.chat_agent - WARNING - Message with 33 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:17:40,990 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372129, after=63997, limit=64000
+2026-10-21 10:17:41,010 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:41,857 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372136, after=63997, limit=64000
+2026-10-21 10:17:41,879 - camel.camel.agents.chat_agent - WARNING - Message with 43 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:43,086 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372179, after=63998, limit=64000
+2026-10-21 10:17:43,102 - camel.camel.agents.chat_agent - WARNING - Message with 32 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:17:45,602 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=900192, after=63996, limit=64000
+2026-10-21 10:17:45,669 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:47,942 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=900199, after=63996, limit=64000
+2026-10-21 10:17:47,998 - camel.camel.agents.chat_agent - WARNING - Message with 45 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:17:50,602 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=900244, after=63999, limit=64000
+2026-10-21 10:17:50,690 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:17:53,348 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=565764, after=63999, limit=64000
+2026-10-21 10:17:53,389 - camel.camel.agents.chat_agent - WARNING - Message with 11331 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:17:55,919 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=802552, after=63998, limit=64000
+2026-10-21 10:17:57,048 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=326109, after=63997, limit=64000
+2026-10-21 10:17:57,077 - camel.camel.agents.chat_agent - WARNING - Message with 12054 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:17:59,089 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578081, after=63999, limit=64000
+2026-10-21 10:18:01,543 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=613566, after=63998, limit=64000
+2026-10-21 10:18:01,577 - camel.camel.agents.chat_agent - WARNING - Message with 8979 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:18:04,285 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=800963, after=63996, limit=64000
+2026-10-21 10:18:05,950 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=372654, after=63997, limit=64000
+2026-10-21 10:18:05,977 - camel.camel.agents.chat_agent - WARNING - Message with 9696 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:08,132 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=575111, after=63997, limit=64000
+2026-10-21 10:18:08,794 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88706, after=59539, limit=64000
+2026-10-21 10:18:08,798 - camel.camel.agents.chat_agent - WARNING - Message with 13025 tokens exceeds remaining budget of 4461. Slicing into smaller chunks.
+2026-10-21 10:18:08,902 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102264, after=62920, limit=64000
+2026-10-21 10:18:09,081 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124119, after=64000, limit=64000
+2026-10-21 10:18:09,085 - camel.camel.agents.chat_agent - WARNING - Message with 9742 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:18:09,926 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=327542, after=63995, limit=64000
+2026-10-21 10:18:14,569 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=800963, after=63996, limit=64000
+2026-10-21 10:18:14,643 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:18:16,701 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=800970, after=63996, limit=64000
+2026-10-21 10:18:16,762 - camel.camel.agents.chat_agent - WARNING - Message with 2542 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:18:19,213 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=803512, after=63997, limit=64000
+2026-10-21 10:18:19,270 - camel.camel.agents.chat_agent - WARNING - Message with 18 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:19,926 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102264, after=62920, limit=64000
+2026-10-21 10:18:20,019 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102271, after=62927, limit=64000
+2026-10-21 10:18:20,114 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102308, after=62964, limit=64000
+2026-10-21 10:18:21,539 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=575111, after=63997, limit=64000
+2026-10-21 10:18:21,572 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:22,947 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=575118, after=63997, limit=64000
+2026-10-21 10:18:23,002 - camel.camel.agents.chat_agent - WARNING - Message with 4300 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:24,750 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=579418, after=63999, limit=64000
+2026-10-21 10:18:24,785 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:18:27,151 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=802552, after=63998, limit=64000
+2026-10-21 10:18:27,213 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:18:29,076 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=802559, after=63998, limit=64000
+2026-10-21 10:18:29,122 - camel.camel.agents.chat_agent - WARNING - Message with 8688 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:18:29,863 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=327542, after=63995, limit=64000
+2026-10-21 10:18:29,880 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:18:30,640 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=327549, after=64000, limit=64000
+2026-10-21 10:18:30,657 - camel.camel.agents.chat_agent - WARNING - Message with 674 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:18:32,055 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578081, after=63999, limit=64000
+2026-10-21 10:18:32,094 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:18:33,635 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578088, after=63999, limit=64000
+2026-10-21 10:18:33,667 - camel.camel.agents.chat_agent - WARNING - Message with 673 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:18:36,163 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=811247, after=63999, limit=64000
+2026-10-21 10:18:36,210 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:18:38,372 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=811254, after=63999, limit=64000
+2026-10-21 10:18:38,430 - camel.camel.agents.chat_agent - WARNING - Message with 4050 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:18:40,676 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=815304, after=63996, limit=64000
+2026-10-21 10:18:40,730 - camel.camel.agents.chat_agent - WARNING - Message with 33 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:18:41,482 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=328223, after=63997, limit=64000
+2026-10-21 10:18:41,498 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:42,263 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=328230, after=63997, limit=64000
+2026-10-21 10:18:42,280 - camel.camel.agents.chat_agent - WARNING - Message with 4183 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:42,788 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=332413, after=63995, limit=64000
+2026-10-21 10:18:42,805 - camel.camel.agents.chat_agent - WARNING - Message with 28 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:18:44,296 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578761, after=64000, limit=64000
+2026-10-21 10:18:44,334 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:18:45,576 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578768, after=64000, limit=64000
+2026-10-21 10:18:45,605 - camel.camel.agents.chat_agent - WARNING - Message with 3723 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:18:47,180 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=582491, after=64000, limit=64000
+2026-10-21 10:18:47,214 - camel.camel.agents.chat_agent - WARNING - Message with 26 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:18:48,197 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=136863, after=63994, limit=64000
+2026-10-21 10:18:48,197 - camel.camel.agents.chat_agent - WARNING - Message with 10549 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 10:18:49,138 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=357231, after=64000, limit=64000
+2026-10-21 10:18:49,709 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=102315, after=62971, limit=64000
+2026-10-21 10:18:49,709 - camel.camel.agents.chat_agent - WARNING - Message with 12849 tokens exceeds remaining budget of 1029. Slicing into smaller chunks.
+2026-10-21 10:18:49,821 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=117731, after=63742, limit=64000
+2026-10-21 10:18:52,493 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=803721, after=63996, limit=64000
+2026-10-21 10:18:52,546 - camel.camel.agents.chat_agent - WARNING - Message with 10718 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:18:55,305 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1027639, after=63996, limit=64000
+2026-10-21 10:18:57,109 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=582852, after=63997, limit=64000
+2026-10-21 10:18:57,138 - camel.camel.agents.chat_agent - WARNING - Message with 11558 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:18:59,617 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=824405, after=64000, limit=64000
+2026-10-21 10:19:01,742 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=579425, after=63999, limit=64000
+2026-10-21 10:19:01,775 - camel.camel.agents.chat_agent - WARNING - Message with 10106 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 10:19:03,725 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=790492, after=63997, limit=64000
+2026-10-21 10:19:05,042 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=332812, after=63995, limit=64000
+2026-10-21 10:19:05,054 - camel.camel.agents.chat_agent - WARNING - Message with 9635 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:19:06,404 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=533985, after=63996, limit=64000
+2026-10-21 10:19:11,052 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=824405, after=64000, limit=64000
+2026-10-21 10:19:11,100 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:19:12,880 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=824412, after=64000, limit=64000
+2026-10-21 10:19:12,929 - camel.camel.agents.chat_agent - WARNING - Message with 2756 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:19:14,974 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=827168, after=63998, limit=64000
+2026-10-21 10:19:15,021 - camel.camel.agents.chat_agent - WARNING - Message with 28 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:19:17,550 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=790492, after=63997, limit=64000
+2026-10-21 10:19:17,595 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:19:19,658 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=790499, after=63997, limit=64000
+2026-10-21 10:19:19,712 - camel.camel.agents.chat_agent - WARNING - Message with 4082 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:19:21,808 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=794581, after=63998, limit=64000
+2026-10-21 10:19:21,858 - camel.camel.agents.chat_agent - WARNING - Message with 26 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:19:24,403 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1027639, after=63996, limit=64000
+2026-10-21 10:19:24,474 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:19:27,299 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1027646, after=63996, limit=64000
+2026-10-21 10:19:27,366 - camel.camel.agents.chat_agent - WARNING - Message with 676 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:19:28,532 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=533985, after=63996, limit=64000
+2026-10-21 10:19:28,558 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:19:30,066 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=533992, after=63996, limit=64000
+2026-10-21 10:19:30,095 - camel.camel.agents.chat_agent - WARNING - Message with 673 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 10:19:31,070 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=357231, after=64000, limit=64000
+2026-10-21 10:19:31,092 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:19:32,020 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=357238, after=64000, limit=64000
+2026-10-21 10:19:32,037 - camel.camel.agents.chat_agent - WARNING - Message with 3910 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:19:32,857 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=361148, after=63998, limit=64000
+2026-10-21 10:19:32,873 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 10:19:32,970 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=117731, after=63742, limit=64000
+2026-10-21 10:19:33,066 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=117738, after=63749, limit=64000
+2026-10-21 10:19:33,161 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=117772, after=63783, limit=64000
+2026-10-21 10:19:35,807 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1028322, after=64000, limit=64000
+2026-10-21 10:19:35,876 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:19:38,670 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1028329, after=64000, limit=64000
+2026-10-21 10:19:38,737 - camel.camel.agents.chat_agent - WARNING - Message with 44 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 10:19:41,253 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1028373, after=63995, limit=64000
+2026-10-21 10:19:41,320 - camel.camel.agents.chat_agent - WARNING - Message with 47 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 10:19:42,544 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=534665, after=63997, limit=64000
+2026-10-21 10:19:42,574 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:19:43,728 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=534672, after=63997, limit=64000
+2026-10-21 10:19:43,757 - camel.camel.agents.chat_agent - WARNING - Message with 4339 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 10:19:45,143 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=539011, after=63996, limit=64000
+2026-10-21 10:19:45,182 - camel.camel.agents.chat_agent - WARNING - Message with 31 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+[10:19:45] [Reddit] 模拟循环完成! 耗时: 280.5秒, 总动作: 166
+[10:19:45] ============================================================
+[10:19:45] 模拟循环完成! 总耗时: 286.5秒
+[10:19:45] [Reddit] 环境已关闭
+[10:19:45] ============================================================
+[10:19:45] 全部完成!
+[10:19:45] 日志文件:
+[10:19:45]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation.log
+[10:19:45]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\twitter\actions.jsonl
+[10:19:45]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\reddit\actions.jsonl
+[10:19:45] ============================================================
+[Reddit] 模拟循环完成! 耗时: 280.5秒, 总动作: 166
+模拟进程已退出
