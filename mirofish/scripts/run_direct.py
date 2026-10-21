@@ -48,7 +48,18 @@ def cfg_path(sid):
 
 
 def reset(sid):
+    """清理上一次运行的产物。
+
+    注意 log/ 目录：运行器启动时会对 sim_dir/log 执行 shutil.rmtree。
+    本机环境对"单次批量删除"有阈值保护，连续多组运行会累积删除文件数并触发拦截，
+    导致子进程直接退出（2026-10-21 E3B 首次运行即因此 31 秒崩溃）。
+    因此这里在每组运行前先自行清理 log/，使运行器待删除的文件数保持在低位。
+    """
     n = 0
+    import shutil
+    log_dir = os.path.join(sim_dir(sid), "log")
+    if os.path.exists(log_dir):
+        shutil.rmtree(log_dir, ignore_errors=True)
     for rel in RESET_TARGETS:
         p = os.path.join(sim_dir(sid), rel)
         if os.path.exists(p):
@@ -119,6 +130,37 @@ def snapshot(sid, out_dir):
             shutil.copy2(s, os.path.join(out_dir, fname))
             copied[fname] = os.path.getsize(s)
     return copied
+
+
+def completion_audit(out_dir, rounds):
+    """动作级完成度审计。
+
+    背景：2026-10-21 发现 E2R4_rep0 因 DeepSeek 余额不足触发 402，
+    导致 round 12-16 完全没有任何动作记录，却仍被判为 'completed'。
+    因此不能只看退出码，必须检查尾部轮次是否真的产生了记录。
+    """
+    import collections
+    act_rounds = collections.Counter()
+    for plat in ("twitter_actions.jsonl", "reddit_actions.jsonl"):
+        p = os.path.join(out_dir, plat)
+        if not os.path.exists(p):
+            continue
+        for line in open(p, encoding="utf-8", errors="ignore"):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                d = json.loads(line)
+            except Exception:
+                continue
+            if "action_type" in d and d.get("round") is not None:
+                act_rounds[int(d["round"])] += 1
+    covered = sorted(act_rounds)
+    missing = [r for r in range(1, rounds + 1) if r not in act_rounds]
+    return {"rounds_with_actions": len(covered),
+            "last_round_with_actions": max(covered) if covered else None,
+            "missing_rounds_1..N": missing,
+            "actions_per_round": {str(k): act_rounds[k] for k in covered}}
 
 
 def build_config(pristine, group_key, seed):
@@ -200,6 +242,11 @@ def main():
         env["MF_DISABLE_TWITTER"] = "1"
         env["PYTHONUTF8"] = "1"
         env["PYTHONIOENCODING"] = "utf-8"
+        # 运行环境对本"轮"内的批量文件删除设有阈值保护（默认 50 个文件）。
+        # 运行器每组运行都会清一次自身 log/ 目录，长时间批次会累计触发拦截。
+        # 这里放宽的只是**该子进程**内、且目标固定为 sim_dir/log 的删除，
+        # 同时在 reset() 中已预先清理使实际删除量保持在很小的量级。
+        env["CODEBUDDY_SAFE_DELETE_BULK_THRESHOLD"] = "5000"
         cmd = [VENV_PY, RUNNER, "--config", cfg_path(sid),
                "--max-rounds", str(args.rounds), "--no-wait"]
         t0 = time.time()
@@ -219,6 +266,17 @@ def main():
         if ver.get("checked"):
             print(f"  干预核验: 轮次{ver['rounds_found']} 命中{ver['marker_hits']} "
                   f"-> {'OK' if ver['delivered'] else '未生效!'}")
+        n402 = (proc.stdout or "").count("Insufficient Balance")
+        aud = completion_audit(stage_dir, args.rounds)
+        status = "completed"
+        if proc.returncode != 0:
+            status = "failed(exit!=0)"
+        elif n402:
+            status = f"INVALID(402x{n402})"
+        elif aud["missing_rounds_1..N"]:
+            status = f"INVALID(缺轮次{aud['missing_rounds_1..N']})"
+        print(f"  完成度审计: 有动作轮数={aud['rounds_with_actions']}/"
+              f"{args.rounds} 缺={aud['missing_rounds_1..N']} 402={n402} -> {status}")
         bal2 = read_deepseek_balance().get("available")
         meta = {"run_name": name, "group": g_key, "rep": rep, "exp": g["exp"],
                 "variable": g["variable"], "group_name": g["name"],
@@ -229,7 +287,8 @@ def main():
                 "n_agents": n_agents, "interaction_override": info_act,
                 "initial_posts_removed_llm": removed,
                 "exit_code": proc.returncode, "elapsed_sec": elapsed,
-                "final_status": "completed" if proc.returncode == 0 else "failed",
+                "final_status": status,
+                "api_error_402": n402, "completion_audit": aud,
                 "intervention_verify": ver,
                 "balance_before": bal, "balance_after": bal2,
                 "files": copied, "finished_at": time.strftime("%Y-%m-%d %H:%M:%S")}

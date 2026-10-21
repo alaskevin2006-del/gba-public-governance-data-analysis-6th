@@ -1,0 +1,87 @@
+{
+  "run_name": "E3B_rep1",
+  "group": "E3B",
+  "rep": 1,
+  "exp": 3,
+  "variable": "辟谣回应形态",
+  "group_name": "第 4 模拟小时介入（数智实证型辟谣）",
+  "simulation_id": "sim_285f7fdfd644",
+  "rounds": 16,
+  "random_seed": 20261022,
+  "rumor_form": "TEXT",
+  "intervention": "DIGITAL",
+  "intervention_round": 4,
+  "n_agents": 8,
+  "interaction_override": {
+    "agents_total": 8,
+    "agents_modified": 8,
+    "agents_per_round": [
+      6,
+      8
+    ],
+    "activity_level": 0.9,
+    "before": {
+      "agents_per_hour_min": 6,
+      "agents_per_hour_max": 8,
+      "off_peak_hours": [],
+      "peak_hours": []
+    }
+  },
+  "initial_posts_removed_llm": 4,
+  "exit_code": 0,
+  "elapsed_sec": 31.0,
+  "final_status": "INVALID(缺轮次[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])",
+  "api_error_402": 0,
+  "completion_audit": {
+    "rounds_with_actions": 0,
+    "last_round_with_actions": null,
+    "missing_rounds_1..N": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "actions_per_round": {}
+  },
+  "intervention_verify": {
+    "checked": true,
+    "marker_hits": 0,
+    "rounds_found": [],
+    "expected_round": 4,
+    "first_round": null,
+    "delivered": false,
+    "on_time": false
+  },
+  "balance_before": [
+    {
+      "currency": "CNY",
+      "total": "5.68",
+      "granted": "0.00",
+      "topped_up": "5.68"
+    }
+  ],
+  "balance_after": [
+    {
+      "currency": "CNY",
+      "total": "5.05",
+      "granted": "0.00",
+      "topped_up": "5.05"
+    }
+  ],
+  "files": {
+    "simulation_config.json": 12846
+  },
+  "finished_at": "2026-10-21 08:50:24"
+}

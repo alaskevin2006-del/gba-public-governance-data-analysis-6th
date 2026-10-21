@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\evaluation\SentenceEvaluator.py:81: SyntaxWarning: invalid escape sequence '\g'
+  return re.sub(r"([a-z])([A-Z])", "\g<1> \g<2>", class_name)
+C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\model_card.py:515: SyntaxWarning: invalid escape sequence '\d'
+  if dataset_name and re.match("_dataset_\d+", dataset_name):
+C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\losses\DenoisingAutoEncoderLoss.py:45: SyntaxWarning: invalid escape sequence '\_'
+  | (damaged\_sentence, original\_sentence) pairs        | none   |
+[safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":51,"threshold":50,"scope":"turn","targets":["C:\\Users\\Kevin\\Desktop\\MiroFish\\backend\\uploads\\simulations\\sim_285f7fdfd644\\log"],"targetCount":1}
+已加载环境配置: C:\Users\Kevin\Desktop\MiroFish\.env
+[LKX] random_seed=20261022 已生效
+模拟进程已退出

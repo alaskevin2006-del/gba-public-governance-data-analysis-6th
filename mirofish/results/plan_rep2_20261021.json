@@ -1,0 +1,8 @@
+[
+  {"group": "E1A",   "rep": 2, "note": "rep2：三组实验共用的无干预基线，信息价值最高，优先排"},
+  {"group": "E2R4", "rep": 2, "note": "rep2：同时充当实验三的对照组 E3A"},
+  {"group": "E2R12","rep": 2, "note": "rep2"},
+  {"group": "E2R1", "rep": 2, "note": "rep2"},
+  {"group": "E3B",  "rep": 2, "note": "rep2"},
+  {"group": "E1B",  "rep": 2, "note": "rep2：实验一 AIGC 形式组，单次成本波动较大，排在最后"}
+]

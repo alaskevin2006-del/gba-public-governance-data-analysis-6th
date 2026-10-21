@@ -1,0 +1,116 @@
+{
+  "run_name": "E1B_rep1",
+  "group": "E1B",
+  "rep": 1,
+  "status": "completed(file-watch)",
+  "n_agents": 8,
+  "rounds_configured": 16,
+  "rounds_observed": 16,
+  "random_seed": 20261022,
+  "intervention": null,
+  "intervention_round": null,
+  "initial_state": {
+    "n_posts": 4,
+    "labels": {
+      "rumor": 4
+    }
+  },
+  "duplicate_initial_posts_dropped": 4,
+  "totals": {
+    "posts": 5,
+    "comments": 35,
+    "reposts": 0,
+    "likes": 92,
+    "follow": 0,
+    "non_interactive": 28,
+    "interactions": 132,
+    "content_rumor": 3,
+    "content_debunk": 37,
+    "content_neutral": 0,
+    "engage_rumor": 20,
+    "engage_debunk": 72,
+    "engage_other": 0,
+    "rumor_related": 23,
+    "debunk_related": 109
+  },
+  "peak_rumor_related": 7,
+  "peak_round": 1,
+  "windows": {
+    "pre": {
+      "rounds": [],
+      "interactions": 0,
+      "rumor_related": 0,
+      "debunk_related": 0,
+      "content_rumor": 0,
+      "engage_rumor": 0
+    },
+    "post_full": {
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "interactions": 132,
+      "rumor_related": 23,
+      "debunk_related": 109,
+      "content_rumor": 3,
+      "engage_rumor": 20
+    },
+    "post_5": {
+      "rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "interactions": 72,
+      "rumor_related": 17,
+      "debunk_related": 55,
+      "content_rumor": 3,
+      "engage_rumor": 14
+    },
+    "post_5_complete": true
+  },
+  "round_labels": {
+    "debunk": 37,
+    "rumor": 3
+  },
+  "engage_labels": {
+    "rumor": 20,
+    "debunk": 72
+  },
+  "parse_errors": 0,
+  "hour_map": {
+    "0": 0,
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6,
+    "8": 7,
+    "9": 8,
+    "10": 9,
+    "11": 10,
+    "12": 11,
+    "13": 12,
+    "14": 13,
+    "15": 14,
+    "16": 15
+  }
+}

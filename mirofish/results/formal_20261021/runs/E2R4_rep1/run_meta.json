@@ -29,15 +29,40 @@
   },
   "initial_posts_removed_llm": 4,
   "exit_code": 0,
-  "elapsed_sec": 206.5,
+  "elapsed_sec": 289.7,
   "final_status": "completed",
+  "api_error_402": 0,
+  "completion_audit": {
+    "rounds_with_actions": 17,
+    "last_round_with_actions": 16,
+    "missing_rounds_1..N": [],
+    "actions_per_round": {
+      "0": 4,
+      "1": 22,
+      "2": 23,
+      "3": 22,
+      "4": 12,
+      "5": 14,
+      "6": 7,
+      "7": 10,
+      "8": 7,
+      "9": 9,
+      "10": 7,
+      "11": 6,
+      "12": 5,
+      "13": 5,
+      "14": 9,
+      "15": 9,
+      "16": 6
+    }
+  },
   "intervention_verify": {
     "checked": true,
-    "marker_hits": 9,
+    "marker_hits": 6,
     "rounds_found": [
       4,
       5,
-      6
+      8
     ],
     "expected_round": 4,
     "first_round": 4,
@@ -47,23 +72,23 @@
   "balance_before": [
     {
       "currency": "CNY",
-      "total": "2.03",
+      "total": "9.86",
       "granted": "0.00",
-      "topped_up": "2.03"
+      "topped_up": "9.86"
     }
   ],
   "balance_after": [
     {
       "currency": "CNY",
-      "total": "0.56",
+      "total": "8.55",
       "granted": "0.00",
-      "topped_up": "0.56"
+      "topped_up": "8.55"
     }
   ],
   "files": {
     "simulation_config.json": 12176,
     "simulation.log": 2630,
-    "reddit_actions.jsonl": 101146
+    "reddit_actions.jsonl": 109261
   },
-  "finished_at": "2026-10-21 00:21:39"
+  "finished_at": "2026-10-21 08:44:51"
 }

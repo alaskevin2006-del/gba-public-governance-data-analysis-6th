@@ -4,85 +4,17 @@
   "agents": 8,
   "runs": [
     {
-      "run_name": "E2R1_rep1",
-      "group": "E2R1",
+      "run_name": "E3B_rep1",
+      "group": "E3B",
       "rep": 1,
-      "exp": 2,
-      "variable": "辟谣介入时点",
-      "group_name": "第 1 模拟小时介入（传统公文式辟谣）",
+      "exp": 3,
+      "variable": "辟谣回应形态",
+      "group_name": "第 4 模拟小时介入（数智实证型辟谣）",
       "simulation_id": "sim_285f7fdfd644",
       "rounds": 16,
       "random_seed": 20261022,
       "rumor_form": "TEXT",
-      "intervention": "NOTICE",
-      "intervention_round": 1,
-      "n_agents": 8,
-      "interaction_override": {
-        "agents_total": 8,
-        "agents_modified": 8,
-        "agents_per_round": [
-          6,
-          8
-        ],
-        "activity_level": 0.9,
-        "before": {
-          "agents_per_hour_min": 6,
-          "agents_per_hour_max": 8,
-          "off_peak_hours": [],
-          "peak_hours": []
-        }
-      },
-      "initial_posts_removed_llm": 4,
-      "exit_code": 0,
-      "elapsed_sec": 296.9,
-      "final_status": "completed",
-      "intervention_verify": {
-        "checked": true,
-        "marker_hits": 9,
-        "rounds_found": [
-          1,
-          2
-        ],
-        "expected_round": 1,
-        "first_round": 1,
-        "delivered": true,
-        "on_time": true
-      },
-      "balance_before": [
-        {
-          "currency": "CNY",
-          "total": "3.55",
-          "granted": "0.00",
-          "topped_up": "3.55"
-        }
-      ],
-      "balance_after": [
-        {
-          "currency": "CNY",
-          "total": "2.03",
-          "granted": "0.00",
-          "topped_up": "2.03"
-        }
-      ],
-      "files": {
-        "simulation_config.json": 12176,
-        "simulation.log": 2630,
-        "reddit_actions.jsonl": 110341
-      },
-      "finished_at": "2026-10-21 00:18:09"
-    },
-    {
-      "run_name": "E2R4_rep1",
-      "group": "E2R4",
-      "rep": 1,
-      "exp": 2,
-      "variable": "辟谣介入时点",
-      "group_name": "第 4 模拟小时介入（传统公文式辟谣）",
-      "simulation_id": "sim_285f7fdfd644",
-      "rounds": 16,
-      "random_seed": 20261022,
-      "rumor_form": "TEXT",
-      "intervention": "NOTICE",
+      "intervention": "DIGITAL",
       "intervention_round": 4,
       "n_agents": 8,
       "interaction_override": {
@@ -102,11 +34,36 @@
       },
       "initial_posts_removed_llm": 4,
       "exit_code": 0,
-      "elapsed_sec": 206.5,
+      "elapsed_sec": 367.8,
       "final_status": "completed",
+      "api_error_402": 0,
+      "completion_audit": {
+        "rounds_with_actions": 17,
+        "last_round_with_actions": 16,
+        "missing_rounds_1..N": [],
+        "actions_per_round": {
+          "0": 4,
+          "1": 29,
+          "2": 27,
+          "3": 16,
+          "4": 18,
+          "5": 7,
+          "6": 13,
+          "7": 7,
+          "8": 10,
+          "9": 6,
+          "10": 9,
+          "11": 3,
+          "12": 9,
+          "13": 5,
+          "14": 5,
+          "15": 6,
+          "16": 4
+        }
+      },
       "intervention_verify": {
         "checked": true,
-        "marker_hits": 9,
+        "marker_hits": 8,
         "rounds_found": [
           4,
           5,
@@ -120,27 +77,27 @@
       "balance_before": [
         {
           "currency": "CNY",
-          "total": "2.03",
+          "total": "14.69",
           "granted": "0.00",
-          "topped_up": "2.03"
+          "topped_up": "14.69"
         }
       ],
       "balance_after": [
         {
           "currency": "CNY",
-          "total": "0.56",
+          "total": "12.60",
           "granted": "0.00",
-          "topped_up": "0.56"
+          "topped_up": "12.60"
         }
       ],
       "files": {
-        "simulation_config.json": 12176,
-        "simulation.log": 2630,
-        "reddit_actions.jsonl": 101146
+        "simulation_config.json": 12846,
+        "simulation.log": 2631,
+        "reddit_actions.jsonl": 116375
       },
-      "finished_at": "2026-10-21 00:21:39"
+      "finished_at": "2026-10-21 09:00:05"
     }
   ],
   "failed": [],
-  "finished_at": "2026-10-21 00:21:39"
+  "finished_at": "2026-10-21 09:00:05"
 }

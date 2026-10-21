@@ -1,0 +1,5 @@
+[
+  {"group": "E2R4",  "rep": 1, "note": "重跑：原 rep0 因账户 402 中断，数据已作废（见 runs/E2R4_rep0_INVALID/INVALID_REASON.md）"},
+  {"group": "E2R12", "rep": 1, "note": "第 12 模拟小时介入，干预后观察窗第 12-16 轮"},
+  {"group": "E3B",   "rep": 1, "note": "第 4 模拟小时介入，数智实证型辟谣（对标 E2R4）"}
+]

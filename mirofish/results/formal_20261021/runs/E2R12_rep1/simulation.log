@@ -1,0 +1,35 @@
+2026-10-21 08:45:16 - INFO - ============================================================
+2026-10-21 08:45:16 - INFO - OASIS 双平台并行模拟
+2026-10-21 08:45:16 - INFO - 配置文件: C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation_config.json
+2026-10-21 08:45:16 - INFO - 模拟ID: sim_285f7fdfd644
+2026-10-21 08:45:16 - INFO - 等待命令模式: 禁用
+2026-10-21 08:45:16 - INFO - ============================================================
+2026-10-21 08:45:16 - INFO - 模拟参数:
+2026-10-21 08:45:16 - INFO -   - 总模拟时长: 120小时
+2026-10-21 08:45:16 - INFO -   - 每轮时间: 60分钟
+2026-10-21 08:45:16 - INFO -   - 配置总轮数: 120
+2026-10-21 08:45:16 - INFO -   - 最大轮数限制: 16
+2026-10-21 08:45:16 - INFO -   - 实际执行轮数: 16 (已截断)
+2026-10-21 08:45:16 - INFO -   - Agent数量: 8
+2026-10-21 08:45:16 - INFO - 日志结构:
+2026-10-21 08:45:16 - INFO -   - 主日志: simulation.log
+2026-10-21 08:45:16 - INFO -   - Twitter动作: twitter/actions.jsonl
+2026-10-21 08:45:16 - INFO -   - Reddit动作: reddit/actions.jsonl
+2026-10-21 08:45:16 - INFO - ============================================================
+2026-10-21 08:45:16 - INFO - [LKX] MF_DISABLE_TWITTER=1 —— 本次只运行 Reddit 平台
+2026-10-21 08:45:16 - INFO - [Reddit] 初始化...
+2026-10-21 08:45:19 - INFO - [Reddit] 环境已启动
+2026-10-21 08:45:20 - INFO - [Reddit] 已发布 3 条初始帖子
+2026-10-21 08:45:20 - INFO - [Reddit] 轮数已截断: 120 -> 16 (max_rounds=16)
+2026-10-21 08:46:29 - INFO - [Reddit] LKX定时事件注入 round=12: 1条 tag=NOTICE
+2026-10-21 08:49:49 - INFO - [Reddit] 模拟循环完成! 耗时: 269.1秒, 总动作: 164
+2026-10-21 08:49:49 - INFO - ============================================================
+2026-10-21 08:49:49 - INFO - 模拟循环完成! 总耗时: 272.6秒
+2026-10-21 08:49:49 - INFO - [Reddit] 环境已关闭
+2026-10-21 08:49:49 - INFO - ============================================================
+2026-10-21 08:49:49 - INFO - 全部完成!
+2026-10-21 08:49:49 - INFO - 日志文件:
+2026-10-21 08:49:49 - INFO -   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation.log
+2026-10-21 08:49:49 - INFO -   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\twitter\actions.jsonl
+2026-10-21 08:49:49 - INFO -   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\reddit\actions.jsonl
+2026-10-21 08:49:49 - INFO - ============================================================

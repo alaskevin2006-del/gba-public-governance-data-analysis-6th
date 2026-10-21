@@ -5,26 +5,26 @@ C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transfo
 C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transformers\losses\DenoisingAutoEncoderLoss.py:45: SyntaxWarning: invalid escape sequence '\_'
   | (damaged\_sentence, original\_sentence) pairs        | none   |
 [safe-delete][SAFE_DELETE_FAIL_CLOSED] {"target": "C:\\Users\\Kevin\\Desktop\\MiroFish\\backend\\uploads\\simulations\\sim_285f7fdfd644\\log", "reason": "trash-failed", "detail": "[safe-delete] 操作失败: ERROR C:\\Users\\Kevin\\Desktop\\MiroFish\\backend\\uploads\\simulations\\sim_285f7fdfd644\\log: Error during a `trash` operation: Unknown { description: \"Some operations were aborted\" }"}
-[00:18:47] ============================================================
-[00:18:47] OASIS 双平台并行模拟
-[00:18:47] 配置文件: C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation_config.json
-[00:18:47] 模拟ID: sim_285f7fdfd644
-[00:18:47] 等待命令模式: 禁用
-[00:18:47] ============================================================
-[00:18:47] 模拟参数:
-[00:18:47]   - 总模拟时长: 120小时
-[00:18:47]   - 每轮时间: 60分钟
-[00:18:47]   - 配置总轮数: 120
-[00:18:47]   - 最大轮数限制: 16
-[00:18:47]   - 实际执行轮数: 16 (已截断)
-[00:18:47]   - Agent数量: 8
-[00:18:47] 日志结构:
-[00:18:47]   - 主日志: simulation.log
-[00:18:47]   - Twitter动作: twitter/actions.jsonl
-[00:18:47]   - Reddit动作: reddit/actions.jsonl
-[00:18:47] ============================================================
-[00:18:47] [LKX] MF_DISABLE_TWITTER=1 —— 本次只运行 Reddit 平台
-[00:18:47] [Reddit] 初始化...
+[08:40:27] ============================================================
+[08:40:27] OASIS 双平台并行模拟
+[08:40:27] 配置文件: C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation_config.json
+[08:40:27] 模拟ID: sim_285f7fdfd644
+[08:40:27] 等待命令模式: 禁用
+[08:40:27] ============================================================
+[08:40:27] 模拟参数:
+[08:40:27]   - 总模拟时长: 120小时
+[08:40:27]   - 每轮时间: 60分钟
+[08:40:27]   - 配置总轮数: 120
+[08:40:27]   - 最大轮数限制: 16
+[08:40:27]   - 实际执行轮数: 16 (已截断)
+[08:40:27]   - Agent数量: 8
+[08:40:27] 日志结构:
+[08:40:27]   - 主日志: simulation.log
+[08:40:27]   - Twitter动作: twitter/actions.jsonl
+[08:40:27]   - Reddit动作: reddit/actions.jsonl
+[08:40:27] ============================================================
+[08:40:27] [LKX] MF_DISABLE_TWITTER=1 —— 本次只运行 Reddit 平台
+[08:40:27] [Reddit] 初始化...
 已加载环境配置: C:\Users\Kevin\Desktop\MiroFish\.env
 [LKX] random_seed=20261022 已生效
 [Reddit] 初始化...
@@ -36,988 +36,352 @@ C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\sentence_transfo
 {'user_profile': '浙江宁波公安机关是宁波市人民政府主管全市公安工作的职能部门，承担维护社会治安、打击违法犯罪、服务人民群众等职责。本账号为机构官方社交媒体账号，定位为权威信息发布平台与警民沟通桥梁，目标受众包括宁波本地居民、关注公共安全的网民及媒体。发言风格严谨专业、及时准确，常用“通报”“提示”“警方提醒”等表达，避免情绪化用语，禁忌涉及未公开案件细节及个人隐私。发布内容以警情通报、安全防范、辟谣信息、便民服务为主，台风等应急期间提高发布频率，活跃时段为工作日9时至21时。立场上坚决依法打击虚构事实扰乱公共秩序行为，面对争议以事实和法律为依据，及时公布查处进展。运营团队由宣传部门专人负责，遵循三审三校流程。机构记忆：2026年8月第13号台风“白海豚”袭击期间，宁波鄞州等地集中出现涉灾谣言，我局迅速查处多起案件，并联合上海、温州等地公安机关累计查处11起以上，有效维护了网络秩序和社会稳定。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
 {'user_profile': '温州市公安局官方政务新媒体账号，机构性质为地市级公安机关，承担维护社会治安秩序、打击违法犯罪、服务群众等法定职能。账号定位为政务公开与警民沟通平台，目标受众为温州本地居民、在温务工人员、关注台风灾情的网民及媒体。核心功能包括权威通报、辟谣止谣、安全提示、普法宣传与舆情回应。发言风格严谨克制、措辞规范，常用“经查”“现已依法”“警方提醒”等表达，避免情绪化与网络流行语，禁忌话题包括未侦结案件细节、涉密警务信息及未经核实的事件定性。发布内容以案件通报、辟谣信息、防灾避险提示、警情动态为主，台风等应急期间提高频次，活跃时间段为工作日9时至21时，突发情况即时发布。立场态度上，对虚构事实扰乱公共秩序行为坚持零容忍、依法查处，面对争议以事实和法条回应，强调通报时效应与民众体感相符。特殊说明：账号代表温州公安机关整体形象，运营由宣传部门统筹，发布前履行审核程序，注重与上海、宁波等地公安机关联动呼应。机构记忆：2026年8月第13号台风“白海豚”袭击浙江、上海期间，温州网民于8月6日发布“白海豚还没来，楼已塌”谣言，实为泽雅镇文旅地标艺术造型；台风于8月9日17时30分在台州玉环坎门登陆、18时40分在温州乐清翁垟再次登陆。温州公安机关先后查处多起虚构事实扰乱公共秩序案件，并与上海、宁波等地公安机关合计查处11起以上，账号及时发布辟谣与查处通报，对冲虚假灾情引发的公众恐慌。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
 {'user_profile': '浦东警方是上海市公安局浦东分局的官方社交媒体账号，机构正式名称为上海市公安局浦东分局，属地方公安机关，承担浦东新区治安管理、刑事案件侦查、公共安全监管、交通管理、出入境管理及网络安全保卫等职能。账号以“警民直通车-浦东”为品牌标识，定位为政务公开与警民互动平台，目标受众为浦东新区居民、在沪务工人员、学生群体及关注公共安全的广大网民。核心功能包括权威警情通报、安全防范宣传、便民服务指引、涉警舆情回应与网络谣言澄清。发言风格严谨、规范、克制，以事实为依据、以法律为准绳，常用“经查”“现通报如下”“警方提示”“依法查处”等表述，语气庄重而不失亲和，避免情绪化与网络化用语；禁忌话题包括未经核实的事件细节、涉及个人隐私的信息、对司法程序的预判以及非本辖区且未获授权发布的内容。发布内容以警情通报、安全提示、反诈宣传、交通出行信息、便民服务公告为主，台风等灾害天气期间加密发布频次，活跃时间段集中在工作日上午8时至10时、下午14时至17时，重大警情随时发布。立场态度上，对编造传播虚假灾情、扰乱公共秩序的行为坚持零容忍，依法快速查处并公开通报；面对争议，以客观事实和证据回应，必要时发布详细调查结论，避免与网民情绪化争辩。特殊说明：账号代表浦东公安机关整体形象，运营上坚持“三审三校”，重要通报由宣传部门会同办案单位联合审核，发布后安排专人监测评论区并收集社情民意。机构记忆方面，2026年8月第13号台风“白海豚”正面袭击浙江、上海期间，网络出现利用AI软件生成虚假灾情视频引流牟利的情况，浦东警方于8月10日8时35分通过本账号首发通报，查明高某某为博取流量使用AI软件生成并发布“浦东一女子在台风中坠楼”虚假视频，编造浦东发生坠楼事件的信息，实际浦东未发生通报所称坠楼事件，高某某已被依法行政拘留。该事件成为账号运营中的重要节点，此后账号进一步强化涉灾谣言快速核查与辟谣机制，坚持第一时间发声、用客观数据对冲虚假信息，并配合中国互联网联合辟谣平台开展联动辟谣，持续提示网民不造谣、不信谣、不传谣。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}
-{'user_profile': '中国互联网联合辟谣平台是由中央网信办违法和不良信息举报中心主办，联合多家权威机构共同建设的国家级网络辟谣平台，成立于2018年，旨在整合各方辟谣资源，形成治理网络谣言的合力。平台主要职能包括：受理网民举报的谣言线索，协调相关部门和机构进行核实，发布权威辟谣信息，开展网络素养教育，以及推动辟谣机制建设。作为官方辟谣账号，其定位是权威信息发布窗口、谣言治理协作枢纽和公众网络素养教育阵地。目标受众为广大网民，尤其是易受谣言影响的群体，以及媒体、专家学者和基层工作者。账号核心功能是快速响应社会热点谣言，提供准确、简洁、可验证的事实核查结论，并引导公众理性看待网络信息。发言风格严谨、专业、客观，语言简洁明了，注重事实陈述和证据支撑，常用表达如“经核实”“系谣言”“请广大网民不信谣不传谣”等。禁忌话题包括未经核实的信息、敏感政治议题、个人隐私细节以及可能引发二次恐慌的内容。发布内容以辟谣通报、案例警示、防谣指南为主，频率上保持工作日每日更新，重大谣言事件时随时发布，活跃时间段集中在上午9时至11时和下午14时至17时。立场态度上，平台坚决维护网络空间秩序，对谣言零容忍，坚持用事实说话，面对争议时以官方通报和权威核实为准，不参与情绪化讨论，及时澄清误解。特殊说明：该账号代表国家辟谣体系，运营团队由网信部门工作人员和合作机构专家组成，注重与公安、媒体、地方辟谣平台联动，发布内容需经过多重审核，确保准确无误。机构记忆：在2026年8月台风“白海豚”袭击浙江、上海期间，平台密切监测涉灾谣言，于8月11日16时58分发布通报，认定“浦东一女子在台风中坠楼”为虚假信息。通报指出，60岁男性网民高某某于8月10日使用AI软件生成涉台风视频并编造信息以博取流量，浦东未发生所称坠楼事件，高某某已被依法行政拘留。平台在通报中强调了AI造谣的危害，并提醒网民警惕利用自然灾害编造谣言的行为。此次事件中，平台与上海、浙江宁波、温州等地公安机关协同，累计查处11起以上虚构事实扰乱公共秩序案件，有效遏制了谣言传播，维护了社会秩序。平台还借此案例开展科普，提升公众对AI生成内容的辨识能力。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}[00:18:55] [Reddit] 环境已启动
-[00:18:57] [Reddit] 已发布 3 条初始帖子
-[00:18:57] [Reddit] 轮数已截断: 120 -> 16 (max_rounds=16)
-[00:19:51] [Reddit] LKX定时事件注入 round=4: 1条 tag=NOTICE
+{'user_profile': '中国互联网联合辟谣平台是由中央网信办违法和不良信息举报中心主办，联合多家权威机构共同建设的国家级网络辟谣平台，成立于2018年，旨在整合各方辟谣资源，形成治理网络谣言的合力。平台主要职能包括：受理网民举报的谣言线索，协调相关部门和机构进行核实，发布权威辟谣信息，开展网络素养教育，以及推动辟谣机制建设。作为官方辟谣账号，其定位是权威信息发布窗口、谣言治理协作枢纽和公众网络素养教育阵地。目标受众为广大网民，尤其是易受谣言影响的群体，以及媒体、专家学者和基层工作者。账号核心功能是快速响应社会热点谣言，提供准确、简洁、可验证的事实核查结论，并引导公众理性看待网络信息。发言风格严谨、专业、客观，语言简洁明了，注重事实陈述和证据支撑，常用表达如“经核实”“系谣言”“请广大网民不信谣不传谣”等。禁忌话题包括未经核实的信息、敏感政治议题、个人隐私细节以及可能引发二次恐慌的内容。发布内容以辟谣通报、案例警示、防谣指南为主，频率上保持工作日每日更新，重大谣言事件时随时发布，活跃时间段集中在上午9时至11时和下午14时至17时。立场态度上，平台坚决维护网络空间秩序，对谣言零容忍，坚持用事实说话，面对争议时以官方通报和权威核实为准，不参与情绪化讨论，及时澄清误解。特殊说明：该账号代表国家辟谣体系，运营团队由网信部门工作人员和合作机构专家组成，注重与公安、媒体、地方辟谣平台联动，发布内容需经过多重审核，确保准确无误。机构记忆：在2026年8月台风“白海豚”袭击浙江、上海期间，平台密切监测涉灾谣言，于8月11日16时58分发布通报，认定“浦东一女子在台风中坠楼”为虚假信息。通报指出，60岁男性网民高某某于8月10日使用AI软件生成涉台风视频并编造信息以博取流量，浦东未发生所称坠楼事件，高某某已被依法行政拘留。平台在通报中强调了AI造谣的危害，并提醒网民警惕利用自然灾害编造谣言的行为。此次事件中，平台与上海、浙江宁波、温州等地公安机关协同，累计查处11起以上虚构事实扰乱公共秩序案件，有效遏制了谣言传播，维护了社会秩序。平台还借此案例开展科普，提升公众对AI生成内容的辨识能力。', 'mbti': 'ISTJ', 'gender': 'other', 'age': 30, 'country': '中国'}[08:40:31] [Reddit] 环境已启动
+[08:40:32] [Reddit] 已发布 3 条初始帖子
+[08:40:32] [Reddit] 轮数已截断: 120 -> 16 (max_rounds=16)
+[08:40:56] [Reddit] LKX定时事件注入 round=4: 1条 tag=NOTICE
 
 db_path C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\reddit_simulation.db
 [Reddit] 环境已启动
 [Reddit] 已发布 3 条初始帖子
 [Reddit] 轮数已截断: 120 -> 16 (max_rounds=16)
 [Reddit] LKX定时事件注入 round=4: 1条 tag=NOTICE
-2026-10-21 00:20:56,790 - camel.camel.agents.chat_agent - WARNING - Message with 8640 tokens exceeds remaining budget of 2710. Slicing into smaller chunks.
-2026-10-21 00:20:56,896 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70535, after=62962, limit=64000
-2026-10-21 00:20:57,019 - camel.camel.agents.chat_agent - WARNING - Message with 10363 tokens exceeds remaining budget of 5175. Slicing into smaller chunks.
-2026-10-21 00:20:57,086 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=69559, after=63097, limit=64000
-2026-10-21 00:20:57,824 - camel.camel.agents.chat_agent - WARNING - Message with 7304 tokens exceeds remaining budget of 3858. Slicing into smaller chunks.
-2026-10-21 00:20:57,902 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67799, after=63114, limit=64000
-2026-10-21 00:21:00,475 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=69559, after=63097, limit=64000
-2026-10-21 00:21:00,548 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=69566, after=63104, limit=64000
-2026-10-21 00:21:00,630 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=69603, after=63141, limit=64000
-2026-10-21 00:21:02,742 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67799, after=63114, limit=64000
-2026-10-21 00:21:02,820 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67806, after=63121, limit=64000
-2026-10-21 00:21:02,890 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67845, after=63160, limit=64000
-2026-10-21 00:21:03,349 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70535, after=62962, limit=64000
-2026-10-21 00:21:03,440 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70542, after=62969, limit=64000
-2026-10-21 00:21:03,540 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70577, after=63004, limit=64000
-2026-10-21 00:21:05,414 - camel.camel.agents.chat_agent - WARNING - Message with 9098 tokens exceeds remaining budget of 6098. Slicing into smaller chunks.
-2026-10-21 00:21:05,513 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67281, after=63582, limit=64000
-2026-10-21 00:21:05,627 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70584, after=63011, limit=64000
-2026-10-21 00:21:05,627 - camel.camel.agents.chat_agent - WARNING - Message with 8304 tokens exceeds remaining budget of 989. Slicing into smaller chunks.
-2026-10-21 00:21:05,723 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=80627, after=61132, limit=64000
-2026-10-21 00:21:05,874 - camel.camel.agents.chat_agent - WARNING - Message with 7911 tokens exceeds remaining budget of 5942. Slicing into smaller chunks.
-2026-10-21 00:21:05,974 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66214, after=62515, limit=64000
-2026-10-21 00:21:06,106 - camel.camel.agents.chat_agent - WARNING - Message with 9133 tokens exceeds remaining budget of 4775. Slicing into smaller chunks.
-2026-10-21 00:21:06,199 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68711, after=63975, limit=64000
-2026-10-21 00:21:06,435 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67852, after=63167, limit=64000
-2026-10-21 00:21:06,443 - camel.camel.agents.chat_agent - WARNING - Message with 9538 tokens exceeds remaining budget of 833. Slicing into smaller chunks.
-2026-10-21 00:21:06,541 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=79813, after=62283, limit=64000
-2026-10-21 00:21:07,025 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:07,025 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: e4ae4339-0a89-4202-909f-a568191339ea)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:07,038 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:07,038 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 639c44f0-3683-4e29-83f9-4492dbe763d4)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:07,137 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:07,137 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: b29aa731-d61a-4c92-9be5-810b4c3bc7ce)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:07,200 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:07,200 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 5ef1efd3-b737-4570-ad21-f0fe79b361c8)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:07,217 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:07,217 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: dafc5764-962d-442c-a46d-866489bbddfe)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:07,345 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:07,345 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: ebc74890-b77c-4efb-b891-98853e122fe8)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:08,912 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=80627, after=61132, limit=64000
-2026-10-21 00:21:08,916 - camel.camel.agents.chat_agent - WARNING - Message with 9452 tokens exceeds remaining budget of 2868. Slicing into smaller chunks.
-2026-10-21 00:21:09,028 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90702, after=63065, limit=64000
-2026-10-21 00:21:09,183 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=69610, after=63148, limit=64000
-2026-10-21 00:21:09,183 - camel.camel.agents.chat_agent - WARNING - Message with 7567 tokens exceeds remaining budget of 852. Slicing into smaller chunks.
-2026-10-21 00:21:09,274 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=79042, after=63015, limit=64000
-2026-10-21 00:21:09,405 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=67281, after=63582, limit=64000
-2026-10-21 00:21:09,413 - camel.camel.agents.chat_agent - WARNING - Message with 8974 tokens exceeds remaining budget of 418. Slicing into smaller chunks.
-2026-10-21 00:21:09,529 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=81828, after=63539, limit=64000
-2026-10-21 00:21:09,708 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=66214, after=62515, limit=64000
-2026-10-21 00:21:09,708 - camel.camel.agents.chat_agent - WARNING - Message with 9085 tokens exceeds remaining budget of 1485. Slicing into smaller chunks.
-2026-10-21 00:21:09,800 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76498, after=60650, limit=64000
-2026-10-21 00:21:10,100 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=79813, after=62283, limit=64000
-2026-10-21 00:21:10,100 - camel.camel.agents.chat_agent - WARNING - Message with 8174 tokens exceeds remaining budget of 1717. Slicing into smaller chunks.
-2026-10-21 00:21:10,207 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88916, after=63495, limit=64000
-2026-10-21 00:21:10,710 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:10,710 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 97a4a3f3-583e-4859-a2b1-7da02e575607)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:10,743 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:10,743 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: dea4eb94-9f5b-4aca-a148-88ec9a8fdcc3)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:10,752 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:10,752 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 0d628ffc-4dae-4074-bcec-5db575964a51)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:10,777 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:10,777 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: c9904318-7aad-49ab-a14e-1dd9293c4c0a)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:10,850 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:10,850 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 39543562-59fa-4a79-b35e-c59585e19f58)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:10,869 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:10,869 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 39a9c16e-6e4f-4476-bba7-4289e837abf8)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:12,545 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=76498, after=60650, limit=64000
-2026-10-21 00:21:12,554 - camel.camel.agents.chat_agent - WARNING - Message with 10497 tokens exceeds remaining budget of 3350. Slicing into smaller chunks.
-2026-10-21 00:21:12,655 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87582, after=63967, limit=64000
-2026-10-21 00:21:12,761 - camel.camel.agents.chat_agent - WARNING - Message with 8662 tokens exceeds remaining budget of 2493. Slicing into smaller chunks.
-2026-10-21 00:21:12,836 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70828, after=63380, limit=64000
-2026-10-21 00:21:12,984 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=90702, after=63065, limit=64000
-2026-10-21 00:21:12,992 - camel.camel.agents.chat_agent - WARNING - Message with 8288 tokens exceeds remaining budget of 935. Slicing into smaller chunks.
-2026-10-21 00:21:13,107 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=100837, after=63962, limit=64000
-2026-10-21 00:21:13,279 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=81828, after=63539, limit=64000
-2026-10-21 00:21:13,279 - camel.camel.agents.chat_agent - WARNING - Message with 9136 tokens exceeds remaining budget of 461. Slicing into smaller chunks.
-2026-10-21 00:21:13,424 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=95799, after=63372, limit=64000
-2026-10-21 00:21:13,680 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=68711, after=63975, limit=64000
-2026-10-21 00:21:13,680 - camel.camel.agents.chat_agent - WARNING - Message with 9505 tokens exceeds remaining budget of 25. Slicing into smaller chunks.
-2026-10-21 00:21:14,990 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=267154, after=63997, limit=64000
-2026-10-21 00:21:15,796 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88916, after=63495, limit=64000
-2026-10-21 00:21:15,805 - camel.camel.agents.chat_agent - WARNING - Message with 7431 tokens exceeds remaining budget of 505. Slicing into smaller chunks.
-2026-10-21 00:21:15,944 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=99868, after=63311, limit=64000
-2026-10-21 00:21:16,643 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:16,643 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 4a490618-afb8-44dc-8b99-b4e8e49712a6)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:16,694 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:16,694 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 69ab2569-818f-42b2-8b09-64ac1ea067a8)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:16,697 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:16,697 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 482a10a2-57dc-4634-9fff-c8f56c7c7c65)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:16,708 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:16,708 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: e401c2f6-35b5-4b40-8c45-451cc6504245)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:16,786 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:16,786 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 505930d7-59aa-4066-9066-bbf25bd52919)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:16,786 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:16,786 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 75e5e805-5e98-4af6-b5fa-0f0700914518)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:18,220 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=99868, after=63311, limit=64000
-2026-10-21 00:21:18,220 - camel.camel.agents.chat_agent - WARNING - Message with 10363 tokens exceeds remaining budget of 689. Slicing into smaller chunks.
-2026-10-21 00:21:18,367 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=113554, after=63374, limit=64000
-2026-10-21 00:21:18,615 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=79042, after=63015, limit=64000
-2026-10-21 00:21:18,623 - camel.camel.agents.chat_agent - WARNING - Message with 9940 tokens exceeds remaining budget of 985. Slicing into smaller chunks.
-2026-10-21 00:21:18,734 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=91063, after=63050, limit=64000
-2026-10-21 00:21:18,951 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=100837, after=63962, limit=64000
-2026-10-21 00:21:18,951 - camel.camel.agents.chat_agent - WARNING - Message with 6469 tokens exceeds remaining budget of 38. Slicing into smaller chunks.
-2026-10-21 00:21:19,857 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=235533, after=63995, limit=64000
-2026-10-21 00:21:20,883 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=70828, after=63380, limit=64000
-2026-10-21 00:21:20,883 - camel.camel.agents.chat_agent - WARNING - Message with 9505 tokens exceeds remaining budget of 620. Slicing into smaller chunks.
-2026-10-21 00:21:21,015 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=83746, after=63799, limit=64000
-2026-10-21 00:21:21,236 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87582, after=63967, limit=64000
-2026-10-21 00:21:21,236 - camel.camel.agents.chat_agent - WARNING - Message with 9482 tokens exceeds remaining budget of 33. Slicing into smaller chunks.
-2026-10-21 00:21:22,541 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=285546, after=63998, limit=64000
-2026-10-21 00:21:23,754 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:23,754 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 1d64c58e-dd0f-4d92-9eed-5de39471d4e8)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:23,787 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:23,787 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 39e99a54-729e-4532-8899-964d3c308228)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:23,845 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:23,845 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 906121c5-e1c0-48fd-aecb-867ffb5ee786)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:23,847 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:23,847 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 132ee2e5-3b7e-4ee3-8c62-794f9822dcfa)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:23,866 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:23,866 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 073947bc-6fa9-41b3-8c44-7703f8c6a357)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:23,894 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:23,894 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: ff016832-62a7-4f04-aa86-e2328453d518)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:25,574 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=235533, after=63995, limit=64000
-2026-10-21 00:21:25,599 - camel.camel.agents.chat_agent - WARNING - Message with 8288 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
-2026-10-21 00:21:27,531 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=408424, after=63994, limit=64000
-2026-10-21 00:21:28,404 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=83746, after=63799, limit=64000
-2026-10-21 00:21:28,404 - camel.camel.agents.chat_agent - WARNING - Message with 7456 tokens exceeds remaining budget of 201. Slicing into smaller chunks.
-2026-10-21 00:21:28,620 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=107968, after=63662, limit=64000
-2026-10-21 00:21:29,069 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=113554, after=63374, limit=64000
-2026-10-21 00:21:29,069 - camel.camel.agents.chat_agent - WARNING - Message with 7944 tokens exceeds remaining budget of 626. Slicing into smaller chunks.
-2026-10-21 00:21:29,225 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124353, after=63997, limit=64000
-2026-10-21 00:21:29,605 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=95799, after=63372, limit=64000
-2026-10-21 00:21:29,613 - camel.camel.agents.chat_agent - WARNING - Message with 9242 tokens exceeds remaining budget of 628. Slicing into smaller chunks.
-2026-10-21 00:21:29,768 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=108364, after=63930, limit=64000
-2026-10-21 00:21:30,680 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=285546, after=63998, limit=64000
-2026-10-21 00:21:30,700 - camel.camel.agents.chat_agent - WARNING - Message with 10755 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
-2026-10-21 00:21:32,834 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=510237, after=63997, limit=64000
-2026-10-21 00:21:34,549 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=267154, after=63997, limit=64000
-2026-10-21 00:21:34,580 - camel.camel.agents.chat_agent - WARNING - Message with 8625 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
-2026-10-21 00:21:36,438 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=447124, after=63998, limit=64000
-2026-10-21 00:21:37,734 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:37,734 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: c610c447-bd98-4713-babd-3d36785e32de)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:37,737 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:37,737 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: de49d05f-9202-4c5a-b3d2-42b92cfe173d)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:37,823 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:37,823 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: fe257afb-47a4-4962-8abb-01b18dee94ca)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:37,833 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:37,833 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: 98db4bc9-1e90-4832-8c8a-4d0c50dbb43f)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:37,872 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:37,872 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: f93a43ab-6d9d-4e45-afbe-42be603dc446)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-2026-10-21 00:21:37,914 - camel.models.model_manager - ERROR - Error processing with model: <camel.models.openai_model.OpenAIModel object at 0x000002166DA83D10>
-2026-10-21 00:21:37,914 - camel.camel.agents.chat_agent - ERROR - Model error: deepseek-chat
-Traceback (most recent call last):
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\agents\chat_agent.py", line 2248, in _aget_model_response
-    response = await self.model_backend.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 287, in arun
-    raise exc
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\model_manager.py", line 274, in arun
-    response = await self.current_model.arun(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\base_model.py", line 480, in arun
-    result = await self._arun(messages, response_format, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 388, in _arun
-    result = await self._arequest_chat_completion(messages, tools)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\camel\models\openai_model.py", line 426, in _arequest_chat_completion
-    return await self._async_client.chat.completions.create(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2585, in create
-    return await self._post(
-           ^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1794, in post
-    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Kevin\Desktop\MiroFish\backend\.venv\Lib\site-packages\openai\_base_client.py", line 1594, in request
-    raise self._make_status_error_from_response(err.response) from None
-openai.APIStatusError: Error code: 402 - {'error': {'message': 'Insufficient Balance (request_id: e7ad2d7b-602f-4f00-90cb-30049b341550)', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
-[00:21:37] [Reddit] 模拟循环完成! 耗时: 160.9秒, 总动作: 144
-[00:21:37] ============================================================
-[00:21:37] 模拟循环完成! 总耗时: 170.2秒
-[00:21:37] [Reddit] 环境已关闭
-[00:21:37] ============================================================
-[00:21:37] 全部完成!
-[00:21:37] 日志文件:
-[00:21:37]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation.log
-[00:21:37]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\twitter\actions.jsonl
-[00:21:37]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\reddit\actions.jsonl
-[00:21:37] ============================================================
-[Reddit] 模拟循环完成! 耗时: 160.9秒, 总动作: 144
+2026-10-21 08:41:29,333 - camel.camel.agents.chat_agent - WARNING - Message with 10921 tokens exceeds remaining budget of 2397. Slicing into smaller chunks.
+2026-10-21 08:41:29,397 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73399, after=63308, limit=64000
+2026-10-21 08:41:29,473 - camel.camel.agents.chat_agent - WARNING - Message with 9788 tokens exceeds remaining budget of 9223. Slicing into smaller chunks.
+2026-10-21 08:41:29,528 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=64756, after=63770, limit=64000
+2026-10-21 08:41:29,606 - camel.camel.agents.chat_agent - WARNING - Message with 11094 tokens exceeds remaining budget of 10087. Slicing into smaller chunks.
+2026-10-21 08:41:29,665 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65216, after=63973, limit=64000
+2026-10-21 08:41:31,676 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73399, after=63308, limit=64000
+2026-10-21 08:41:31,751 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73406, after=63315, limit=64000
+2026-10-21 08:41:31,803 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73444, after=63353, limit=64000
+2026-10-21 08:41:32,171 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=64756, after=63770, limit=64000
+2026-10-21 08:41:32,214 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=64763, after=63777, limit=64000
+2026-10-21 08:41:32,264 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=64801, after=63815, limit=64000
+2026-10-21 08:41:32,333 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65216, after=63973, limit=64000
+2026-10-21 08:41:32,407 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65223, after=63980, limit=64000
+2026-10-21 08:41:32,407 - camel.camel.agents.chat_agent - WARNING - Message with 40 tokens exceeds remaining budget of 20. Slicing into smaller chunks.
+2026-10-21 08:41:32,862 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65263, after=61937, limit=64000
+2026-10-21 08:41:32,904 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65270, after=61944, limit=64000
+2026-10-21 08:41:32,944 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65310, after=61984, limit=64000
+2026-10-21 08:41:35,107 - camel.camel.agents.chat_agent - WARNING - Message with 11488 tokens exceeds remaining budget of 2602. Slicing into smaller chunks.
+2026-10-21 08:41:35,181 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73724, after=63633, limit=64000
+2026-10-21 08:41:35,276 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65317, after=61991, limit=64000
+2026-10-21 08:41:35,276 - camel.camel.agents.chat_agent - WARNING - Message with 9613 tokens exceeds remaining budget of 2009. Slicing into smaller chunks.
+2026-10-21 08:41:35,349 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75858, after=63216, limit=64000
+2026-10-21 08:41:35,440 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=64808, after=63822, limit=64000
+2026-10-21 08:41:35,440 - camel.camel.agents.chat_agent - WARNING - Message with 10880 tokens exceeds remaining budget of 178. Slicing into smaller chunks.
+2026-10-21 08:41:35,657 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118177, after=63995, limit=64000
+2026-10-21 08:41:36,073 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73451, after=63360, limit=64000
+2026-10-21 08:41:36,073 - camel.camel.agents.chat_agent - WARNING - Message with 10793 tokens exceeds remaining budget of 640. Slicing into smaller chunks.
+2026-10-21 08:41:36,166 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87981, after=63959, limit=64000
+2026-10-21 08:41:38,373 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73724, after=63633, limit=64000
+2026-10-21 08:41:38,432 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73731, after=63640, limit=64000
+2026-10-21 08:41:38,501 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73770, after=63679, limit=64000
+2026-10-21 08:41:38,941 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87981, after=63959, limit=64000
+2026-10-21 08:41:39,019 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87988, after=63966, limit=64000
+2026-10-21 08:41:39,020 - camel.camel.agents.chat_agent - WARNING - Message with 40 tokens exceeds remaining budget of 34. Slicing into smaller chunks.
+2026-10-21 08:41:39,116 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88028, after=63959, limit=64000
+2026-10-21 08:41:39,376 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118177, after=63995, limit=64000
+2026-10-21 08:41:39,386 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:41:39,535 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118184, after=63995, limit=64000
+2026-10-21 08:41:39,542 - camel.camel.agents.chat_agent - WARNING - Message with 39 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:41:39,698 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75858, after=63216, limit=64000
+2026-10-21 08:41:39,763 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75865, after=63223, limit=64000
+2026-10-21 08:41:39,819 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75903, after=63261, limit=64000
+2026-10-21 08:41:40,186 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118223, after=63994, limit=64000
+2026-10-21 08:41:40,191 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:41:40,339 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118230, after=63994, limit=64000
+2026-10-21 08:41:40,346 - camel.camel.agents.chat_agent - WARNING - Message with 38 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:41:40,485 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118268, after=63991, limit=64000
+2026-10-21 08:41:41,746 - camel.camel.agents.chat_agent - WARNING - Message with 11834 tokens exceeds remaining budget of 10124. Slicing into smaller chunks.
+2026-10-21 08:41:41,808 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65919, after=59154, limit=64000
+2026-10-21 08:41:41,902 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75910, after=63268, limit=64000
+2026-10-21 08:41:41,903 - camel.camel.agents.chat_agent - WARNING - Message with 10607 tokens exceeds remaining budget of 732. Slicing into smaller chunks.
+2026-10-21 08:41:41,985 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89642, after=63091, limit=64000
+2026-10-21 08:41:42,112 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73777, after=63686, limit=64000
+2026-10-21 08:41:42,112 - camel.camel.agents.chat_agent - WARNING - Message with 12714 tokens exceeds remaining budget of 314. Slicing into smaller chunks.
+2026-10-21 08:41:42,234 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98526, after=63998, limit=64000
+2026-10-21 08:41:42,500 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=118275, after=63998, limit=64000
+2026-10-21 08:41:42,508 - camel.camel.agents.chat_agent - WARNING - Message with 11306 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:41:43,890 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=354539, after=63995, limit=64000
+2026-10-21 08:41:44,690 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88035, after=63966, limit=64000
+2026-10-21 08:41:44,691 - camel.camel.agents.chat_agent - WARNING - Message with 11867 tokens exceeds remaining budget of 34. Slicing into smaller chunks.
+2026-10-21 08:41:45,732 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=336077, after=63995, limit=64000
+2026-10-21 08:41:46,283 - camel.camel.agents.chat_agent - WARNING - Message with 11834 tokens exceeds remaining budget of 2583. Slicing into smaller chunks.
+2026-10-21 08:41:46,366 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74126, after=62549, limit=64000
+2026-10-21 08:41:48,186 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74126, after=62549, limit=64000
+2026-10-21 08:41:48,237 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74133, after=62556, limit=64000
+2026-10-21 08:41:48,285 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74175, after=62598, limit=64000
+2026-10-21 08:41:48,356 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89642, after=63091, limit=64000
+2026-10-21 08:41:48,423 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89649, after=63098, limit=64000
+2026-10-21 08:41:48,748 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89687, after=63136, limit=64000
+2026-10-21 08:41:48,817 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89694, after=63143, limit=64000
+2026-10-21 08:41:48,880 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89732, after=63181, limit=64000
+2026-10-21 08:41:49,658 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=336077, after=63995, limit=64000
+2026-10-21 08:41:49,685 - camel.camel.agents.chat_agent - WARNING - Message with 122 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:41:50,737 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98526, after=63998, limit=64000
+2026-10-21 08:41:50,739 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:41:50,832 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98533, after=62291, limit=64000
+2026-10-21 08:41:50,913 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98571, after=62329, limit=64000
+2026-10-21 08:41:51,868 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=354539, after=63995, limit=64000
+2026-10-21 08:41:51,897 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:41:52,711 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=354546, after=63995, limit=64000
+2026-10-21 08:41:52,736 - camel.camel.agents.chat_agent - WARNING - Message with 3492 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:41:53,664 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=358038, after=64000, limit=64000
+2026-10-21 08:41:53,694 - camel.camel.agents.chat_agent - WARNING - Message with 17 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:41:53,752 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65919, after=59154, limit=64000
+2026-10-21 08:41:53,801 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65926, after=59161, limit=64000
+2026-10-21 08:41:53,847 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65965, after=59200, limit=64000
+2026-10-21 08:41:54,563 - camel.camel.agents.chat_agent - WARNING - Message with 11896 tokens exceeds remaining budget of 3411. Slicing into smaller chunks.
+2026-10-21 08:41:54,623 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73144, after=63053, limit=64000
+2026-10-21 08:41:54,734 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=89739, after=63188, limit=64000
+2026-10-21 08:41:54,735 - camel.camel.agents.chat_agent - WARNING - Message with 12933 tokens exceeds remaining budget of 812. Slicing into smaller chunks.
+2026-10-21 08:41:54,845 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=106047, after=63515, limit=64000
+2026-10-21 08:41:55,015 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=74182, after=62605, limit=64000
+2026-10-21 08:41:55,015 - camel.camel.agents.chat_agent - WARNING - Message with 12402 tokens exceeds remaining budget of 1395. Slicing into smaller chunks.
+2026-10-21 08:41:55,095 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88340, after=63457, limit=64000
+2026-10-21 08:41:56,068 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=358228, after=63996, limit=64000
+2026-10-21 08:41:56,100 - camel.camel.agents.chat_agent - WARNING - Message with 12509 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 08:41:58,478 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=619749, after=63994, limit=64000
+2026-10-21 08:41:59,064 - camel.camel.agents.chat_agent - WARNING - Message with 13653 tokens exceeds remaining budget of 4628. Slicing into smaller chunks.
+2026-10-21 08:41:59,138 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73575, after=60075, limit=64000
+2026-10-21 08:41:59,813 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=338263, after=63998, limit=64000
+2026-10-21 08:41:59,838 - camel.camel.agents.chat_agent - WARNING - Message with 12668 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:42:01,626 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=603124, after=63994, limit=64000
+2026-10-21 08:42:05,074 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=603124, after=63994, limit=64000
+2026-10-21 08:42:05,122 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:42:06,709 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=603131, after=64000, limit=64000
+2026-10-21 08:42:06,751 - camel.camel.agents.chat_agent - WARNING - Message with 4150 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:42:08,290 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=607281, after=63994, limit=64000
+2026-10-21 08:42:08,332 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:42:08,958 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=106047, after=63515, limit=64000
+2026-10-21 08:42:09,052 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=106054, after=63522, limit=64000
+2026-10-21 08:42:09,147 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=106093, after=63561, limit=64000
+2026-10-21 08:42:09,224 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88340, after=63457, limit=64000
+2026-10-21 08:42:09,301 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88347, after=63464, limit=64000
+2026-10-21 08:42:09,373 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88384, after=63501, limit=64000
+2026-10-21 08:42:09,428 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73575, after=60075, limit=64000
+2026-10-21 08:42:09,487 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73582, after=60082, limit=64000
+2026-10-21 08:42:09,548 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73621, after=60121, limit=64000
+2026-10-21 08:42:11,315 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=619749, after=63994, limit=64000
+2026-10-21 08:42:11,368 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:42:13,279 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=619756, after=63994, limit=64000
+2026-10-21 08:42:13,326 - camel.camel.agents.chat_agent - WARNING - Message with 431 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:42:14,819 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=620187, after=63998, limit=64000
+2026-10-21 08:42:14,856 - camel.camel.agents.chat_agent - WARNING - Message with 19 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:42:14,911 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73144, after=63053, limit=64000
+2026-10-21 08:42:14,962 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73151, after=63060, limit=64000
+2026-10-21 08:42:15,166 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73193, after=63102, limit=64000
+2026-10-21 08:42:15,211 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73200, after=63109, limit=64000
+2026-10-21 08:42:15,265 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73238, after=63147, limit=64000
+2026-10-21 08:42:17,578 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=607288, after=64000, limit=64000
+2026-10-21 08:42:17,620 - camel.camel.agents.chat_agent - WARNING - Message with 11295 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:42:20,559 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=843322, after=63996, limit=64000
+2026-10-21 08:42:21,209 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88391, after=63508, limit=64000
+2026-10-21 08:42:21,210 - camel.camel.agents.chat_agent - WARNING - Message with 10954 tokens exceeds remaining budget of 492. Slicing into smaller chunks.
+2026-10-21 08:42:21,340 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104666, after=64000, limit=64000
+2026-10-21 08:42:22,915 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=620415, after=63996, limit=64000
+2026-10-21 08:42:22,963 - camel.camel.agents.chat_agent - WARNING - Message with 12349 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 08:42:25,660 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=878576, after=63995, limit=64000
+2026-10-21 08:42:26,219 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=106100, after=63568, limit=64000
+2026-10-21 08:42:26,220 - camel.camel.agents.chat_agent - WARNING - Message with 11596 tokens exceeds remaining budget of 432. Slicing into smaller chunks.
+2026-10-21 08:42:26,339 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124421, after=63992, limit=64000
+2026-10-21 08:42:26,508 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73245, after=63154, limit=64000
+2026-10-21 08:42:26,509 - camel.camel.agents.chat_agent - WARNING - Message with 11620 tokens exceeds remaining budget of 846. Slicing into smaller chunks.
+2026-10-21 08:42:26,577 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87773, after=62990, limit=64000
+2026-10-21 08:42:26,719 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=98578, after=62336, limit=64000
+2026-10-21 08:42:26,721 - camel.camel.agents.chat_agent - WARNING - Message with 10766 tokens exceeds remaining budget of 1664. Slicing into smaller chunks.
+2026-10-21 08:42:26,826 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110597, after=63978, limit=64000
+2026-10-21 08:42:27,004 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=65972, after=59207, limit=64000
+2026-10-21 08:42:27,005 - camel.camel.agents.chat_agent - WARNING - Message with 9143 tokens exceeds remaining budget of 4793. Slicing into smaller chunks.
+2026-10-21 08:42:27,055 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75468, after=60796, limit=64000
+2026-10-21 08:42:30,768 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=878576, after=63995, limit=64000
+2026-10-21 08:42:30,880 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:42:33,422 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=878583, after=63995, limit=64000
+2026-10-21 08:42:33,495 - camel.camel.agents.chat_agent - WARNING - Message with 430 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:42:35,813 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=879013, after=63998, limit=64000
+2026-10-21 08:42:35,901 - camel.camel.agents.chat_agent - WARNING - Message with 19 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:42:36,945 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110597, after=63978, limit=64000
+2026-10-21 08:42:37,058 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110604, after=63985, limit=64000
+2026-10-21 08:42:37,062 - camel.camel.agents.chat_agent - WARNING - Message with 38 tokens exceeds remaining budget of 15. Slicing into smaller chunks.
+2026-10-21 08:42:37,175 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110642, after=63880, limit=64000
+2026-10-21 08:42:37,257 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87773, after=62990, limit=64000
+2026-10-21 08:42:37,331 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87780, after=62997, limit=64000
+2026-10-21 08:42:37,407 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87818, after=63035, limit=64000
+2026-10-21 08:42:37,532 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124421, after=63992, limit=64000
+2026-10-21 08:42:37,660 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124428, after=63999, limit=64000
+2026-10-21 08:42:37,663 - camel.camel.agents.chat_agent - WARNING - Message with 37 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:42:37,792 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104666, after=64000, limit=64000
+2026-10-21 08:42:37,793 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:42:37,893 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104673, after=64000, limit=64000
+2026-10-21 08:42:37,894 - camel.camel.agents.chat_agent - WARNING - Message with 37 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:42:40,239 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=843322, after=63996, limit=64000
+2026-10-21 08:42:40,299 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 08:42:42,871 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=843329, after=63996, limit=64000
+2026-10-21 08:42:42,942 - camel.camel.agents.chat_agent - WARNING - Message with 3265 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 08:42:43,004 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75468, after=60796, limit=64000
+2026-10-21 08:42:43,061 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75475, after=60803, limit=64000
+2026-10-21 08:42:43,124 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75513, after=60841, limit=64000
+2026-10-21 08:42:43,669 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124465, after=63991, limit=64000
+2026-10-21 08:42:43,801 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124472, after=63998, limit=64000
+2026-10-21 08:42:43,803 - camel.camel.agents.chat_agent - WARNING - Message with 38 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:42:43,924 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124510, after=63991, limit=64000
+2026-10-21 08:42:44,025 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104710, after=63998, limit=64000
+2026-10-21 08:42:44,026 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:42:44,126 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104717, after=63998, limit=64000
+2026-10-21 08:42:44,127 - camel.camel.agents.chat_agent - WARNING - Message with 38 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:42:44,238 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104755, after=63999, limit=64000
+2026-10-21 08:42:44,240 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:42:46,505 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=846594, after=63999, limit=64000
+2026-10-21 08:42:46,591 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:42:49,132 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=846601, after=63999, limit=64000
+2026-10-21 08:42:49,208 - camel.camel.agents.chat_agent - WARNING - Message with 431 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:42:51,421 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=847032, after=63997, limit=64000
+2026-10-21 08:42:51,488 - camel.camel.agents.chat_agent - WARNING - Message with 21 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:42:52,518 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=87825, after=63042, limit=64000
+2026-10-21 08:42:52,519 - camel.camel.agents.chat_agent - WARNING - Message with 10943 tokens exceeds remaining budget of 958. Slicing into smaller chunks.
+2026-10-21 08:42:52,634 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101136, after=63186, limit=64000
+2026-10-21 08:42:55,483 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=847298, after=63997, limit=64000
+2026-10-21 08:42:55,562 - camel.camel.agents.chat_agent - WARNING - Message with 12349 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:42:59,201 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1105459, after=63995, limit=64000
+2026-10-21 08:43:02,264 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=879241, after=64000, limit=64000
+2026-10-21 08:43:02,348 - camel.camel.agents.chat_agent - WARNING - Message with 12635 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:05,777 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1143407, after=63995, limit=64000
+2026-10-21 08:43:06,346 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=75520, after=60848, limit=64000
+2026-10-21 08:43:06,346 - camel.camel.agents.chat_agent - WARNING - Message with 11962 tokens exceeds remaining budget of 3152. Slicing into smaller chunks.
+2026-10-21 08:43:06,412 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88195, after=63782, limit=64000
+2026-10-21 08:43:06,556 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=124517, after=63998, limit=64000
+2026-10-21 08:43:06,559 - camel.camel.agents.chat_agent - WARNING - Message with 11326 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:43:07,483 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=361199, after=63997, limit=64000
+2026-10-21 08:43:07,850 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=73628, after=60128, limit=64000
+2026-10-21 08:43:07,851 - camel.camel.agents.chat_agent - WARNING - Message with 11485 tokens exceeds remaining budget of 3872. Slicing into smaller chunks.
+2026-10-21 08:43:07,899 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=85663, after=63195, limit=64000
+2026-10-21 08:43:07,983 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=104762, after=63999, limit=64000
+2026-10-21 08:43:07,984 - camel.camel.agents.chat_agent - WARNING - Message with 11271 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:43:08,733 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=340288, after=64000, limit=64000
+2026-10-21 08:43:14,612 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1105459, after=63995, limit=64000
+2026-10-21 08:43:14,746 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:43:19,874 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1105466, after=64000, limit=64000
+2026-10-21 08:43:19,960 - camel.camel.agents.chat_agent - WARNING - Message with 434 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:22,844 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1105900, after=63995, limit=64000
+2026-10-21 08:43:22,915 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:43:25,085 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1105907, after=64000, limit=64000
+2026-10-21 08:43:25,149 - camel.camel.agents.chat_agent - WARNING - Message with 3826 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:27,574 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1109733, after=63999, limit=64000
+2026-10-21 08:43:27,645 - camel.camel.agents.chat_agent - WARNING - Message with 23 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:43:28,387 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=85663, after=63195, limit=64000
+2026-10-21 08:43:28,433 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=85670, after=63202, limit=64000
+2026-10-21 08:43:28,477 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=85706, after=63238, limit=64000
+2026-10-21 08:43:29,126 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=340288, after=64000, limit=64000
+2026-10-21 08:43:29,144 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:29,568 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=340295, after=64000, limit=64000
+2026-10-21 08:43:29,586 - camel.camel.agents.chat_agent - WARNING - Message with 432 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:32,433 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1143407, after=63995, limit=64000
+2026-10-21 08:43:32,504 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:43:34,843 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1143414, after=63995, limit=64000
+2026-10-21 08:43:34,914 - camel.camel.agents.chat_agent - WARNING - Message with 44 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:43:34,974 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101136, after=63186, limit=64000
+2026-10-21 08:43:35,037 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101143, after=63193, limit=64000
+2026-10-21 08:43:35,099 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101182, after=63232, limit=64000
+2026-10-21 08:43:35,145 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88195, after=63782, limit=64000
+2026-10-21 08:43:35,193 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88202, after=63789, limit=64000
+2026-10-21 08:43:35,240 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88241, after=63828, limit=64000
+2026-10-21 08:43:36,042 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=340727, after=63999, limit=64000
+2026-10-21 08:43:36,060 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:43:36,525 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=340734, after=63999, limit=64000
+2026-10-21 08:43:36,548 - camel.camel.agents.chat_agent - WARNING - Message with 41 tokens exceeds remaining budget of 1. Slicing into smaller chunks.
+2026-10-21 08:43:37,185 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=340775, after=63998, limit=64000
+2026-10-21 08:43:37,202 - camel.camel.agents.chat_agent - WARNING - Message with 21 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:43:39,956 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1143458, after=63997, limit=64000
+2026-10-21 08:43:40,029 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:43:42,104 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1143465, after=63997, limit=64000
+2026-10-21 08:43:42,168 - camel.camel.agents.chat_agent - WARNING - Message with 430 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:43:44,428 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1143895, after=64000, limit=64000
+2026-10-21 08:43:44,492 - camel.camel.agents.chat_agent - WARNING - Message with 22 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:45,095 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=361199, after=63997, limit=64000
+2026-10-21 08:43:45,113 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:43:45,725 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=361206, after=63997, limit=64000
+2026-10-21 08:43:45,741 - camel.camel.agents.chat_agent - WARNING - Message with 432 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:43:46,535 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=361638, after=63995, limit=64000
+2026-10-21 08:43:46,553 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:43:47,235 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=361645, after=64000, limit=64000
+2026-10-21 08:43:47,253 - camel.camel.agents.chat_agent - WARNING - Message with 4184 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:43:47,913 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=365829, after=63994, limit=64000
+2026-10-21 08:43:47,942 - camel.camel.agents.chat_agent - WARNING - Message with 23 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:43:48,770 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=110649, after=63887, limit=64000
+2026-10-21 08:43:48,773 - camel.camel.agents.chat_agent - WARNING - Message with 11896 tokens exceeds remaining budget of 113. Slicing into smaller chunks.
+2026-10-21 08:43:49,690 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=359301, after=63996, limit=64000
+2026-10-21 08:43:50,096 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=85713, after=63245, limit=64000
+2026-10-21 08:43:50,096 - camel.camel.agents.chat_agent - WARNING - Message with 11910 tokens exceeds remaining budget of 755. Slicing into smaller chunks.
+2026-10-21 08:43:50,162 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101018, after=63834, limit=64000
+2026-10-21 08:43:52,590 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1110037, after=63995, limit=64000
+2026-10-21 08:43:52,655 - camel.camel.agents.chat_agent - WARNING - Message with 12278 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:43:55,844 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1366709, after=63997, limit=64000
+2026-10-21 08:43:56,343 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=88248, after=63835, limit=64000
+2026-10-21 08:43:56,343 - camel.camel.agents.chat_agent - WARNING - Message with 13177 tokens exceeds remaining budget of 165. Slicing into smaller chunks.
+2026-10-21 08:43:56,575 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=166266, after=63998, limit=64000
+2026-10-21 08:43:57,598 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=366133, after=63997, limit=64000
+2026-10-21 08:43:57,616 - camel.camel.agents.chat_agent - WARNING - Message with 10151 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:43:58,803 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578144, after=63995, limit=64000
+2026-10-21 08:44:01,913 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1144180, after=63998, limit=64000
+2026-10-21 08:44:01,989 - camel.camel.agents.chat_agent - WARNING - Message with 12604 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:44:05,068 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1407699, after=63994, limit=64000
+2026-10-21 08:44:07,327 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=166266, after=63998, limit=64000
+2026-10-21 08:44:07,332 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:44:07,475 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=166273, after=63998, limit=64000
+2026-10-21 08:44:07,481 - camel.camel.agents.chat_agent - WARNING - Message with 41 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:44:07,995 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=166314, after=64000, limit=64000
+2026-10-21 08:44:08,000 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:44:08,162 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=166321, after=64000, limit=64000
+2026-10-21 08:44:08,170 - camel.camel.agents.chat_agent - WARNING - Message with 432 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:44:08,343 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=166753, after=63995, limit=64000
+2026-10-21 08:44:08,350 - camel.camel.agents.chat_agent - WARNING - Message with 28 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:44:08,416 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101018, after=63834, limit=64000
+2026-10-21 08:44:08,479 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101025, after=63841, limit=64000
+2026-10-21 08:44:08,539 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=101065, after=63881, limit=64000
+2026-10-21 08:44:11,433 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1366709, after=63997, limit=64000
+2026-10-21 08:44:11,517 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:44:14,637 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1366716, after=63997, limit=64000
+2026-10-21 08:44:14,722 - camel.camel.agents.chat_agent - WARNING - Message with 46 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:44:15,461 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578144, after=63995, limit=64000
+2026-10-21 08:44:15,492 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 5. Slicing into smaller chunks.
+2026-10-21 08:44:16,694 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=578151, after=64000, limit=64000
+2026-10-21 08:44:16,727 - camel.camel.agents.chat_agent - WARNING - Message with 3760 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:44:17,649 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=581911, after=63997, limit=64000
+2026-10-21 08:44:17,678 - camel.camel.agents.chat_agent - WARNING - Message with 51 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+2026-10-21 08:44:18,618 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=359301, after=63996, limit=64000
+2026-10-21 08:44:18,636 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 08:44:19,495 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=359308, after=63996, limit=64000
+2026-10-21 08:44:19,523 - camel.camel.agents.chat_agent - WARNING - Message with 431 tokens exceeds remaining budget of 4. Slicing into smaller chunks.
+2026-10-21 08:44:20,478 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=359739, after=64000, limit=64000
+2026-10-21 08:44:20,506 - camel.camel.agents.chat_agent - WARNING - Message with 21 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:44:24,197 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1407699, after=63994, limit=64000
+2026-10-21 08:44:24,326 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:44:28,214 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1407706, after=63994, limit=64000
+2026-10-21 08:44:28,312 - camel.camel.agents.chat_agent - WARNING - Message with 1328 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:44:31,577 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1366762, after=63994, limit=64000
+2026-10-21 08:44:31,684 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:44:34,664 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1366769, after=63994, limit=64000
+2026-10-21 08:44:34,767 - camel.camel.agents.chat_agent - WARNING - Message with 3637 tokens exceeds remaining budget of 6. Slicing into smaller chunks.
+2026-10-21 08:44:38,400 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1370406, after=63998, limit=64000
+2026-10-21 08:44:38,509 - camel.camel.agents.chat_agent - WARNING - Message with 30 tokens exceeds remaining budget of 2. Slicing into smaller chunks.
+2026-10-21 08:44:42,224 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1409034, after=64000, limit=64000
+2026-10-21 08:44:42,330 - camel.camel.agents.chat_agent - WARNING - Message with 7 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:44:46,169 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1409041, after=64000, limit=64000
+2026-10-21 08:44:46,280 - camel.camel.agents.chat_agent - WARNING - Message with 3602 tokens exceeds remaining budget of 0. Slicing into smaller chunks.
+2026-10-21 08:44:49,685 - camel.camel.memories.context_creators.score_based - WARNING - Context truncation performed: before=1412643, after=63997, limit=64000
+2026-10-21 08:44:49,798 - camel.camel.agents.chat_agent - WARNING - Message with 19 tokens exceeds remaining budget of 3. Slicing into smaller chunks.
+[08:44:49] [Reddit] 模拟循环完成! 耗时: 257.1秒, 总动作: 177
+[08:44:49] ============================================================
+[08:44:49] 模拟循环完成! 总耗时: 262.0秒
+[08:44:49] [Reddit] 环境已关闭
+[08:44:49] ============================================================
+[08:44:49] 全部完成!
+[08:44:49] 日志文件:
+[08:44:49]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\simulation.log
+[08:44:49]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\twitter\actions.jsonl
+[08:44:49]   - C:\Users\Kevin\Desktop\MiroFish\backend\uploads\simulations\sim_285f7fdfd644\reddit\actions.jsonl
+[08:44:49] ============================================================
+[Reddit] 模拟循环完成! 耗时: 257.1秒, 总动作: 177
 模拟进程已退出
