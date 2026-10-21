@@ -1,0 +1,45 @@
+{"timestamp": "2026-10-21T09:12:11.380305", "event_type": "simulation_start", "platform": "reddit", "total_rounds": 240, "agents_count": 8}
+{"round": 0, "timestamp": "2026-10-21T09:12:11.382303", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-10-21T09:12:11.396652", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:12:11.406627", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_POST", "action_args": {"content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:12:11.417639", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_POST", "action_args": {"content": "台风太凶了！听说浦东已经有人坠楼，一些地下车库也淹了，大家千万别出门！"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:12:11.429347", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "这种天气官方一直不发伤亡通报，是不是实情比我们想的严重？大家关注一下。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:12:12.177813", "event_type": "round_end", "actions_count": 4}
+{"round": 1, "timestamp": "2026-10-21T09:12:12.192823", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-10-21T09:12:16.186632", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。", "post_id": 1}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:12:16.199293", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "这种天气官方一直不发伤亡通报，是不是实情比我们想的严重？大家关注一下。", "post_id": 2}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:12:16.208072", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_POST", "action_args": {"content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。", "post_id": 3}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:12:16.221420", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_POST", "action_args": {"content": "台风太凶了！听说浦东已经有人坠楼，一些地下车库也淹了，大家千万别出门！", "post_id": 4}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:12:16.233745", "agent_id": 2, "agent_name": "上海公安机关", "action_type": "CREATE_POST", "action_args": {"content": "【情况通报】经属地公安部门调查，网传「浦东一女子在台风中坠楼」系虚假信息。该信息系网民高某某（男，60 岁）为博取流量，运用 AI 软件生成涉台风视频，编造虚假信息并发布，造成不良社会影响，目前已被依法处以行政拘留。警方提示：请市民群众不随意转发未经证实的信息，共同维护良好的网络环境和社会秩序。", "post_id": 5}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:12:16.244633", "event_type": "round_end", "actions_count": 5}
+{"round": 2, "timestamp": "2026-10-21T09:12:16.256310", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-10-21T09:12:17.754277", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-10-21T09:12:17.767720", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-10-21T09:12:19.229742", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-10-21T09:12:19.241205", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-10-21T09:12:21.173421", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-10-21T09:12:21.186446", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-10-21T09:12:23.113209", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-10-21T09:12:23.123219", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-10-21T09:12:25.046479", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-10-21T09:12:25.056987", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-10-21T09:12:26.653442", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-10-21T09:12:26.668990", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-10-21T09:12:28.349373", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-10-21T09:12:28.363710", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-10-21T09:12:30.803548", "event_type": "round_end", "actions_count": 0}
+{"round": 10, "timestamp": "2026-10-21T09:12:30.813557", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-10-21T09:12:33.013096", "event_type": "round_end", "actions_count": 0}
+{"round": 11, "timestamp": "2026-10-21T09:12:33.027099", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-10-21T09:12:35.030061", "event_type": "round_end", "actions_count": 0}
+{"round": 12, "timestamp": "2026-10-21T09:12:35.041349", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-10-21T09:12:37.352021", "event_type": "round_end", "actions_count": 0}
+{"round": 13, "timestamp": "2026-10-21T09:12:37.364387", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-10-21T09:12:39.478339", "event_type": "round_end", "actions_count": 0}
+{"round": 14, "timestamp": "2026-10-21T09:12:39.489925", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-10-21T09:12:41.785788", "event_type": "round_end", "actions_count": 0}
+{"round": 15, "timestamp": "2026-10-21T09:12:41.796787", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-10-21T09:12:43.948256", "event_type": "round_end", "actions_count": 0}
+{"round": 16, "timestamp": "2026-10-21T09:12:43.960770", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-10-21T09:12:46.593719", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-10-21T09:12:46.607722", "event_type": "simulation_end", "platform": "reddit", "total_rounds": 16, "total_actions": 9}

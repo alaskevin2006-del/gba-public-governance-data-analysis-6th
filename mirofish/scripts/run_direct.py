@@ -226,8 +226,11 @@ def main():
         except Exception:
             cur = -1
         print(f"\n{'='*66}\n【{name}】{g['name']}  余额 ¥{cur}")
-        if 0 <= cur < args.stop_below:
-            print(f"  [STOP] 余额低于 {args.stop_below} 元，停止后续运行")
+        # 注意：必须判 `cur < stop_below`，不能用 `0 <= cur < stop_below`。
+        # 2026-10-21 的教训：余额延迟入账会读到负值，而 `0 <= cur` 在负值时为 False，
+        # 止损被绕过，导致在余额已耗尽的情况下又连发了两组请求。
+        if cur < args.stop_below:
+            print(f"  [STOP] 余额 ¥{cur} 低于止损线 {args.stop_below} 元，停止后续运行")
             break
 
         cfg, info_act, removed, official = build_config(pristine, g_key, args.seed_base + rep)

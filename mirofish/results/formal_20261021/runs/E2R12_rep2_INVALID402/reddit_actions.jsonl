@@ -1,0 +1,71 @@
+{"timestamp": "2026-10-21T09:10:47.504160", "event_type": "simulation_start", "platform": "reddit", "total_rounds": 240, "agents_count": 8}
+{"round": 0, "timestamp": "2026-10-21T09:10:47.505167", "event_type": "round_start", "simulated_hour": 0}
+{"round": 0, "timestamp": "2026-10-21T09:10:47.520173", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:10:47.530102", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_POST", "action_args": {"content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:10:47.542416", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_POST", "action_args": {"content": "台风太凶了！听说浦东已经有人坠楼，一些地下车库也淹了，大家千万别出门！"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:10:47.553417", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "这种天气官方一直不发伤亡通报，是不是实情比我们想的严重？大家关注一下。"}, "result": null, "success": true}
+{"round": 0, "timestamp": "2026-10-21T09:10:49.169279", "event_type": "round_end", "actions_count": 4}
+{"round": 1, "timestamp": "2026-10-21T09:10:49.182278", "event_type": "round_start", "simulated_hour": 0}
+{"round": 1, "timestamp": "2026-10-21T09:10:52.319685", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。", "post_id": 1}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:10:52.332284", "agent_id": 0, "agent_name": "温州网民", "action_type": "CREATE_POST", "action_args": {"content": "这种天气官方一直不发伤亡通报，是不是实情比我们想的严重？大家关注一下。", "post_id": 2}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:10:52.342419", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_POST", "action_args": {"content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。", "post_id": 3}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:10:52.357432", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_POST", "action_args": {"content": "台风太凶了！听说浦东已经有人坠楼，一些地下车库也淹了，大家千万别出门！", "post_id": 4}, "result": null, "success": true}
+{"round": 1, "timestamp": "2026-10-21T09:10:52.370827", "event_type": "round_end", "actions_count": 4}
+{"round": 2, "timestamp": "2026-10-21T09:10:52.383828", "event_type": "round_start", "simulated_hour": 1}
+{"round": 2, "timestamp": "2026-10-21T09:10:54.090892", "event_type": "round_end", "actions_count": 0}
+{"round": 3, "timestamp": "2026-10-21T09:10:54.102901", "event_type": "round_start", "simulated_hour": 2}
+{"round": 3, "timestamp": "2026-10-21T09:10:56.183344", "event_type": "round_end", "actions_count": 0}
+{"round": 4, "timestamp": "2026-10-21T09:10:56.193859", "event_type": "round_start", "simulated_hour": 3}
+{"round": 4, "timestamp": "2026-10-21T09:10:58.686740", "event_type": "round_end", "actions_count": 0}
+{"round": 5, "timestamp": "2026-10-21T09:10:58.696985", "event_type": "round_start", "simulated_hour": 4}
+{"round": 5, "timestamp": "2026-10-21T09:11:01.126556", "event_type": "round_end", "actions_count": 0}
+{"round": 6, "timestamp": "2026-10-21T09:11:01.139737", "event_type": "round_start", "simulated_hour": 5}
+{"round": 6, "timestamp": "2026-10-21T09:11:03.612649", "event_type": "round_end", "actions_count": 0}
+{"round": 7, "timestamp": "2026-10-21T09:11:03.625026", "event_type": "round_start", "simulated_hour": 6}
+{"round": 7, "timestamp": "2026-10-21T09:11:05.622351", "event_type": "round_end", "actions_count": 0}
+{"round": 8, "timestamp": "2026-10-21T09:11:05.636363", "event_type": "round_start", "simulated_hour": 7}
+{"round": 8, "timestamp": "2026-10-21T09:11:07.901769", "event_type": "round_end", "actions_count": 0}
+{"round": 9, "timestamp": "2026-10-21T09:11:07.916787", "event_type": "round_start", "simulated_hour": 8}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.419712", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_COMMENT", "action_args": {"content": "老铁们注意了！这种没官方通报的消息还是先别急着转，我上次就是听风就是雨，结果栽了大跟头。台风天待家里最安全，等@警民直通车-浦东 的通报再说，别给谣言添乱。", "comment_id": 1}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.432516", "agent_id": 1, "agent_name": "高某某", "action_type": "CREATE_COMMENT", "action_args": {"content": "话不能这么说啊老哥，官方发通报是要核实的，慢一点正常。乱猜反而容易出岔子，咱吃一堑长一智。", "comment_id": 2}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.444257", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_COMMENT", "action_args": {"content": "家人们先别急着转！这类消息一定要等官方通报，去年台风那会儿我们也被假消息坑过。不信谣不传谣，坐等浦东发布！", "comment_id": 3}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.455772", "agent_id": 4, "agent_name": "浙江宁波公安机关", "action_type": "DISLIKE_POST", "action_args": {"post_id": 1, "dislike_id": 1, "post_content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。", "post_author_name": "温州网民"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.465774", "agent_id": 3, "agent_name": "自媒体", "action_type": "CREATE_COMMENT", "action_args": {"content": "官方通报需要核实过程，没出通报不等于瞒报哈。这种带节奏的猜测容易被利用，大家理性吃瓜。", "comment_id": 4}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.475773", "agent_id": 4, "agent_name": "浙江宁波公安机关", "action_type": "DISLIKE_POST", "action_args": {"post_id": 3, "dislike_id": 2, "post_content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。", "post_author_name": "高某某"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.487772", "agent_id": 3, "agent_name": "自媒体", "action_type": "LIKE_POST", "action_args": {"post_id": 3, "like_id": 1, "post_content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。", "post_author_name": "高某某"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.495944", "agent_id": 6, "agent_name": "浦东警方", "action_type": "CREATE_POST", "action_args": {"content": "【警情通报】近日台风\"白海豚\"影响期间，网上出现\"浦东一女子在台风中坠楼\"\"浦东有人被台风吹下楼\"等信息。经查，上述信息系不实信息，浦东未发生所称坠楼事件。请广大网民以官方发布为准，不造谣、不信谣、不传谣。对编造、传播虚假灾情信息扰乱公共秩序的行为，公安机关将依法查处。", "post_id": 5}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.504944", "agent_id": 4, "agent_name": "浙江宁波公安机关", "action_type": "CREATE_COMMENT", "action_args": {"content": "【警方提醒】网传\"浦东一女子在台风'白海豚'中坠楼\"信息尚未经核实，请广大网民以官方通报为准，不信谣、不传谣。编造、散布虚假险情、疫情、灾情、警情，扰乱公共秩序的，公安机关将依法查处。台风期间请关注气象部门预警，注意出行安全。", "comment_id": 5}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.518228", "agent_id": 3, "agent_name": "自媒体", "action_type": "DISLIKE_POST", "action_args": {"post_id": 1, "dislike_id": 3, "post_content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。", "post_author_name": "温州网民"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.530689", "agent_id": 6, "agent_name": "浦东警方", "action_type": "CREATE_COMMENT", "action_args": {"content": "经查，该信息不实，浦东未发生所称坠楼事件，请勿转发扩散。相关信息请以官方通报为准。", "comment_id": 6}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.542690", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "CREATE_COMMENT", "action_args": {"content": "【辟谣】经核实，网传\"浦东一女子在台风'白海豚'中坠楼\"系谣言。浦东未发生所称坠楼事件。经查，60岁男性网民高某某于8月10日使用AI软件生成涉台风视频并编造信息以博取流量，目前已被依法行政拘留。请广大网民不信谣、不传谣，警惕利用自然灾害编造谣言的行为。", "comment_id": 7}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.552706", "agent_id": 4, "agent_name": "浙江宁波公安机关", "action_type": "CREATE_COMMENT", "action_args": {"content": "【警方提示】\"听说\"\"邻居说\"等未经证实的信息易引发恐慌。涉及人员伤亡情况，请以应急管理部门和公安机关权威发布为准。对虚构事实扰乱公共秩序的行为，将依法追究法律责任。", "comment_id": 8}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.565707", "agent_id": 6, "agent_name": "浦东警方", "action_type": "CREATE_COMMENT", "action_args": {"content": "经核实，网传\"浦东有人被台风吹下楼\"情况不属实。道听途说的信息请勿转发，以免造成不必要的恐慌。", "comment_id": 9}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.573933", "agent_id": 5, "agent_name": "温州公安机关", "action_type": "CREATE_POST", "action_args": {"content": "【辟谣通报】关于网传“台风‘白海豚’期间浦东有女子坠楼”的情况说明\n\n经查，网传“浦东一女子在台风‘白海豚’中坠楼身亡”相关信息不实。目前上海浦东方面未接报此类警情，相关表述系将外地旧视频、图片移花接木拼接而成，属虚构事实。\n\n台风“白海豚”已于8月9日17时30分在台州玉环坎门登陆、18时40分在温州乐清翁垟再次登陆，我市各项防御工作有序开展，伤亡情况以官方通报为准。\n\n警方提醒：网络不是法外之地，编造、传播虚假险情、灾情信息，扰乱公共秩序的，公安机关将依法查处。请广大网民以官方发布为准，不信谣、不传谣、不造谣，不轻信“听说”“据邻居说”等无来源信息。如发现可疑信息，可向网信、公安部门举报。台风影响期间请尽量减少外出，远离地下车库、低洼地段及建筑外立面，注意人身安全。", "post_id": 6}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.586370", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "CREATE_COMMENT", "action_args": {"content": "【提示】相关部门对台风灾情信息均会依规及时发布。请以官方通报和权威渠道为准，勿轻信、传播未经证实的猜测性信息。编造、散布涉灾谣言扰乱公共秩序的，将被依法查处。", "comment_id": 10}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.598487", "agent_id": 6, "agent_name": "浦东警方", "action_type": "DISLIKE_POST", "action_args": {"post_id": 2, "dislike_id": 4, "post_content": "这种天气官方一直不发伤亡通报，是不是实情比我们想的严重？大家关注一下。", "post_author_name": "温州网民"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.610519", "agent_id": 5, "agent_name": "温州公安机关", "action_type": "CREATE_COMMENT", "action_args": {"content": "经核实，此信息不实。浦东方面未接报“女子台风中坠楼”警情，相关内容系旧视频拼接、虚构事实。请勿继续转发，以免扩散恐慌。警方提醒：编造、传播虚假灾情信息扰乱公共秩序的，将依法查处，相关情况以官方通报为准。", "comment_id": 11}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.621806", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "CREATE_COMMENT", "action_args": {"content": "【辟谣】经核实，\"浦东有人昨晚被台风吹下楼\"系谣言，浦东未发生所称坠楼事件。请勿转发未经核实的\"听说\"类信息，不信谣、不传谣。", "comment_id": 12}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.631114", "agent_id": 5, "agent_name": "温州公安机关", "action_type": "CREATE_COMMENT", "action_args": {"content": "台风伤亡及灾情信息由应急管理、气象等部门统一发布，以官方通报为准。所谓“官方一直不发通报”系误解，不存在隐瞒情形；据此猜测“实情更严重”缺乏依据，请勿主观推定、以讹传讹。目前防汛防台工作有序开展，请关注权威渠道发布。", "comment_id": 13}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.642324", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "CREATE_COMMENT", "action_args": {"content": "【辟谣】经核实，\"浦东已有人坠楼\"系谣言，浦东未发生所称坠楼事件。台风期间请关注官方气象预警和应急部门发布的权威信息，切勿传播未经证实的灾情传言。", "comment_id": 14}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.653904", "agent_id": 5, "agent_name": "温州公安机关", "action_type": "CREATE_COMMENT", "action_args": {"content": "“邻居说”属无来源转述，经核查浦东未接报此类警情，该说法不实。台风期间信息混杂，请以官方发布为准，切勿转发未经核实的伤亡传闻。对编造、散布谣言扰乱公共秩序的，公安机关将依法查处。", "comment_id": 15}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.667904", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "DISLIKE_POST", "action_args": {"post_id": 1, "dislike_id": 5, "post_content": "【紧急扩散】浦东一女子在台风「白海豚」中坠楼了！现场太惨了，到现在都不敢相信。", "post_author_name": "温州网民"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.680364", "agent_id": 5, "agent_name": "温州公安机关", "action_type": "CREATE_COMMENT", "action_args": {"content": "提醒市民减少外出、远离地下车库和低洼地段很有必要，这部分建议可以采纳。但“浦东已有人坠楼”一项经核查不实，请勿在防灾提示中附带未经证实的伤亡信息，以免引发恐慌、干扰防灾工作。请以官方通报为准。", "comment_id": 16}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.693369", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "DISLIKE_POST", "action_args": {"post_id": 3, "dislike_id": 6, "post_content": "刚听得邻居说浦东有人昨晚被台风吹下楼了，人已经没了，具体哪个小区还不太清楚。", "post_author_name": "高某某"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.704657", "agent_id": 7, "agent_name": "中国互联网联合辟谣平台", "action_type": "DISLIKE_POST", "action_args": {"post_id": 4, "dislike_id": 7, "post_content": "台风太凶了！听说浦东已经有人坠楼，一些地下车库也淹了，大家千万别出门！", "post_author_name": "自媒体"}, "result": null, "success": true}
+{"round": 9, "timestamp": "2026-10-21T09:11:17.713657", "event_type": "round_end", "actions_count": 26}
+{"round": 10, "timestamp": "2026-10-21T09:11:17.722657", "event_type": "round_start", "simulated_hour": 9}
+{"round": 10, "timestamp": "2026-10-21T09:11:19.818759", "event_type": "round_end", "actions_count": 0}
+{"round": 11, "timestamp": "2026-10-21T09:11:19.828686", "event_type": "round_start", "simulated_hour": 10}
+{"round": 11, "timestamp": "2026-10-21T09:11:22.488132", "event_type": "round_end", "actions_count": 0}
+{"round": 12, "timestamp": "2026-10-21T09:11:22.501163", "event_type": "round_start", "simulated_hour": 11}
+{"round": 12, "timestamp": "2026-10-21T09:11:24.975501", "agent_id": 2, "agent_name": "上海公安机关", "action_type": "CREATE_POST", "action_args": {"content": "【情况通报】经属地公安部门调查，网传「浦东一女子在台风中坠楼」系虚假信息。该信息系网民高某某（男，60 岁）为博取流量，运用 AI 软件生成涉台风视频，编造虚假信息并发布，造成不良社会影响，目前已被依法处以行政拘留。警方提示：请市民群众不随意转发未经证实的信息，共同维护良好的网络环境和社会秩序。", "post_id": 7}, "result": null, "success": true}
+{"round": 12, "timestamp": "2026-10-21T09:11:24.987784", "event_type": "round_end", "actions_count": 1}
+{"round": 13, "timestamp": "2026-10-21T09:11:25.003809", "event_type": "round_start", "simulated_hour": 12}
+{"round": 13, "timestamp": "2026-10-21T09:11:27.420863", "event_type": "round_end", "actions_count": 0}
+{"round": 14, "timestamp": "2026-10-21T09:11:27.438137", "event_type": "round_start", "simulated_hour": 13}
+{"round": 14, "timestamp": "2026-10-21T09:11:29.717999", "event_type": "round_end", "actions_count": 0}
+{"round": 15, "timestamp": "2026-10-21T09:11:29.732497", "event_type": "round_start", "simulated_hour": 14}
+{"round": 15, "timestamp": "2026-10-21T09:11:32.208774", "event_type": "round_end", "actions_count": 0}
+{"round": 16, "timestamp": "2026-10-21T09:11:32.219775", "event_type": "round_start", "simulated_hour": 15}
+{"round": 16, "timestamp": "2026-10-21T09:11:34.503250", "event_type": "round_end", "actions_count": 0}
+{"timestamp": "2026-10-21T09:11:34.518634", "event_type": "simulation_end", "platform": "reddit", "total_rounds": 16, "total_actions": 35}
