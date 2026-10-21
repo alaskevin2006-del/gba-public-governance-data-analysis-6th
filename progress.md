@@ -185,6 +185,31 @@ B 一度产出 A+B 合并数据）。已加 `reset_run_state` 在每组前清空
 此前"E1A_rep2 仅耗 ¥0.3"是同一假象，不能用于预算规划。
 详见 `实验数据质量复核报告.md` 第 7 节。
 
+### 阶段 D：成本根因定位（回答"为什么 ¥4–5 这么贵"）
+
+产出 `deliverables/仿真成本构成分析与降本方案.md`。核心结论：**贵的不是调用次数，
+是每次调用携带的上下文。** 三层放大：
+
+| 层 | 证据来源 | 实测值 |
+|---|---|---|
+| ① 平台真实内容 | `reddit_actions.jsonl` 合计 | 62 条 / **7,701 字符 ≈ 7.5 KB** |
+| ② 单次环境 prompt | 日志 `Message with N tokens` | **10,000–15,295 tokens** |
+| ③ 每轮发送上下文 | `64000 − remaining_budget` 反推 | 中位 **63,996**，93% 事件 >60,000 |
+| ④ 单次运行调用量 | 8 Agent × 16 轮 × ≥2 次/step | **≥256 次 ≈ 1,000 万 input tokens** |
+
+源码根因：
+- `oasis/social_agent/agent.py:124` `perform_action_by_llm` 每步把 `to_text_prompt()` 全平台观察写入 prompt；
+- `oasis/social_agent/agent_environment.py:58` `json.dumps(posts, indent=4)` 且返回全量帖子 → JSON 膨胀 5–8 倍；
+- `camel/agents/chat_agent.py:1992` `while True` 每次 tool_call 后重拉全量上下文再发一次 → 每步 ≥2 次调用；
+- `ModelType('deepseek-chat').token_limit = 64000`（实测），上限过高导致 CAMEL 记忆裁剪/摘要
+  在 16 轮内**从未触发**，历史全额重发 → 消耗随轮次近似 **O(n²)**。
+
+**降本方案已列出 6 项并标注实验风险**：最安全的是去 JSON 缩进 + 精简字段（−40~55%），
+最大的是记忆裁剪（O(n²)→O(n)，降至 1/3–1/5）。
+
+> ⚠️ **任何改动只要改变 Agent 看到的 token，就等于换了实验条件**，改后数据不能与现有六条件混用，
+> 必须在新配置下重跑全部条件与重复。唯一零风险的是缩轮次/缩人数（但降的是信息量）。
+
 ### 真实结果：三层假设分开判定（结论已有实质细化）
 
 E1A 补齐 3 次重复后**首次有了可用的方差基准**（谣言相关互动 20/22/22，SD=1.15），
